@@ -31,11 +31,11 @@ When you roll a 20 on a d20 for an Attack, it’s considered a Critical Hit. A C
 
 > **DC Tip:** An Attack can score a Critical Hit without the result of the Check being 5 or more above the target’s Defense. When that happens, the Check is considered a Critical Hit and the target simply takes the base damage +2, but this scenario is rare. A Critical Hit will normally result in a Check that’s 5 or even 10 above the target’s Defense, causing the target to take +2 damage from the Critical Hit plus +1 additional damage for every 5 the result is higher than its Defense.
 
-### Damage Calculation Sidebar
+!!! note "Damage Calculation Sidebar"
 
-This is a way for both players and Game Masters to add up their damage in a way that’s simple and quick. It can get confusing if you’re trying to see how much damage you did and you’re randomly adding things together to try and find the total. Using an approach like this can help.
+    This is a way for both players and Game Masters to add up their damage in a way that’s simple and quick. It can get confusing if you’re trying to see how much damage you did and you’re randomly adding things together to try and find the total. Using an approach like this can help.
 
-Once you hit with an Attack, you will need to tell the GM how much damage your Attack did (the same is true for a GM adding up damage from their Attack). First you add up the damage from your Attack to get a single number (process shown below). Then you say that number and apply any kind of Resistance or Damage Reduction the target has (see ““Damage Modifications” for more on the target reducing damage).
+    Once you hit with an Attack, you will need to tell the GM how much damage your Attack did (the same is true for a GM adding up damage from their Attack). First you add up the damage from your Attack to get a single number (process shown below). Then you say that number and apply any kind of Resistance or Damage Reduction the target has (see ““Damage Modifications” for more on the target reducing damage).
 
 #### Adding Damage Order
 
@@ -126,7 +126,7 @@ Resistance is a way for creatures to reduce the damage they take, while Vulnerab
 
 > **Example:** If you had Fire Resistance (Half) and took 7 Fire damage, you would instead take 4 Fire damage (half of 7 is 3.5, rounded up is 4).
   
-* **Resistance (X):** Reduce damage taken by X from the given damage type each time the creature takes damage of that type. 
+* **Resistance (X):** Reduce damage taken by X from the given damage type each time the creature takes damage
 
 > **Example:** If you had Fire Resistance (5) and took 7 Fire damage, you would instead take 2 Fire damage (you subtract 5 from each time you take Fire damage, so 7-5 = 2).
 

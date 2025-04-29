@@ -120,7 +120,7 @@ When you are wielding a Weapon in each hand, no Weapons, or some combination of 
 
 > **DC Tip:** If you have Mastery with Light Shields, you can use a Light Shield in place of a Weapon for the purposes of Dual Wielding.
 
-### Flanking in Combat
+### Flanking
 
 You gain an additional +2 to your Melee Martial Attack if your target is Flanked. A creature is Flanked when it has 2 or more enemies within 1 Space of it that are not adjacent to each other, provided they aren’t Incapacitated or Prone.
 

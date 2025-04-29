@@ -332,7 +332,7 @@ You must meet the following requirements to participate in a Combo Spell:
 
 **Highest Check & DC:** Every participant makes their Spell Check to cast the Spell. The highest Spell Check and the highest Save DC among them is used to determine the outcome.
 
-### Combining Magical Effects
+### Stacking Magical Effects
 
 A target can only be affected by a single magical effect of the same name (a single creature can only be mind controlled by 1 person). If there’s a magical effect on a creature and you cast a Spell with the same effect, both casters must perform a Contested Spell Check to determine which Spell effect prevails over the target.
 

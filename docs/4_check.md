@@ -121,19 +121,38 @@ When a creature performs a task that can benefit from either an Acrobatics or At
 
 ## Passive Skills
 
-Sometimes a GM might not ask a PC to roll any dice to determine the success of a Check. Instead, the GM would use the PC’s average result for that type of Check. Every Skill has a Passive value, such as Passive Awareness, Passive Insight, and Passive Athletics. The value of a Passive Skill is equal to 8 + all bonuses normally applied to its Check.
+Sometimes a GM might not ask a PC to roll any dice to determine the
+success of a Check. Instead, the GM would use the PC’s average result 
+for that type of Check. Every Skill has a Passive value, such as 
+Passive Awareness, Passive Insight, and Passive Athletics. 
+The value of a Passive Skill is equal to 10 + all bonuses 
+normally applied to its Check.
 
-> **DC Tip:** These Passive Skills are used when the PC is not actively performing this action or it’s being done over a longer period of time. This number represents their average ability at each Check.
+> **DC Tip:** A Level 1 Champion has 2 Levels of Mastery (+4
+bonus) in Awareness, and its highest Attribute is 3 (Prime
+Attribute). Normally it would make an Awareness Check by
+rolling a d20 and adding 7 (4+3) to the Check, however its
+Passive Awareness would instead by 17 (10+7). If a Rogue
+attempts to sneak by the Champion (while they aren’t actively
+looking), the Rogue would have to succeed a DC 17 Stealth
+Check to avoid being detected
 
 **Passive Skill Formula:**
 
 ```
-8 + all bonuses
+10 + all bonuses
 ```
 
 > **Example:** A Level 1 Fighter has 2 Levels of Mastery (+4 bonus) in Awareness, and its highest Attribute is 3 (Prime Attribute). Normally it would make an Awareness Check by rolling a d20 and adding 7 (4+3) to the Check. However, its Passive Awareness would instead by 15 (8+7). If a Rogue attempts to sneak by the Fighter (while they aren’t actively looking), the Rogue would have to succeed on a DC 15 Stealth Check to avoid being detected.
 
 ### Permanent ADV and DisADV
-If you have an effect that grants you a permanent ADV or DisADV to a Skill Check, then you add (ADV) or subtract (DisADV) 5 to your Passive Skill for each instance of ADV or DisADV.
+If you have an effect that grants you a permanent ADV or
+DisADV to a Skill Check, then you add (ADV) or subtract
+(DisADV) 2 to your Passive Skill for each instance of
+ADV or DisADV.
 
-> **Example:** The Commander has Heavy Armor and has DisADV on all Stealth Checks they make. Since this is a permanent effect (as long as they’re wearing that armor) then you’d also subtract 5 from the Commander’s Passive Stealth Skill.
+> **Example:** The Commander has Heavy Armor and has
+DisADV on all Stealth Checks they make. Since this is a
+permanent effect (as long as they’re wearing that armor),
+you would also subtract 2 from the Commander’s Passive
+Stealth Skill.

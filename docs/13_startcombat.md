@@ -52,11 +52,24 @@ This is a method to determine the order of participants in an Encounter.
 
 ### Rolling for Initiative
 
-The moments leading up to Combat greatly affect Initiative. This window of time establishes the location of each creature, what they’re doing right before Combat, and what moment triggers the start of Combat, causing the GM to say, “Roll for Initiative.”
+Rolling for Initiative is when players make Initiative Checks
+to determine the overall order of the participants in Combat.
+The PCs are trying to beat the Initiative DC for the Combat
+so that the PC Team can go first in the Initiative Order.
+Once the GM has called for this, Combat has officially
+started and all creatures gain access to their Action Points
+and any Combat relevant features. Each PC roll a d20 and
+adds their Combat Master and Prime Modifier to the result.
+The total determines their place in the Initiative Order.
 
-Rolling for Initiative is when players make Initiative Checks to determine the overall order of the participants in Combat. The PCs are trying to beat the Initiative DC for the Combat so that the PC Team can go first in the Initiative Order. Once the GM has called for this, Combat has officially started and all creatures gain access to their Action Points and any Combat relevant features. Each PC now has to determine what their Initiative Check is (see below) in order to roll for Initiative.
+### Critical Success and Failure Initiative
 
-### Initiative Checks
+If a PC’s Initiative Check beats the Initiative DC by 5 or more, two PCs can go first in the Initiative Order before the first Enemy Team member.
+
+* **Critical Success:** The PC gains ADV on a single Check during the first round of Combat.
+* **Critical Failure:** The PC goes last in the Initiative Order and is considered Exposed (Attack Checks against them have ADV) to the first Attack or Spell Check made against them.
+
+### Skill Based Initiative Checks (Variant Rule)
 
 The actions taken by each PC right before the start of Combat will determine what type of Check they make for their Initiative Check. This Check could be an Attack Check, Spell Check, Skill Check, or even a Trade Check.
 
@@ -76,20 +89,9 @@ The GM will go around to each PC and either approve or assist them in determinin
 * The Warlock has Mastery in Occultism and you are about to fight Cultists in the middle of a ritual. Occultism Check
 * The Bard is absently plucking their lute, unable to think of anything else to do. Flat d20 roll
 
-### Initiative Help Action
+!!! note "Initiative Check Sidebar"
 
-PCs are able to give the Help Action and grant a Help Die (1d8) to the Initiative Check of an ally of their choice (GM discretion). In doing so, the PC describes how it is they’re helping their ally and then makes a flat d20 roll for their Initiative Check.
-
-### Critical Success and Failure Initiative
-
-If a PC’s Initiative Check beats the Initiative DC by 5 or more, two PCs can go first in the Initiative Order before the first Enemy Team member.
-
-* **Critical Success:** The PC gains ADV on a single Check during the first round of Combat.
-* **Critical Failure:** The PC goes last in the Initiative Order and is considered Exposed (Attack Checks against them have ADV) to the first Attack or Spell Check made against them.
-
-### Initiative Check Sidebar
-
-The Checks used by PCs as their Initiative Check don’t have any mechanical in-game value and are used solely to determine their Initiative Order. A player describing their PC grabbing an enemy to start the fight could use an Athletics Check for their Initiative Check, but this roll does not count as a Grapple attempt. A player describing their PC as charging up a healing spell to protect their allies could make a Spell Check for their Initiative Check, but they’ll need to perform another Spell Check on their turn to actually perform the spell. 
+    The Checks used by PCs as their Initiative Check don’t have any mechanical in-game value and are used solely to determine their Initiative Order. A player describing their PC grabbing an enemy to start the fight could use an Athletics Check for their Initiative Check, but this roll does not count as a Grapple attempt. A player describing their PC as charging up a healing spell to protect their allies could make a Spell Check for their Initiative Check, but they’ll need to perform another Spell Check on their turn to actually perform the spell. 
 
 > **DC Tip:** GMs should be open to player creativity and players should try to choose Initiative Checks that truly make sense for their PC in that environment and not just which skill is their highest.
 
@@ -119,6 +121,16 @@ At any point during your turn, you can choose to permanently delay your Initiati
 > **Example (Choosing an Ally):** The Rogue is first in the Initiative Order and instead of acting now, they hold their turn to go at the same time as the Cleric (knowing they will run into battle together). Once it’s the Cleric’s turn, the Rogue and Cleric take their turns at the same time.
 
 > **Example (Choosing an Enemy):** The Cleric is high in the Initiative Order and it’s their turn. The big monster hasn’t had its turn yet and the Cleric wants to go after it in order to heal anyone that the monster deals damage to. They choose to delay their turn, declaring the big monster, and take their turn directly after it in Initiative Order.
+
+### PC Coordination (Variant Rule)
+
+This optional rule allows the PCs to choose who goes
+first for the PC Team. You still make Individual Initiative
+Checks to try and beat the Initiative DC. After the winner
+is determined, the PCs can freely choose who goes next
+for their team.
+
+> **DC Tip:** Players can choose based off of roleplay or tactical reasons, and if they can’t decide, they could always defer to who rolled the highest.
 
 ### Game Master Initiative Sidebar
 

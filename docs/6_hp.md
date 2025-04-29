@@ -57,6 +57,8 @@ When you are reduced to 0 HP or lower, you suffers the following effects:
     *   **Critical Failure:** You fall Unconscious until you’re restored to 1 HP or higher. 
     *   **Critical Success:** You’re restored to 1 HP.
 
+> **DC Tip:** DC Tip: You basically can only spend 1 AP per round of Combat, either on your turn or as a Reaction. This only lasts while you’re on Death’s Door.
+
 ### Making Death Saves
 
 When a creature makes a Death Save, it rolls a d20. If the result is 10 or higher, it succeeds on its Save. A creature makes Death Saves until it’s restored to 1 HP or higher, becomes Stabilized, or dies.
@@ -82,8 +84,8 @@ When Combat ends, any creature on Death’s Door must immediately make a Death S
 
 Monsters and NPCs normally die when they’re reduced to 0 HP, however the Game Master can choose to implement Death’s Door on special enemies. They would drop down to 1 AP and be on Death’s Door in that same weakened state, leaving a window for them to still talk to the party and get out any “last words” before someone puts them out of their misery.
 
-### Death’s Door Sidebar
+!!! note "Death’s Door Sidebar"
 
-When a PC is reduced to 0 HP, they’re on “Death’s Door” and fighting for their life. This is represented however the player wants to describe this state looking for them. They are NOT unconscious, they’re in a heavily weakened state… about to die if something isn’t done SOON! They could be prone, crawling on the ground, holding themselves up with their sword, or spitting out blood as they hold on for dear life.
+    When a PC is reduced to 0 HP, they’re on “Death’s Door” and fighting for their life. This is represented however the player wants to describe this state looking for them. They are NOT unconscious, they’re in a heavily weakened state… about to die if something isn’t done SOON! They could be prone, crawling on the ground, holding themselves up with their sword, or spitting out blood as they hold on for dear life.
 
-If your Death's Door Threshold is -3 HP and you take a large enough hit that reduces you to -3 or lower… you’re instantly dead. If you have 1 HP and take 4 damage… you die. This means that PCs should avoid getting to low HP while against fearsome enemies at all costs. They should use healing magic, Class Features, spend AP defensively, or use consumables to avoid being at low HP… like they SHOULD be doing anyway! 
+    If your Death's Door Threshold is -3 HP and you take a large enough hit that reduces you to -3 or lower… you’re instantly dead. If you have 1 HP and take 4 damage… you die. This means that PCs should avoid getting to low HP while against fearsome enemies at all costs. They should use healing magic, Class Features, spend AP defensively, or use consumables to avoid being at low HP… like they SHOULD be doing anyway! 

@@ -140,11 +140,11 @@ The value of your Prime Modifier is always equal to the value of your highest At
 
 > **Example:** If Might is your highest Attribute, then your Prime Modifier derives its value from the value of your Might. If your Might is 3, then your Prime Modifier is 3. If an effect grants you ADV on Might Checks, it does not also grant you ADV on Checks that use your Prime Modifier (such as Attack Checks and Spell Checks) unless the effect otherwise says so.
 
-#### Prime Modifier Sidebar
+!!! note "Prime Modifier Sidebar"
 
-The Prime Modifier allows you to create the kind of character you truly want to play without negatively impacting their combat prowess. Since your Prime Modifier will be used to swing weapons and cast Spells, this allows you to choose which Attribute you want to be the highest without feeling forced into picking a specific one. 
+    The Prime Modifier allows you to create the kind of character you truly want to play without negatively impacting their combat prowess. Since your Prime Modifier will be used to swing weapons and cast Spells, this allows you to choose which Attribute you want to be the highest without feeling forced into picking a specific one. 
 
-An Intelligent or Charismatic Barbarian may not have as much health or be able to grapple or lift as much as a Might Barbarian, but their ability to wield a weapon is the same. It's up to you whether or not you want to roleplay the source of which Attribute your Prime Modifier comes from in Combat or not. You could describe your intelligent Barbarian as being a tactical mastermind on the battlefield, or your charismatic Barbarian as a fiery confident leader, or you can be a mindless rage monster in Combat if you want to just smash things. This is an opportunity to create the PC you want.
+    An Intelligent or Charismatic Barbarian may not have as much health or be able to grapple or lift as much as a Might Barbarian, but their ability to wield a weapon is the same. It's up to you whether or not you want to roleplay the source of which Attribute your Prime Modifier comes from in Combat or not. You could describe your intelligent Barbarian as being a tactical mastermind on the battlefield, or your charismatic Barbarian as a fiery confident leader, or you can be a mindless rage monster in Combat if you want to just smash things. This is an opportunity to create the PC you want.
 
 > **Example:** Your highest Attribute at level 1 will be 3, so no matter which Attribute you choose as the highest your Prime Modifier will be 3. 
 

@@ -39,15 +39,15 @@ Your Prime Modifier is equal to your PC’s highest Attribute.
 
 ### Step 2: Save Masteries
 
-You get to choose 2 Attributes to gain Save Mastery at Level 1. You choose 2 of the 4 Attributes and are able to add your Combat Mastery to those Saves. There’s a “Saves” section on your Character Sheet next to each Attribute. Bubble in the circle and write in your totals in each.
+You get to choose 2 Attributes to gain Save Mastery in at Level 1. Choose 2 of the 4 Attributes, and you’re now able to add your Combat Mastery to those Saves. There’s a “Saves” section on your Character Sheet next to each Attribute. Bubble in the circle for those you have Save Mastery in and write in your totals for each.
 
 > DC Tip: If you don’t have Mastery in the Save, then the value you write down will be equal to your Attribute. BUT in the 2 Saves that you chose to gain Mastery in, you add +1 to the Attribute, and that’s what you write down for the Save. 
 
 ### Step 3: Background (Skills, Trades, & Languages)
 
-This represents how you were raised and brought up, what type of culture you were around, and what you have done since birth. You gain “Traits” from your Background at 1st level that grant you some flavorful or mechanical benefits. You can not go over the Mastery Limit of Novice unless you have a Feature that allows you to do so.
+This represents how your were raised, what type of culture you were around, and what you have done since birth. You gain “Traits” from your Background at 1st level that grant you some flavorful or mechanical benefits.
 
-Each Background gives 5 Skill Points, 3 Trade Points, and 2 Language Points.
+Each Background gives 5 Skill Points, 3 Trade Points, and 2 Language Points. You can’t go over the Mastery Limit of Novice unless you have a Feature that allows you to do so.
 
 > Beta Note: The only piece “missing” from Background is a “Background Trait”. This will be something 100% FLAVOR based and only enhance Roleplay. 
 
@@ -151,7 +151,13 @@ Fill out the rest of the blanks on your Character Sheet.
 
 Choose an Ancestry. This represents your biology and how you have grown and developed since birth. You gain Ancestry Traits from your chosen Ancestry at 1st, 4th, and 7th level.
 
-> DC Tip: There are many different ways to create Ancestries (both visually and mechanically). Make sure to collaborate where needed with your GM. 
+> **DC Tip:** There are many different ways to create Ancestries (both visually and mechanically). Make sure to collaborate where needed with your GM. 
+
+**Ancestry Traits**
+
+You choose 1 or 2 Ancestries to gain access to. You also get 5 Ancestry points that you can use to spend on Ancestry Traits (see “Ancestry System” on page 97 for more).
+
+> **DC Tip:** Some of these Traits might affect things you’ve already added to your Character Sheet (such as HP, Speed, etc.).
 
 ### Step 9: Class
 
@@ -173,7 +179,8 @@ You gain a number of Class Features at Level 1 based on which Class you chose (s
 
 ### Step 10: Weapons & Inventory
 
-* Choose what starting equipment you want. You gain some from your Class and the rest from your Background. 
+Choose what starting equipment you want. You gain some from your Class and the rest from your Background. 
+
 > Beta Note: Currently the only thing this is right now is Weapons and Armor. Starting Equipment will be added in a future update. I personally let my PCs choose from a list of general adventuring supplies and we go from there. 
 
 ## Further Player Character Progression
@@ -189,10 +196,10 @@ Characters get stronger as they increase in Level. This chart shows what you get
 | 1 | 1 | 3 | Novice (1) |                  |              |  | Class Features               |
 | 2 | 1 |  |  | +1               |              |  | Class Features, Talent       |
 | 3 | 2 |  |  |                  | +1           |  | Subclass Features            |
-| 4 | 2 |  |  | +1               |              |  | Talent, Ancestry Trait       |
+| 4 | 2 |  |  | +1               |              |  | Talent, 2 Ancestry Points       |
 | 5 | 3 | 4 | Adept (2) | +1               | +2           | +2 | Class Features               |
 | 6 | 3 |  |  |                  | +1           |  | Subclass Features            |
-| 7 | 4 |  |  | +1               |              |  | Talent, Ancestry Trait       |
+| 7 | 4 |  |  | +1               |              |  | Talent, 2 Ancestry Points       |
 | 8 | 4 |  |  |                  | +1           |  | Class Capstone Features      |
 | 9 | 5 |  |  | +1               |              |  | Subclass Capstone Features   |
 | 10 | 5 | 5 | Expert (3) | +1               | +2           | +2 | Epic Boon, Talent            |
@@ -224,9 +231,9 @@ At levels 3, 5, 7, and 9 (all “odd” levels) your Combat Mastery increases by
 
 Check your Player Character Progression Table and see if you gain any Attribute points.
 
-* If you increase an Attribute, you also increase each Skill that’s connected to that Attribute by the same amount.
+* If you increase an Attribute, then you must also increase each Skill that’s connected to that Attribute by the same amount.
 * Possibly increase your Prime Modifier if you just increased your highest Attribute to be higher than it was before.
-* Update the Save values of any Attributes you increased.
+* Update the Saves of any Attributes you increased. You should also check on the Physical or Mental Saves if those were changed.
 
 **Skill, Trade, & Language Points**
 
@@ -256,4 +263,4 @@ These are the categories that you could gain HP in:
 
 ### Max Level 10 + Prestige Levels
 
-The “max level” for each Class in DC20 is Level 10, but there’s a Prestige Path that unlocks at level 11. You can choose the Martial Path, Spellcaster Path, or Hybrid Path. These Prestige Paths grant additional bonuses, points, and Talents and will let you level up to level 20. This can be repeated again if the group wants to continue their story. 
+The “max level” for each Class in DC20 RPG is Level 10, but there is a Prestige Path that unlocks at level 11. You can choose the Martial Path, Spellcaster Path, or Hybrid Path. These Prestige Paths grant additional bonuses, points, and Talents and will let you level up to level 20. This can be repeated again if the group wants to continue their story.

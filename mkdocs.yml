@@ -83,18 +83,18 @@ nav:
   - Game Master Guide: 21_GM.md
   - 10 Step Character Creation Outline: 22_charactercreation.md
   - Talents: 23_talents.md
-  - Prestige System: 24_prestige.md
+#  - Prestige System: 24_prestige.md
   - Ancestries System: 25_ancestry.md
   - Classes:
       - Class list:
         - Barbarian: 26_barbarian.md
         - Bard: 26_bard.md
+        - Champion: 26_fighter.md
         - Cleric: 26_cleric.md
         - Commander: 26_commander.md
         - Druid: 26_druid.md
-        - Fighter: 26_fighter.md
+        - Hunter: 26_ranger.md
         - Monk: 26_monk.md
-        - Ranger: 26_ranger.md
         - Rogue: 26_rogue.md
         - Sorcerer: 26_sorcerer.md
         - Spellblade: 26_spellblade.md

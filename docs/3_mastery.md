@@ -182,50 +182,66 @@ If you don’t have Language Mastery with a Language, you can’t read, write, s
 
 ### Combat Mastery (CM)
 
-Combat Mastery (CM) grants you a bonus to combat statistics, such as your Save DC, Physical Defense, Mystical Defense, Attack Checks, and Spell Checks. Combat Mastery is directly tied to your Characters “experience” and is the only Mastery that increases automatically as you level up. This allows Combat Mastery to provide a scaling increase in a Character's Combat abilities over time (see “Checks & Saves” on page 23).
+Combat Mastery represents your experience in dealing
+with dangers and overcoming adversaries in Combat. Your
+Combat Mastery equals half your Character Level (rounded
+up), which you add to the following combat statistics:
+Physical Defense, Mystical Defense, Attack Checks, Spell
+Checks, Attribute Saves (depends), and your Save DC.
 
 **Combat Mastery Formula:**
+
+```
 1/2 your Character’s Level (rounded up)
-
-#### Combat Mastery List
-
-You can gain Combat Mastery with the following categories:
-
-* Attack Checks
-    * Unarmed Strikes
-    * Weapons
-* Spell Checks
-    * Spellcasting
-* Physical Defense
-    * Unarmored
-    * Light Armor
-    * Heavy Armor
-    * Shields
-* Mystical Defense
-* Attribute Saves
-    * Might
-    * Agility
-    * Intelligence
-    * Charisma
-* Save DC
+```
 
 #### Gaining Combat Mastery
 
-You have Combat Mastery with Attack Checks, Spell Checks, Physical Defense, Mystical Defense, and your Save DC. You can gain Combat Mastery with Armor (Light or Heavy), Shields, and Saves (Might, Agility, Intelligence, or Charisma) from your Background and Class, and possibly your Ancestry.
+You have Combat Mastery with the following:
 
-##### Sources of Mastery
+- Attack Checks and Spell Checks
+- Physical Defense and Mystical Defense
+- Save DC
 
-* **Background Mastery:** Your Background grants you Mastery with 2 Saves of your choice.
-* **Class Mastery:** All Classes grant Mastery with Light Armor and some Classes also grant Mastery with Heavy Armor, Light Shields, and Heavy Shields. All Martial Classes grant Weapon Mastery and all Spellcasting Classes grant Spellcasting Mastery.
-* **Ancestry Mastery:** Some Ancestry Traits (such as Natural Combatant) grant Mastery with Heavy Armor and Shields (Light or Heavy).
-* **Talent Mastery:** Some Talents (such as Martial Expansion) grant Mastery with Weapons, Heavy Armor, and Shields (Light or Heavy).
+You gain Combat Mastery with 2 Attribute Saves (Might,
+Agility, Intelligence, or Charisma) from your Background.
+Your Class or Ancestry might also grant Combat Mastery
+with Attribute Saves.
 
 #### Lacking Combat Mastery
 
-Here is a list of what happens if you attempt to do something you do NOT have Combat Mastery in for each category.
+If you lack Combat Mastery with a statistic, you don’t add
+your Combat Mastery to that statistic.
 
-* **Spellcasting:** When you make a Spell Check, you don’t add your Combat Mastery to the Check (usually only possible when casting Spells from items, such as Wands or Spell Scrolls).
-* **Weapons:** When you make an Attack Check using a Weapon in which you lack Mastery, you don’t add your Combat Mastery to the Check.
-* **Shields:** When wielding a Shield in which you lack Mastery, you have DisADV on all Attack Checks and Spell Checks.
-* **Armor:** When wearing Armor in which you lack Mastery, your Action Points are reduced by 2.
-* **Saves:** When you make a Save in which you lack Mastery, you don’t add your Combat Mastery to the Save. 
+> **DC Tip:** You don’t have Combat Mastery with Death Saves, so those Saves don’t add your CM.
+ 
+### Combat Training
+
+Combat Training represents your proficiency with using
+equipment effectively in Combat. You can gain Combat
+Training with the following types of equipment: Weapons,
+Armor, and Shields.
+
+#### Gaining Combat Training
+
+Martial Classes grant Weapon Training.
+All Classes grant you Armor Training. Some Classes
+(such as the Champion), Ancestry Traits (such as Natural
+Combatant), or Talents (such as Martial Expansion) grant
+you Weapon or Shield Training.
+
+#### Lacking Combat Training
+
+You suffer the following penalties while wearing or wielding
+the following equipment that you lack Training with:
+
+**Weapons:** While wielding a Weapon in which you lack
+Combat Training, you don’t benefit from its Weapon Style.
+
+**Armor:** While wearing Armor in which you lack Combat
+Training, you have DisADV on Attack Checks and Spell
+Checks.
+
+**Shields:** While wielding a Shield in which you lack
+Training, you have DisADV on Attack Checks and Spell
+Checks.

@@ -1,6 +1,6 @@
 # Ancestries System
 
-During character creation, you must choose your character’s Ancestry, which represents the physical form your character takes in the world, such as Human, Elf, Dwarf, Halfling and Gnome. Each Ancestry has a list of Ancestry Traits, which you can gain by spending Ancestry Points.
+During character creation you must choose your character’s Ancestry, which represents the physical form your character takes in the world, such as Human, Elf, Dwarf, Halfling and Gnome. Each Ancestry has a list of Ancestry Traits, which you can gain by spending Ancestry Points.
 
 ### Ancestry Traits
 
@@ -12,7 +12,7 @@ Ancestry Points can be spent to gain Ancestry Traits. Most Traits cost between 1
 
 #### Gaining Ancestry Points
 
-When first creating your Character, you have 5 Ancestry Points. You gain additional Ancestry Points when you reach Levels 4 and 7.
+When first creating your character, you have 5 Ancestry Points. You gain 2 additional Ancestry Points when you reach Level 4, and again when you reach Level 7.
 
 ### Types of Ancestry Traits
 
@@ -42,11 +42,9 @@ These are optional Ancestry Traits that you can choose from to customize your Ch
 
 ## Ancestry Origins
 
-### Ancestry Flavor vs Mechanics
+!!! note "Ancestry Flavor vs Mechanics Sidebar"
 
-#### Sidebar
-
-Player Characters are unique in this aspect and with so many options, you are able to create a wide variety of Ancestry Origins. You can customize them and make them your own, either for mechanical reasons for certain traits you want to use, or for flavor / lore based reasons.
+    Player Characters are unique in this aspect and with so many options, you are able to create a wide variety of Ancestry Origins. You can customize them and make them your own, either for mechanical reasons for certain traits you want to use, or for flavor / lore based reasons.
 
 #### Ancestry Flavor
 
@@ -60,11 +58,11 @@ If you wanted to play a Dwarf that had a backstory of being from a long line of 
 
 #### Ancestry Mechanics
 
-This is where you choose your Ancestries based on the game mechanics of what Ancestry Traits they offer. Build out your character accordingly and then step back and see what your character would look like. I had a Player make a character that just wanted to make a BIG Barbarian, so he chose Giantborn and Orc. I asked him “what does that look like?” and we talked about it and decided that he was going to be an “Ogreborn” which ended up being a really cool enhancement to his backstory… even thought the intent on his choices was based on game mechanics.
+This is where you choose your Ancestries based on the game mechanics of what Ancestry Traits they offer. Build out your character accordingly and then step back and see what your character would look like. I had a player make a character that just wanted to make a BIG Barbarian, so he chose Giantborn and Orc. I asked him what that looks like, and we talked about it and decided that he was going to be an “Ogre-born” which ended up being a really cool enhancement to his backstory... even though his choices were based on game mechanics.
 
 #### Ancestry Appearance
 
-The appearance of this new Ancestry is for the PC and GM to come up with together (also making sure it fits into the lore of the world setting). The Ancestry could look similar to an already existing Ancestry but be magically different for other reasons. The Ancestry could be an entirely new species that you want to bring into the world and mix and match Traits around to get the exact right feel for your PC.
+The appearance of this new Ancestry is for the PC and GM to come up with together (also making sure it fits into the lore of the setting). The Ancestry could look similar to an already existing Ancestry but be magically different for other reasons. The Ancestry could be an entirely new species that you want to bring into the world, mixing and matching Traits around to get the exact right feel for your PC.
 
 > **DC Tip:** How I have always handled this is the visual is 100% “flavor” based and the Player can describe however they look. Then the Ancestry Points takes care of the “balance” and mechanics of what that Ancestry can do.
 
@@ -91,11 +89,12 @@ Every Character starts with the Base Ancestry Traits below, and your Ancestry gi
 
 ### Choose Your Ancestry
 
-Pick 1 or 2 Ancestries to show where your Character comes from, what they look like, or how you want your Character to perform mechanically. This represents what Ancestry your Characters parents were. When you select an Ancestry you gain access to its Ancestry Traits List (Default and Expanded).
+Pick 1 or 2 Ancestries to show where your character comes from, what they look like, or how they perform mechanically. This usually represents what Ancestry your character’s parents were. When you select an Ancestry, you gain access to its Ancestry Traits List (Default and Expanded).
 
 #### Starting with 1 Ancestry
 
-You gain access to its Ancestry List. You can choose a second Ancestry when you gain additional Ancestry Points at Levels 4 or 7.
+You gain access to its Ancestry List. You can choose a second
+Ancestry any time you gain additional Ancestry Points.
 
 > **DC Tip:** This does give you less options during Character Creation, but gives you more flexibility to choose a second Ancestry at later time as the direction you take your Character evolves.
 
@@ -107,7 +106,21 @@ You gain access to both Ancestry Lists of each chosen Ancestry.
 
 ### Spend Your Ancestry Points
 
-You have 5 Ancestry Points to spend on any Ancestry Traits from among your Ancestry Trait Lists. Your Ancestry needs to have a total of 5 Ancestry Points worth of Traits (including negative Traits). You can choose multiple Negative Traits, but you can only choose 1 Minor Trait. You must spend all your Ancestry points during Character Creation (you can’t save them for later).
+You have 5 Ancestry Points to spend on any Ancestry Traits
+from among your Ancestry Trait Lists. Your Ancestry
+needs to have a total of 5 Ancestry Points worth of Traits
+(including negative Traits). You can choose multiple
+Negative Traits, but you can only choose 1 Minor Trait.
+You must spend all your Ancestry points during character
+creation (you can’t save them for later).
+
+### Gaining & Losing Negative Traits
+
+You can’t gain more than 2 Ancestry Points total from
+your Negative Ancestry Traits. You can remove Negative
+Ancestry Traits at higher Levels by spending 1 Ancestry
+Point if their cost is (-1) or 2 Ancestry Points if their
+cost is (-2).
 
 ### Duplicate Ancestry Traits
 
@@ -121,7 +134,10 @@ If an Ancestry Trait has a requirement, such as a Level requirement, then you mu
 
 ### Attribute & Mastery Increases
 
-Certain Ancestry Traits grant increases to Attributes, Skills, and Trades. These Ancestry Traits can’t exceed the Attribute Limit, Skill Mastery Limit, or Trade Mastery Limit, unless they say so otherwise.
+Certain Ancestry Traits grant increases to Attributes,
+Skills, and Trades. These Ancestry Traits can’t exceed the
+Attribute Limit, Skill Mastery Limit, or Trade Mastery
+Limit, unless they say otherwise.
 
 ### Repeated Feature Refunds
 
@@ -137,18 +153,34 @@ If you gain a Talent or Feature that grants you a benefit that’s identical to 
 
 ### Custom Ancestries
 
-If you want to create a PC with a completely custom Ancestry or want to combine 3 or more Ancestries together, you can create a Custom Ancestry. This gives Characters access to ALL Ancestry Lists at once but only gets 4 points to spend instead of 5. All other Ancestry Creation Rules still apply.
+If you want to give your PC a personalized Ancestry or you
+want to combine 3 or more Ancestries together, you can
+create a Custom Ancestry. This gives Characters access to
+ALL Ancestry Lists at once but only gets 4 points to spend
+instead of 5. All other Ancestry Creation Rules still apply.
+When you gain Ancestry Points, you can spend them on
+any Ancestry List of your choice.
 
 > **DC Tip:** This would be a Variant Rule within a Variant Rule. You could choose to have PCs get the full 5 Ancestry Points for creating their Custom Ancestry, but keep in mind this would be VERY strong and the default option for most everyone at the table (for both min maxing and RP reasons). If you are ok with this, then let them have the full 5 Points instead of 4.
 
+### Variable Negativity
+
+This Variant Rule allows you to gain Negative Ancestry
+Traits when you gain Ancestry Points after Character
+Creation. You still can’t gain more than 2 Ancestry Points
+total from your Negative Ancestry Traits at a time.
+
 ### Stronger or Weaker Ancestries
 
-Game Masters can choose to start the game off with higher or lower Ancestry Point totals (instead of 5).
+Game Masters can choose to start the game off with higher
+or lower Ancestry Point totals (instead of 5).
 
-*   **Lower Points:** If you don’t want there to be as much power that comes from Ancestries and want it to be more of a Subtle thing they get, you can lower it down to 4,3, or 2. The PC would have to choose which Default Ancestry Traits (or Expanded Ancestry Traits) they get to equal that total.
-*   **Higher Points:** if you want to give your players more power and customization at the start of the game you can give them more points here (or use the Free Starting Talent Variant Rule). This gives the PCs 6 or more points to build a stronger Ancestry with.
+* **Lower Points:** If you want less power to come from Ancestries, and want it to be more of a subtle thing they get, you can lower the Ancestry Point total down to 4, 3, or 2. The player would have to choose which Ancestry Traits they get to use to equal that total for that character. 
+* **Higher Points:** If you want to give your players more power and customization at the start of the game, you can give them more Ancestry Points to build a stronger Ancestry with.
 
-> **DC Tip:** I would be very careful with this, the game is balanced around PCs getting 5 points and there could be some very powerful combinations (especially if combined with other more powerful options for starting the game off).
+> **DC Tip:** I would be very careful with this. The game is
+balanced around PCs getting 5 points, so there could be some
+very powerful combinations players could take advantage of.
 
 ### Ancestry Adoption
 

@@ -38,7 +38,7 @@ While a PC with Weapon Mastery is wielding a Weapon, they can use that Weapon to
 *   **Spear:** You deal +1 damage against a creature if you moved 2 Spaces towards it immediately before making the Attack or if it’s on a Mount. Additionally, you don’t have DisADV on Attack Checks made using the Weapon as a result of being underwater.
 *   **Staff:** You deal +1 damage against creatures that are Hindered.
 *   **Sword:** You deal +1 damage against creatures that are Exposed.
-*   **Whip:** You deal +1 damage against creatures that are farther than 1 Space from you.
+*   **Whip:** You deal +1 damage with Melee Attacks against creatures that are farther than 1 Space from you.
 
 > **Example:** A PC is wielding both an Axe and a Hammer. When they Hit a Bleeding creature with the Axe, they deal +1 damage against the target. They don’t deal this bonus damage when they Hit the Bleeding creature with the Hammer.
 
@@ -128,9 +128,9 @@ Damage Type Key: Bludgeoning (B), Piercing (P), Slashing (S)
 
 > **DC Tip:** Attacks that deal 0 base damage can still benefit from bonus damage, such as Heavy Hits, Power Attack Maneuvers, Class Features, etc. 
 
-#### Lacking Weapon Mastery
+#### Lacking Weapon Training
 
-While wielding a Weapon you lack Mastery in, you do not benefit from its Weapon Style.
+While wielding a Weapon you lack Training with, you do not benefit from its Weapon Style.
 
 ### Customized Weapons
 
@@ -172,7 +172,7 @@ Each Weapon Style has a particular Weapon Style benefit and damage type (in pare
 *   **Spear:** (Piercing) You deal +1 damage against a creature if you moved 2 Spaces towards it immediately before making the Attack or if it’s on a Mount. Additionally, you don’t have DisADV on Attack Checks made using the Weapon as a result of being underwater.
 *   **Staff:** (Bludgeoning) You deal +1 damage against creatures that are Hindered.
 *   **Sword:** (Slashing) You deal +1 damage against creatures that are Exposed.
-*   **Whip:** (Slashing) You deal +1 damage against creatures that are farther than 1 Space from you.
+*   **Whip:** (Slashing) You deal +1 damage with Melee Attacks against creatures that are farther than 1 Space from you.
 
 ##### Ranged Weapon Styles
 
@@ -341,11 +341,9 @@ Normally a character adds their Agility to their PD. This applies a restriction 
 
 > **BETA NOTE:** When you first create your character you can choose either or both of the 2 modifications for the Armor you start the game with. This is the only time it is free and all future modifications will cost somewhere around 10g to apply and around 5g to remove. This will be elaborated on in future updates. 
 
-#### Lacking Armor Mastery
+#### Lacking Armor Training
 
-While wearing Armor that you lack Mastery in, you do not add your CM to your PD and your Action Point maximum is reduced by 2 Points.
-
-> **Example:** A Wizard has Mastery in Light Armor, but not Heavy Armor. If that Wizard wore Heavy Armor, the number of Action Points it has to spend per round is 2 instead of 4. 
+While wearing Armor that you lack Training with, you have DisADV on Attack Checks and Spell Checks.
 
 ### Shields
 
@@ -382,7 +380,7 @@ If a Shield has an Attribute requirement, then your corresponding Attribute Scor
 These are listed off in the Shield Table and give additional properties when using the Shield in certain ways.
 
 *   **Toss:** You can make a Ranged Martial Attack by throwing the Shield (5/10).
-*   **Mounted:** The AC granted by the Shield also applies to your Mount.
+*   **Mounted:** The PD granted by the Shield also applies to your Mount.
 
 #### Lacking Shield Mastery
 

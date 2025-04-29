@@ -106,7 +106,7 @@ Gaining ADV and DisADV on Checks made against other creatures is very common. So
 
 1. Make a Check against all targets you don’t have ADV or DisADV against by rolling a single d20 and adding any relevant bonuses you have on the Check against the targets.
 2. For any additional targets you have ADV or DisADV against, roll a second d20 and compare it to the first d20 you already rolled. For all targets you have ADV against, choose the higher number rolled, and for DisADV choose the lower number rolled.
-3. If you have ADV/DisADV 2 or higher against any additional targets, repeat Step 2 for each additional dice you have to roll until you resolve the outcome of your Check against all targets.
+3. (Optional) If you have ADV/DisADV 2 or higher against any additional targets, repeat Step 2 for each additional dice you have to roll until you resolve the outcome of your Check against all targets.
 
 > **Example:** A Wizard targets 3 creatures with a Fireball Spell. It doesn’t have ADV against the first target (rolls 1d20), has ADV against the second target (rolls 2d20), and ADV 2 against the third target (rolls 3d20). The Wizard rolls a d20 and uses it to determine the outcome of its Spell Check against the first target. It then rolls another d20 and compares it to the first d20 (total of 2d20s) to determine the outcome of its Spell Check against the second target. It then rolls another d20 and compares it to the first 2 d20s (total of 3d20s) to determine the outcome of its Spell Check against the third target.
 

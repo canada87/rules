@@ -1,0 +1,2871 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../26_ranger/">
+      
+      
+        <link rel="next" href="../26_rogue/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Monk - DC20</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#monk" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DC20" class="md-header__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Monk
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DC20" class="md-nav__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributes & Prime Modifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skills, Trades & Languages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Checks & Saves
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Checks & Saves
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_checksave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Save
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_attackdefence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attacks & Defense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Points & Death’s Door
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_damage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combat Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actions & Reactions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Actions & Reactions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_action/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_reaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reactions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maneuvers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_technique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_spellcasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_startcombat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_creatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creatures & Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19_resting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20_dcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DCs in DC20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21_GM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22_charactercreation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 Step Character Creation Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23_talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Talents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../25_ancestry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ancestries System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_26_1" id="__nav_26_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Class list
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_26_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_26_1">
+            <span class="md-nav__icon md-icon"></span>
+            Class list
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barbarian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Champion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commander
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Druid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hunter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#monk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monk-class-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Class Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-martial-mastery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Martial Mastery
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monk Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-1-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 1 Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monk-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Training
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-stance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Stance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meditation-flavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meditation (Flavor)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 2 Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spiritual-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spiritual Balance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subclasses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass-astral-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      SubClass: Astral Self
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SubClass: Astral Self">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#astral-awakening" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astral Awakening
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#astral-watch-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astral Watch (Flavor Feature)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subclass-ebb-and-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      SubClass: Ebb and Flow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SubClass: Ebb and Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluid-movement-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fluid Movement (Flavor Feature)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorcerer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellblade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warlock
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wizard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../27_spell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Premade Spell Lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magic Items
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            Magic Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitemsproperties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monsters Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            Monsters Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_encounter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Encounter Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_gmtip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Tips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Homebrew
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Homebrew
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_cazzim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cazzim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_spells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spells
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sanity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_30_4" id="__nav_30_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_30_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30_4">
+            <span class="md-nav__icon md-icon"></span>
+            General Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giostra a Squadre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta contro Kaiju
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crafiting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta su carro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assedio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#monk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monk-class-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Class Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-martial-mastery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Martial Mastery
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monk Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-1-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 1 Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monk-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Training
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monk-stance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monk Stance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meditation-flavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meditation (Flavor)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 2 Class Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 Class Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spiritual-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spiritual Balance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subclasses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subclasses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subclasses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subclass-astral-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      SubClass: Astral Self
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SubClass: Astral Self">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#astral-awakening" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astral Awakening
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#astral-watch-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astral Watch (Flavor Feature)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subclass-ebb-and-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      SubClass: Ebb and Flow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SubClass: Ebb and Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluid-movement-flavor-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fluid Movement (Flavor Feature)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Monk</h1>
+
+<h2 id="monk">Monk</h2>
+<p>Monks are master martial artists that perfect their mind
+and bodies utilizing the ebb and flow of their inner energy.
+They use their body as a weapon and can enter into different
+stances that drastically change their combat abilities.</p>
+<p><strong>Source of Power:</strong> Monks have become enlightened and in
+touch with their inner Ki energy to hone their bodies and
+minds. Their journey to become a Monk could be from
+being trained in a monastery, mentored by a mysterious
+figure, or their own deep meditation.</p>
+<h3 id="monk-class-table">Monk Class Table</h3>
+<table>
+<thead>
+<tr>
+<th>Char Level</th>
+<th>Bonus HP</th>
+<th>Attribute Points</th>
+<th>Skill Points</th>
+<th>Traid Points</th>
+<th>Stamina Points</th>
+<th>Maneuvers Known</th>
+<th>Techniques Known</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>+9</td>
+<td></td>
+<td></td>
+<td></td>
+<td>+1</td>
+<td>+4</td>
+<td></td>
+<td>Class Features</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Class Feature, Talent</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+3</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td></td>
+<td>+1</td>
+<td>Subclass Feature</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Talent, 2 Ancestry Points</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+3</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td></td>
+<td>+1</td>
+<td>+1</td>
+<td>Class Feature</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+3</td>
+<td></td>
+<td>+1</td>
+<td></td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td>Subclass Feature</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Talent, 2 Ancestry Points</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+3</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td></td>
+<td>+1</td>
+<td>+1</td>
+<td>Class Capstone Feature</td>
+</tr>
+<tr>
+<td>9</td>
+<td>+3</td>
+<td></td>
+<td></td>
+<td></td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td>Subclass Capstone Feature</td>
+</tr>
+<tr>
+<td>10</td>
+<td>+3</td>
+<td>+1</td>
+<td>+2</td>
+<td>+1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Epic Boon, Talent</td>
+</tr>
+</tbody>
+</table>
+<h3 id="starting-equipment">Starting Equipment</h3>
+<ul>
+<li>2 Weapons</li>
+<li>3 Weapons with the Toss or Thrown Property</li>
+<li>1 set of Novice Light Armor</li>
+<li>X or Y “Packs” (Adventuring Packs Coming Soon)</li>
+</ul>
+<h3 id="monk-martial-mastery">Monk Martial Mastery</h3>
+<ul>
+<li><strong>Combat Training:</strong> Weapons, Light Armor</li>
+<li><strong>Maneuvers:</strong> You learn all Attack Maneuvers. You learn
+additional Maneuvers as shown in the Maneuvers Known
+column of the Monk Class Table.</li>
+<li><strong>Techniques:</strong> The number of Techniques you know increases
+as shown in the Techniques Known column of the Monk
+Class Table.</li>
+<li><strong>Stamina Points:</strong> Your maximum number of Stamina Points
+increases as shown in the Stamina Points column of the
+Monk Class Table.</li>
+<li><strong>Stamina Regen:</strong> Once per round, you can regain up to half
+your maximum SP when you succeed on an Attack Check,
+Athletics Check, or Acrobatics Check.</li>
+</ul>
+<hr />
+<h3 id="monk-class-features">Monk Class Features</h3>
+<h4 id="level-1-class-features">Level 1 Class Features</h4>
+<h5 id="monk-training">Monk Training</h5>
+<p>Your martial arts training grants you greater offense, defense,
+and movement.</p>
+<ul>
+<li><strong>Iron Palm:</strong> Your limbs are considered Natural Weapons
+with the Impact Property that deal 1 Bludgeoning damage.</li>
+</ul>
+<blockquote>
+<p><strong>DC Tip:</strong> Your hands are Natural Weapons that count as
+Weapons for the purposes of Dual Wielding.</p>
+</blockquote>
+<ul>
+<li><strong>Patient Defense:</strong> While you aren’t wearing Armor, you gain
++2 PD.</li>
+<li>
+<p><strong>Step of the Wind:</strong> While you aren’t wearing Armor, you
+gain the following benefits:</p>
+<ul>
+<li>You gain +1 Speed and Jump Distance.</li>
+<li>You can move a number of Spaces up to your Speed along
+  vertical surfaces and across liquids without falling during
+  your move.</li>
+<li>You can use your Prime Modifier instead of Agility to
+  determine your Jump Distance and the damage you take
+  from Falling.</li>
+</ul>
+</li>
+</ul>
+<h5 id="monk-stance">Monk Stance</h5>
+<p>You learn 2 Monk Stances from the list below.</p>
+<p><strong>Entering &amp; Exiting:</strong> In Combat, at the start of each of your turns you can freely enter or swap into one of your Monk Stances. You can also spend 1 SP on your turn to swap to a different stance. You can end your Stance at any moment for free. You can only be in 1 Monk Stance at a time.</p>
+<ul>
+<li>
+<p><strong>Bear Stance (Big Hits)</strong></p>
+<ul>
+<li>+1 damage when you score a Heavy, Brutal, or Critical Hit with a Melee Martial Attack.</li>
+<li>Once on each of your turns, when you Miss an Attack with a Melee Martial Attack, you gain ADV on the next Melee Martial Attack you make before the end of your turn.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bull Stance (Knockback)</strong></p>
+<ul>
+<li>You deal +1 Bludgeoning damage whenever you Succeed on a Physical Check to push a target or knock them back.</li>
+<li>When you shove or push a target, it’s knocked back 1
+additional space. Additionally, you can choose to move
+in a straight line with the target an amount of spaces
+equal to how far they’re knocked back. This movement
+requires no AP and doesn’t provoke Opportunity Attacks.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cobra Stance (Counter)</strong></p>
+<ul>
+<li>+1 damage with Melee Martial Attack against creatures that have damaged you since the start of your last turn.</li>
+<li>When a creature within your Melee Range misses you
+with a Melee Attack, you can spend 1 AP as a Reaction
+to make a Melee Martial Attack against it.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gazelle Stance (Nimble)</strong></p>
+<ul>
+<li>While not wearing Heavy Armor you gain the following benefits:<ul>
+<li>+1 Movement Speed and Jump Distance.</li>
+<li>Ignore Difficult Terrain.</li>
+<li>ADV on Agility Saves and Acrobatics Checks.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Mantis Stance (Grapple)</strong></p>
+<ul>
+<li>ADV on all Martial Checks to initiate, maintain, or escape Grapples.</li>
+<li>If you have a creature Grappled at the start of your turn,
+you get +1 AP to use on a Grapple Maneuver against the
+Grappled creature.</li>
+</ul>
+</li>
+<li>
+<p><strong>Mongoose Stance (Multi)</strong></p>
+<ul>
+<li>Your Melee Martial Attacks deal +1 damage while you’re Flanked.</li>
+<li>When you make a Melee Martial Attack against a
+target, you can make another Melee Martial Attack for
+free against a different target within your Melee Range.
+You can only make this bonus Melee Martial Attack
+once on each of your turns. Make a single Attack Check
+and apply the number rolled to each target’s Physical
+Defense. Attack Hit: You deal your Melee Martial
+Attack damage.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scorpion Stance (Quick Strike)</strong></p>
+<ul>
+<li>When a creature enters your Melee Range, you can make an Opportunity Attack against them with a Melee Martial Attack.</li>
+<li>When you make a Melee Martial Attack, you can spend
+    1 AP to deal +1 damage and force the target to make a
+    Physical Save against your Save DC. Failure: The target
+    is Impaired (DisADV on Physical Checks) on the next
+    Physical Check it makes before the end of your next turn.</li>
+</ul>
+</li>
+<li>
+<p><strong>Turtle Stance (Sturdy)</strong></p>
+<ul>
+<li>Your Speed becomes 1 (unless it’s already lower).</li>
+<li>You gain 1 Physical Damage Reduction and 1 Mental
+Damage Reduction.</li>
+<li>You have ADV on Might Saves and Saves against being
+moved or knocked Prone.</li>
+</ul>
+</li>
+<li>
+<p><strong>Wolf Stance (Hit &amp; Run)</strong></p>
+<ul>
+<li>After you make an Attack with a Melee Martial Attack,
+  you can immediately move up to 1 Space for free.</li>
+<li>You have ADV on Opportunity Attacks, and creatures
+have DisADV on Opportunity Attacks made against you.</li>
+</ul>
+</li>
+</ul>
+<h5 id="meditation-flavor">Meditation (Flavor)</h5>
+<p>You can enter a state of meditation during a Short Rest
+(1 hour) or longer. Choose 1 Charisma or Intelligence
+Skill. When you complete the Rest, your Skill Mastery
+level increases by 1 (up to your Skill Mastery Cap) for the
+chosen Skill until you complete another Short or longer
+Rest. While meditating, you remain alert to danger.</p>
+<hr />
+<h4 id="level-2-class-features">Level 2 Class Features</h4>
+<h5 id="spiritual-balance">Spiritual Balance</h5>
+<p>You gain the power to harness your inner spirit as a counterbalance against your physical energy.</p>
+<ul>
+<li><strong>Ki Points:</strong> You have a maximum number of Ki Points equal to your Stamina Points. When your Stamina Point maximum increases, your Ki Point maximum increases equally.<ul>
+<li><strong>Regaining Ki:</strong> When you spend a Stamina Point on your turn, you regain a Ki Point. You regain all spent Ki Points when Combat ends. While out of Combat, any Ki Points you spend replenish immediately.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ki Actions:</strong> You can spend 1 Ki Point at any time to perform 1 of the activities listed below:</p>
+<ul>
+<li><strong>Deflect Attack:</strong> When a creature misses you with a Ranged Attack using a physical projectile that targets your PD, you can catch the projectile with a free hand. Additionally, you can immediately redirect the Attack as part of the same action at a different creature you can see within 5 Spaces. Make an Attack Check against the new target. <strong>Hit:</strong> The target takes the projectile’s normal damage.</li>
+<li><strong>Slow Fall:</strong> Reduce damage you take from falling by an amount equal to your level.</li>
+<li><strong>Uncanny Dodge:</strong> When a creature makes an Attack against you, you can impose DisADV on the Attack.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ki Actions:</strong> You can spend 1 Ki Point at any time to perform 1 of the activities listed below:</p>
+<ul>
+<li><strong>Deflect Attack:</strong> When a creature misses you with a Ranged
+  Attack using a physical projectile that targets your PD,
+  you can catch the projectile with a free hand. You can
+  immediately redirect the Attack as part of the same action
+  at a different creature you can see within 5 Spaces. Make
+  an Attack Check against the new target. Hit: The target
+  takes the projectile’s normal damage.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><em>Dc20 Tips</em> DC Tip: Remember that the original target is who makes the save against any effects from the attack, so Deflect Attack  doesn’t save them from that.</p>
+</blockquote>
+<ul>
+<li><strong>Slow Fall:</strong> Reduce damage you take from falling by an amount equal to your level.</li>
+<li><strong>Uncanny Dodge:</strong> When a creature makes an Attack against you, you can impose DisADV on the attack.</li>
+</ul>
+<h5 id="talent">Talent</h5>
+<p>You gain 1 Talent of your choice. If the Talent has any prerequisites, you must meet those prerequisites to choose that Talent.</p>
+<hr />
+<h2 id="subclasses">Subclasses</h2>
+<h3 id="subclass-astral-self">SubClass: Astral Self</h3>
+<h4 id="astral-awakening">Astral Awakening</h4>
+<p>Astral Damage: When you gain this feature, choose a
+Mystical damage type. This damage type is your Astral
+Damage.
+During Combat, you can spend 1 AP and 1 SP to manifest
+a portion of your astral self for 1 minute. For the duration,
+you gain the following benefits:</p>
+<ul>
+<li>Astral Arms: You manifest 2 astral arms that can only be
+used to make Unarmed Strikes. They can’t otherwise
+interact with creatures or objects. Attacks made using
+these astral arms have the Reach property, target MD
+instead of PD, and deal 1 Astral Damage.</li>
+<li>Mystical Deflection: You can use your Deflect Attack
+against any Ranged Attack that targets your PD or MD.</li>
+</ul>
+<p><strong>Ending Early:</strong> The effect ends early if you fall Unconscious,
+die, or choose to end it for free.</p>
+<h4 id="astral-watch-flavor-feature">Astral Watch (Flavor Feature)</h4>
+<p>While Unconscious, your astral self remains aware of your
+surroundings. You can hold conversations with nearby
+creatures as if you were awake. While sleeping normally,
+you can choose to wake yourself up at any time.</p>
+<hr />
+<h3 id="subclass-ebb-and-flow">SubClass: Ebb and Flow</h3>
+<p>You gain the following benefits:</p>
+<ul>
+<li><strong><em>Ebb:</em></strong> When you enter a new Monk Stance, you gain 2 Spaces of movement.</li>
+<li><strong>Flow:</strong> When you use your Uncanny Dodge against a
+Melee Attack, you can spend 1 AP to make an Opportunity
+Attack against the Attacker.</li>
+<li><strong>Changing Tides:</strong> You can use your Deflect Attack on Melee
+Martial Attacks from Large or smaller creatures. When you
+do, you can redirect the Attack to another target within 1 Space of you.</li>
+</ul>
+<h4 id="fluid-movement-flavor-feature">Fluid Movement (Flavor Feature)</h4>
+<p>You can move through Spaces as if you were one size Smaller.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../26_ranger/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Hunter">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Hunter
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../26_rogue/" class="md-footer__link md-footer__link--next" aria-label="Next: Rogue">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Rogue
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "navigation.expand", "navigation.footer", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

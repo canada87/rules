@@ -1,0 +1,3029 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../12_spellcasting/">
+      
+      
+        <link rel="next" href="../14_environment/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Starting Combat - DC20</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#starting-combat" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DC20" class="md-header__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Starting Combat
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DC20" class="md-nav__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributes & Prime Modifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skills, Trades & Languages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Checks & Saves
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Checks & Saves
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_checksave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Save
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_attackdefence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attacks & Defense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Points & Death’s Door
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_damage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combat Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actions & Reactions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Actions & Reactions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_action/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_reaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reactions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maneuvers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_technique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_spellcasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#combat-encounters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat Encounters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encounter-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encounter DC
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Encounter DC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#encounter-dc-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encounter DC Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-combat-aggression" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Combat Aggression
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rolling-for-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rolling for Initiative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rolling for Initiative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-an-initiative-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making an Initiative Check
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#individual-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#party-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Party Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initiative-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative Turns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative Turns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alternating-initiative-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternating Initiative Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-pc-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing PC Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delayed-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delayed Initiative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enemy-groupings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enemy Groupings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unequal-number-of-enemies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unequal Number of Enemies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#empty-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empty Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-enemy-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Enemy Teams
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#npc-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      NPC Team
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initiative-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative Order
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative Order">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rounds-of-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rounds of Combat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-in-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time in Combat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duration-in-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duration in Rounds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surprise-in-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surprise in Combat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_creatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creatures & Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19_resting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20_dcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DCs in DC20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21_GM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22_charactercreation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 Step Character Creation Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23_talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Talents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../25_ancestry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ancestries System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_26_1" id="__nav_26_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Class list
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_26_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26_1">
+            <span class="md-nav__icon md-icon"></span>
+            Class list
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barbarian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Champion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commander
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Druid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hunter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorcerer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellblade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warlock
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wizard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../27_spell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Premade Spell Lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magic Items
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            Magic Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitemsproperties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monsters Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            Monsters Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_encounter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Encounter Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_gmtip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Tips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Homebrew
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Homebrew
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_cazzim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cazzim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_spells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spells
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sanity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_30_4" id="__nav_30_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_30_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30_4">
+            <span class="md-nav__icon md-icon"></span>
+            General Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giostra a Squadre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta contro Kaiju
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crafiting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta su carro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assedio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#combat-encounters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat Encounters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encounter-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encounter DC
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Encounter DC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#encounter-dc-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encounter DC Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-combat-aggression" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Combat Aggression
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rolling-for-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rolling for Initiative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rolling for Initiative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-an-initiative-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making an Initiative Check
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#individual-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#party-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Party Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initiative-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative Turns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative Turns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alternating-initiative-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternating Initiative Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-pc-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing PC Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delayed-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delayed Initiative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enemy-groupings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enemy Groupings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unequal-number-of-enemies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unequal Number of Enemies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#empty-enemy-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empty Enemy Turns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-enemy-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Enemy Teams
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#npc-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      NPC Team
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initiative-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative Order
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initiative Order">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rounds-of-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rounds of Combat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-in-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time in Combat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duration-in-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duration in Rounds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surprise-in-combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surprise in Combat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="starting-combat">Starting Combat</h1>
+<h2 id="combat-encounters">Combat Encounters</h2>
+<p>Combat Encounters serve to slow the flow of time, allowing
+for precise resolution of actions during the chaos of battle.
+Combat consists of a Player Character (PC) Team and
+an opposing Enemy team. During Combat, time is divided
+into Rounds, which are further divided into Turns. The
+order each creature takes its turn in Combat is determined
+by the Initiative Order.</p>
+<h2 id="encounter-dc">Encounter DC</h2>
+<p>The Encounter DC represents the overall challenge of
+a battle, determining who reacts quickest and resolving
+uncertain outcomes. The Game Master sets a single
+Encounter DC, which serves as a baseline for the difficulty
+of various actions, environmental hazards, or other obstacles
+adventurers may face. The GM can refer to the Encounter
+DC Table below for example Easy, Normal, and Hard
+difficulty values for PC Levels 1 to 20.</p>
+<h3 id="encounter-dc-table">Encounter DC Table</h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Easy</th>
+<th>Normal</th>
+<th>Hard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>11</td>
+<td>13</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td>11</td>
+<td>13</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3</td>
+<td>12</td>
+<td>14</td>
+<td>16</td>
+</tr>
+<tr>
+<td>4</td>
+<td>12</td>
+<td>14</td>
+<td>16</td>
+</tr>
+<tr>
+<td>5</td>
+<td>14</td>
+<td>16</td>
+<td>18</td>
+</tr>
+<tr>
+<td>6</td>
+<td>14</td>
+<td>16</td>
+<td>18</td>
+</tr>
+<tr>
+<td>7</td>
+<td>15</td>
+<td>17</td>
+<td>19</td>
+</tr>
+<tr>
+<td>8</td>
+<td>15</td>
+<td>17</td>
+<td>19</td>
+</tr>
+<tr>
+<td>9</td>
+<td>16</td>
+<td>18</td>
+<td>20</td>
+</tr>
+<tr>
+<td>10</td>
+<td>16</td>
+<td>18</td>
+<td>20</td>
+</tr>
+<tr>
+<td>11</td>
+<td>17</td>
+<td>19</td>
+<td>21</td>
+</tr>
+<tr>
+<td>12</td>
+<td>17</td>
+<td>19</td>
+<td>21</td>
+</tr>
+<tr>
+<td>13</td>
+<td>18</td>
+<td>20</td>
+<td>22</td>
+</tr>
+<tr>
+<td>14</td>
+<td>18</td>
+<td>20</td>
+<td>22</td>
+</tr>
+<tr>
+<td>15</td>
+<td>20</td>
+<td>22</td>
+<td>24</td>
+</tr>
+<tr>
+<td>16</td>
+<td>20</td>
+<td>22</td>
+<td>24</td>
+</tr>
+<tr>
+<td>17</td>
+<td>21</td>
+<td>23</td>
+<td>25</td>
+</tr>
+<tr>
+<td>18</td>
+<td>21</td>
+<td>23</td>
+<td>25</td>
+</tr>
+<tr>
+<td>19</td>
+<td>22</td>
+<td>24</td>
+<td>26</td>
+</tr>
+<tr>
+<td>20</td>
+<td>22</td>
+<td>24</td>
+<td>26</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pre-combat-aggression">Pre-Combat Aggression</h3>
+<p>The moment a Combat Encounter begins is not always a
+matter of strict timing. The GM may determine that a PC’s
+action (such as drawing steel, loosing an arrow, or invoking
+a spell) triggers the clash, allowing them to carry out that
+action before Initiative is rolled. However, if the enemy is
+already on high alert or poised for battle, the GM may rule
+that combat begins before the action can be completed,
+requiring the character to take their aggressive move on
+their first turn instead.</p>
+<h2 id="initiative">Initiative</h2>
+<p>Before Combat begins, the GM will call for Initiative, which
+determines the order in which each creature acts. The PC
+Team competes against the Enemy Team to determine
+which team takes the first Turn of Combat.</p>
+<h3 id="rolling-for-initiative">Rolling for Initiative</h3>
+<p>When the GM calls for Initiative, each PC must make an
+Initiative Check against the Encounter DC.</p>
+<h4 id="making-an-initiative-check">Making an Initiative Check</h4>
+<p>Roll a d20 and add your Combat Mastery and Agility to
+the result. Bonuses and Penalties to Agility Checks don’t
+effect Initiative Checks, unless otherwise stated.</p>
+<p><strong>Initiative Check Formula</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>d20 + Combat Mastery + Agility
+</code></pre></div>
+<blockquote>
+<p><strong>DC Tip:</strong> Initiative Checks aren’t considered Agility Checks for
+the purposes of DisADV due to Heavy Armor with the Rigid
+Property or other things that specifically affect Agility Checks.</p>
+</blockquote>
+<h4 id="individual-outcomes">Individual Outcomes</h4>
+<p>Use the following Success and Failure Statements to
+determine the outcome of your Initiative Check:</p>
+<ul>
+<li><strong>Success:</strong> You gain a d6 Inspiration Die, which you can
+add to 1 Check or Save of your choice that you make
+during this Combat. The Inspiration Die expires when
+the Combat ends.</li>
+<li><strong>Critical Success:</strong> You gain ADV on 1 Check or Save of
+your choice during the first Round of Combat.</li>
+<li><strong>Critical Failure:</strong> The first Attack made against you
+during the first Round of Combat has ADV.</li>
+</ul>
+<h4 id="party-outcomes">Party Outcomes</h4>
+<p>Use the following Success and Failure Statements to
+determine who will take the first turn in Combat.</p>
+<ul>
+<li><strong>Success:</strong> If at least 1/2 the PCs beat the Encounter DC,
+the PC Team wins the first Initiative Turn of the Combat.</li>
+<li><strong>Failure:</strong> If less than 1/2 the PCs beat the Encounter DC,
+the Enemy Team wins the first Initiative Turn of the
+Combat.</li>
+</ul>
+<h3 id="initiative-turns">Initiative Turns</h3>
+<p>An Initiative Turn is a creature’s opportunity to act during
+Combat, allowing them to move, attack, cast spells, or
+take other available actions. There are 2 types of Initiative
+Turns: PC Turns and Enemy Turns. PC Turns belong to
+members of the PC Team, while Enemy Turns belong to
+members of the Enemy Team. The number of PC Turns
+and Enemy Turns is equal to the number of PCs, ensuring
+both Teams have an equal number of Turns.</p>
+<blockquote>
+<p><strong>Example:</strong> If there are 3 PCs in Combat, there will be 3 PC
+Turns and 3 Enemy Turns, for a total of 6 Initiative Turns
+in the Combat.</p>
+</blockquote>
+<h4 id="alternating-initiative-turns">Alternating Initiative Turns</h4>
+<p>Initiative Turns are arranged so that each Team takes one
+Turn at a time, so when a member of one Team takes a Turn,
+they’re followed by a member of the other Team taking a
+Turn. This continues back and forth until each member of
+each Team has taken a Turn.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> Using an alternating initiative system between teams
+creates a dynamic ebb and flow in Combat, ensuring both
+sides have opportunities to act before being overwhelmed.
+This prevents the pitfalls of all PCs acting in one
+overwhelming surge; either felling foes before they can react
+or suffering a brutal onslaught should the enemy strike first.
+By weaving turns between allies and adversaries, the battle
+remains engaging, tactical, and fair.</p>
+</blockquote>
+<p><strong>Illustration:</strong> The image below illustrates the Initiative
+Turn structure of two scenarios: the left scenario where the
+PC team beats the Initiative DC (PC Team takes the first
+Initiative Turn), and the right scenario where they fail
+instead (Enemy Team takes the first Initiative Turn).</p>
+<h4 id="choosing-pc-turns">Choosing PC Turns</h4>
+<p>At the start of each PC Turn during the first Round of
+Combat, the PC Team will decide which PC will take
+that Turn. If multiple PCs want to take the same Turn, the
+PC among them with the highest Initiative Check result
+takes the Turn.</p>
+<p><strong>Shared PC Turns:</strong> If 2 or more PCs have the same Initiative
+Check result, they can choose to share a Turn. When they
+do, they act at the same time in the Initiative Order. They
+can choose which of them acts first or alternate their actions
+as desired.</p>
+<blockquote>
+<p><strong>Example:</strong> The Barbarian and Champion are going at the
+same time. They both spend 1 AP to charge in together and
+Flank an enemy. The Champion trips the enemy target Prone,
+and the Barbarian then makes an Attack Check with ADV
+(target is Prone) and +2 bonus to Hit (target is Flanked).
+They slay the enemy and charge off again together with their
+remaining Action Points.</p>
+</blockquote>
+<h4 id="choosing-enemy-turns">Choosing Enemy Turns</h4>
+<p>Enemies can each be assigned to their own Enemy Turns,
+grouped together into a single Enemy Turn, or divided into
+multiple Enemy Turns in any combination the GM chooses.</p>
+<blockquote>
+<p><strong>Example:</strong> There are 4 enemies in Combat. The GM can divide
+them into 4 different Enemy Turns, taking turns at different
+times in the Initiative Order. Alternatively, the GM could
+assign 2 enemies to 2 Turns each or 3 enemies to 1 Turn with 1
+enemy alone in another.</p>
+</blockquote>
+<p><strong>Assigning Enemies:</strong> The GM can choose to assign enemies
+to the Enemy Turns all at the same time or one at a time
+as the Round unfolds. Enemies can be placed strategically
+to heighten the difficulty of the encounter, introduced into
+empty Enemy Turns later in the Initiative Order to bring
+forth hidden threats, or positioned immediately after a PC
+who has recently engaged or targeted them, allowing for a
+response driven by the narrative.</p>
+<h4 id="delayed-initiative">Delayed Initiative</h4>
+<p>At anytime during your Turn, you can choose to
+permanently move your Turn to a PC Turn of your choice
+later in the Initiative Order. Alternatively, you can choose
+to delay your Turn until after an enemy that you can see. If
+that enemy occupies the last Initiative Turn in the Initiative
+Order, then you create a new PC Turn to act after them.</p>
+<p><strong>Regaining AP:</strong> When you delay your place in the Initiative
+Order, you don’t regain your spent Action Points until the
+end of your new PC Turn in the Initiative Order.</p>
+<blockquote>
+<p><strong>Example:</strong> The A Rogue takes their turn during the first PC
+Turn in the Initiative Order. They want to delay their turn to
+act at the same time as the Cleric, who takes their turn during
+the 2nd PC Turn in the Initiative Order. The Rogue’s turn is
+skipped over, and once its time for the Cleric to take their
+turn, both the Rogue and the Cleric can take their turns at the
+same time using the rules of Shared PC Turns.</p>
+</blockquote>
+<div class="admonition note">
+<p class="admonition-title">Game Master Initiative Sidebar</p>
+<p>Here are some bonus Tips for GMs to handle Initiative in
+some unique situations.</p>
+<h4 id="enemy-groupings">Enemy Groupings</h4>
+<p>The GM may find it simple to group similar enemies
+together, rather than spacing them throughout the
+Initiative Order.</p>
+<blockquote>
+<p><strong>Example:</strong> If there are 4 Goblins with 2 Hobgoblins in a
+Combat Encounter with 4 PCs. The GM might add 2
+Goblins to Enemy Turn 1, 2 Hobgoblins to Enemy Turn
+2, and 2 Goblins to Enemy Turn 3.</p>
+</blockquote>
+<h4 id="unequal-number-of-enemies">Unequal Number of Enemies</h4>
+<p>If there are fewer enemies than there are Enemy Turns,
+then the GM chooses which Enemy Turns they occupy
+in the Initiative Order.</p>
+<h4 id="shared-enemy-turns">Shared Enemy Turns</h4>
+<p>When 2 or more PCs share a PC Turn, the GM can
+combine enemies from the next 2 Enemy Turns into 1
+Enemy Turn, preserving the alternating flow of combat
+between the PC Team and the Enemy Team.</p>
+<h4 id="empty-enemy-turns">Empty Enemy Turns</h4>
+<p>When an Enemy Turn becomes empty (whether because
+there’s too few enemies to fill all Enemy Turns or all
+enemies in an Enemy Turn have been defeated), that
+Enemy Turn remains in the Initiative Order but is skipped.
+If new enemies enter the Combat, the GM may assign
+them to any empty or occupied Enemy Turns, allowing for
+their inclusion in the Initiative Order without disrupting
+the flow of battle.</p>
+<h4 id="multiple-enemy-teams">Multiple Enemy Teams</h4>
+<p>If there are two or more Enemy Teams, each Enemy
+Team will have their own Enemy Turns within the
+Initiative Order. These Initiative Turns will alternate so
+the PC Team, Enemy Team 1, and Enemy Team 2 will
+alternative Initiative Turns. To determine which of the
+Enemy Teams receives the first Initiative Turns, the GM
+can either use a Fate Check or simply choose based on
+strategy or narrative.</p>
+<h4 id="npc-team">NPC Team</h4>
+<p>Any NPCs that aren’t hostile to the PC Team are
+considered their own NPC Team (such as civilians
+trying to escape a battle). The NPC Team has their own
+Initiative Turns separate from the PC Team and Enemy
+Team. These Initiative Turns will alternate so the PC
+Team, Enemy Team, and NPC Team will alternative
+Initiative Turns. The GM can assign NPCs to NPC Turns
+in the same way they assign enemies to Enemy Turns (see
+Choosing Enemy Turns earlier in this chapter).
+Important NPCs: The GM can choose to consider an
+allied NPC as a member of the PC Team to allow the
+NPC to act during PC Turns in the Initiative Order.
+When you do, consider the NPC as a PC for the purposes
+of determining the total number of Initiative Turns (the
+number of PC Turns and Enemy Turns is based on the
+number of PCs in the Combat). The NPC takes a PC
+Turn of the PC Team’s choice.</p>
+</div>
+<h3 id="initiative-order">Initiative Order</h3>
+<p>The chosen Initiative Turns become the Initiative Order,
+which governs when each creature takes their respective
+Turns in each subsequent Round of Combat. Once the first
+Initiative Turn is assigned, Combat begins, all creatures
+gain access to their Action Points, the first Round of
+Combat begins.</p>
+<h4 id="rounds-of-combat">Rounds of Combat</h4>
+<p>During Combat, creatures take Turns maneuvering around
+the battlefield, attacking their enemies, or supporting
+their allies. Once each creature has taken their first Turn
+in Combat, the first Round of Combat is completed, and
+the next Round can begin. Combat progresses, Round by
+Round, until the PCs or their enemies prove victorious, and
+the GM declares that Combat has ended.</p>
+<h4 id="time-in-combat">Time in Combat</h4>
+<p>A Round of Combat lasts 12 in-game seconds, so 5 Rounds
+equals 1 minute of in-game time. You can imagine each
+creature’s Turn happening near simultaneously to each
+other with some creatures acting split-seconds before others.</p>
+<p><strong>Time in Combat</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>1 Round of Combat = 12 seconds
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>5 Rounds of Combat = 1 minute
+</code></pre></div>
+<h4 id="duration-in-rounds">Duration in Rounds</h4>
+<p>The duration of some effects are measured in Rounds. The
+duration of these effects are measured from the start of the
+creature’s Turn they’re produced until the start of that
+same creature’s Turn the specified number of Rounds later.</p>
+<blockquote>
+<p><strong>Example:</strong> If an effect with a duration of 1 Round was
+produced on a creature’s Turn, that effect would persist until
+the start of that creature’s next Turn. If the effect lasted 2
+Rounds, then the effect would persist until the start of that
+creature’s Turn 2 Rounds later.</p>
+<p><strong>DC Tip:</strong> Referring to the first Round of Combat means the
+first 12 seconds, where each creature will have 1 Turn. But if a
+PC uses an ability that lasts for 1 Round, that effect still lasts
+12 seconds (which means each creature will have 1 Turn since
+the use of that ability), and it would last until the start of that
+creature’s next Turn.</p>
+</blockquote>
+<h4 id="surprise-in-combat">Surprise in Combat</h4>
+<p>Not all combatants are prepared for battle, and some may
+find themselves caught off guard at the start of a Combat
+Encounter. To successfully ambush an opposing Team,
+your side must be able to see them while remaining unseen
+in return. If this condition is met and the GM calls for
+Initiative, any creature unaware of the impending fight
+gains the Surprised Condition until the end of their first
+Turn in Combat, leaving them unable to act as battle erupts.</p>
+<div class="admonition note">
+<p class="admonition-title">Surprised (condition)</p>
+<p>Your current and maximum AP are reduced by 2.</p>
+</div>
+<blockquote>
+<p><strong>Beta Note:</strong> Monsters with Legendary Action Points (LAP)
+can take special actions in-between the PC’s turns, spending
+up to a specified amount of LAP at a time (1 or 2 LAP per
+turn). Delayed Initiative can create a scenario where all the
+PCs delay their turns to act during the same PC Turn. This
+means there’s only 1 big PC Turn, so the Monster with LAP
+can’t spend all their LAP during the Round. Due to this issue,
+please run your monsters with LAP using this rule until we
+update it in the Monster Guide later: “If a monster with LAP
+doesn’t spend all its LAP during the Round (between PC
+turns), it can spend any remaining LAP it has at the end of the
+Round, just before it regains all its LAP.”</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../12_spellcasting/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Spellcasting">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Spellcasting
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../14_environment/" class="md-footer__link md-footer__link--next" aria-label="Next: Environment">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Environment
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "navigation.expand", "navigation.footer", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

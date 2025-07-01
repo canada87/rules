@@ -1,0 +1,2870 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../6_hp/">
+      
+      
+        <link rel="next" href="../8_combat/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Damage - DC20</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#damage" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DC20" class="md-header__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Damage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DC20" class="md-nav__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributes & Prime Modifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skills, Trades & Languages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Checks & Saves
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Checks & Saves
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_checksave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Save
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_attackdefence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attacks & Defense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Points & Death’s Door
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#degrees-of-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Degrees of Damage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Degrees of Damage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hit-miss" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hit &amp; Miss
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hit-success-each-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hit Success (each 5)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-damage-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Degrees of Damage Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-hits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Hits
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-type-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Type Categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-vulnerability-resistance-immunity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Vulnerability, Resistance, &amp; Immunity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Vulnerability, Resistance, &amp; Immunity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-immunity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Immunity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-vulnerability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Vulnerability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-reduction-dr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Reduction (DR)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacking-damage-vulnerabilities-resistances-immunities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stacking Damage Vulnerabilities, Resistances, &amp; Immunities
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stacking Damage Vulnerabilities, Resistances, &amp; Immunities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-x-vulnerability-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance X &amp; Vulnerability X
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Resistance X &amp; Vulnerability X">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-half-vulnerability-double" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance (Half) &amp; Vulnerability (Double)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-modifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Modifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-damage-multiples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Damage Multiples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Damage Multiples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiple-damage-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Damage Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-damage-against-multiple-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bonus Damage Against Multiple Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Damage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combat Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actions & Reactions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Actions & Reactions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_action/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_reaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reactions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maneuvers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_technique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_spellcasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_startcombat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_creatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creatures & Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19_resting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20_dcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DCs in DC20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21_GM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22_charactercreation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 Step Character Creation Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23_talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Talents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../25_ancestry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ancestries System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_26_1" id="__nav_26_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Class list
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_26_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26_1">
+            <span class="md-nav__icon md-icon"></span>
+            Class list
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barbarian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Champion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commander
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Druid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hunter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorcerer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellblade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warlock
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wizard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../27_spell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Premade Spell Lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magic Items
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            Magic Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitemsproperties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monsters Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            Monsters Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_encounter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Encounter Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_gmtip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Tips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Homebrew
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Homebrew
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_cazzim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cazzim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_spells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spells
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sanity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_30_4" id="__nav_30_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_30_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30_4">
+            <span class="md-nav__icon md-icon"></span>
+            General Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giostra a Squadre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta contro Kaiju
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crafiting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta su carro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assedio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#degrees-of-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Degrees of Damage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Degrees of Damage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hit-miss" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hit &amp; Miss
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hit-success-each-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hit Success (each 5)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#degrees-of-damage-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Degrees of Damage Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-hits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Hits
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-type-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Type Categories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-vulnerability-resistance-immunity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Vulnerability, Resistance, &amp; Immunity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Vulnerability, Resistance, &amp; Immunity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-immunity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Immunity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage-vulnerability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Vulnerability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-reduction-dr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Reduction (DR)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacking-damage-vulnerabilities-resistances-immunities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stacking Damage Vulnerabilities, Resistances, &amp; Immunities
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stacking Damage Vulnerabilities, Resistances, &amp; Immunities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-x-vulnerability-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance X &amp; Vulnerability X
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage Resistance X &amp; Vulnerability X">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage-resistance-half-vulnerability-double" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Resistance (Half) &amp; Vulnerability (Double)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-modifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage Modifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-damage-multiples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Damage Multiples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Damage Multiples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiple-damage-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Damage Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-damage-against-multiple-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bonus Damage Against Multiple Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Damage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="damage">Damage</h1>
+<h2 id="degrees-of-damage">Degrees of Damage</h2>
+<p>Each Attack has a base amount of damage that’s dealt
+on a Hit. This value is listed alongside the Weapon (see
+“Equipment” on page 75) or in the Spell’s description
+(see “Spellcasting” on page 54). If the Check beats the
+targets Defense by 5 or more, the target takes extra damage
+and may suffer additional effects (see “Check &amp; Save
+Outcomes” on page 29 for more information).</p>
+<h3 id="hit-miss">Hit &amp; Miss</h3>
+<p>When you make a Check against a target’s Defense, the
+Check is considered a Miss if the result is below the target’s
+Defense and it’s considered a Hit if the result is equal to or
+above the target’s Defense.</p>
+<h3 id="hit-success-each-5">Hit Success (each 5)</h3>
+<p>An Attack deals +1 additional damage for every 5 the result of the Check is above the target’s Defense. If the result of the Check is 5 or more above the target’s Defense, it’s considered a Heavy Hit. If the result of the Check is 10 or more above the target’s Defense, it’s considered a Brutal Hit. Brutal Hits are considered Heavy Hits for purposes of effects that trigger on a Heavy Hit. </p>
+<blockquote>
+<p><strong>DC Tip:</strong> Heavy Hits are 5 over, Brutal Hits are 10 over, but if a Character ever manages to get 15 over a targets Defense I call this “Beyond Brutal”. Then I count by 5’s to see how many +1 bonus damage they get.</p>
+</blockquote>
+<h3 id="degrees-of-damage-table">Degrees of Damage Table</h3>
+<p>The table below shows how the damage of an Attack Check or Spell Check can change as determined by the result of the Check.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Check vs Defense Result</th>
+<th style="text-align: left;">Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Lower</td>
+<td style="text-align: left;">Miss</td>
+</tr>
+<tr>
+<td style="text-align: left;">Equal or greater</td>
+<td style="text-align: left;">Hit: Base Damage</td>
+</tr>
+<tr>
+<td style="text-align: left;">+5 and greater</td>
+<td style="text-align: left;">Heavy Hit: Base Damage + 1</td>
+</tr>
+<tr>
+<td style="text-align: left;">+10 and greater</td>
+<td style="text-align: left;">Brutal Hit: Base Damage + 2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="critical-hits">Critical Hits</h3>
+<p>When you roll a 20 on a d20 for an Attack, it’s considered a Critical Hit. A Critical Hit automatically Hits the target, bypasses Damage Reduction, and deals an additional +2 damage.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> An Attack can score a Critical Hit without the result of the Check being 5 or more above the target’s Defense. When that happens, the Check is considered a Critical Hit and the target simply takes the base damage +2, but this scenario is rare. A Critical Hit will normally result in a Check that’s 5 or even 10 above the target’s Defense, causing the target to take +2 damage from the Critical Hit plus +1 additional damage for every 5 the result is higher than its Defense.</p>
+</blockquote>
+<div class="admonition note">
+<p class="admonition-title">Damage Calculation Sidebar</p>
+<p>This is a way for both Players and Game
+Masters to add up their damage in a way
+that’s simple and quick. Once you Hit with an
+Attack, the GM will tell you if the Attack was a
+Heavy Hit or higher. This helps you determine
+how much additional damage your Attack
+deals (see the process shown below). The
+GM will apply any applicable Resistances or
+Vulnerabilities to determine the total amount
+of damage the target takes (see “Damage
+Modifications” on page 36 for more on the
+target reducing damage).</p>
+<p><em>Adding Damage Order</em></p>
+<p>Add up the damage totals in the following
+order:</p>
+<ol>
+<li>
+<p>Base Damage: Start with the Base
+Damage of the Attack.</p>
+</li>
+<li>
+<p>Heavy &amp; Critical Hits: Add any bonus
+damage from Critical Hits or Heavy Hits
+and higher.</p>
+</li>
+<li>
+<p>Action Points: Add any bonus damage
+from Action Points spent (Maneuvers,
+Class Features, AP Enhancements, etc.).</p>
+</li>
+<li>
+<p>Situational Bonuses: Add any bonus
+damage from situational bonuses
+(Weapon Passives, Class Features,
+Magic Items, etc.).</p>
+</li>
+</ol>
+</div>
+<blockquote>
+<p><strong>DC Tip:</strong> Starting with the Base Damage is a great foundation,
+and getting the Heavy Hit + out of the way first is nice. You’ll
+get better at all the “by 5’s” math over time! Then you add
+any damage gained by spending AP, then any passives. This
+creates a great “checkpoin” system for you to mentally
+navigate and keep things simple and quick.</p>
+<p><strong>Example:</strong> A Rogue attacks a beast with his Shortsword (we
+start off with a Base Damage of 1). They get a Brutal Hit and
+gain +2 bonus damage on their hit (1 + 2 = 3). They target
+has a condition on it which increases their damage by +1 (1 + 2 + 1 = 4).
+They also got hit by the target this round and
+gain the Weapon Passive of the Sword of +1. So now their
+total damage is 5 (1 Base + 2 Brutal + 1 Cheap Shot + 1 Sword
+Passive = 5 Total).</p>
+</blockquote>
+<h2 id="damage-types">Damage Types</h2>
+<p>There are 13 different damage types in the game, as seen
+in the list below. Each damage type represents a different
+method for harming a creature.</p>
+<ul>
+<li><strong>Bludgeoning Damage:</strong> Things that bludgeon you, like a
+hammer or fist.</li>
+<li><strong>Piercing Damage:</strong> Things that pierce you, like an arrow or
+fangs.</li>
+<li><strong>Slashing Damage:</strong> Things that slash you, like a blade or
+claw.</li>
+<li><strong>Fire Damage:</strong> Things that burn you, like fire or other forms
+of intense heat.</li>
+<li><strong>Cold Damage:</strong> Things that freeze you. like ice or intense
+cold.</li>
+<li><strong>Lightning Damage:</strong> Things that shock you, like lightning or
+other forms of electricity.</li>
+<li><strong>Sonic Damage:</strong> Things that assault your hearing, like high
+volume or concentrated sound.</li>
+<li><strong>Poison Damage:</strong> Things that poison you, like toxins.
+Corrosion Damage: Things that decay and wither you, like
+acids and rust effects.</li>
+<li><strong>Psychic Damage:</strong> Things that assault your mind, like
+psychic attacks.</li>
+<li><strong>Radiant Damage:</strong> Things that singe you, like holy light,
+lasers, and radiation.</li>
+<li><strong>Umbral Damage:</strong> Things that harm your soul, like dark or
+eldritch power.</li>
+<li><strong>True Damage:</strong> A special type of damage that can’t be
+reduced by any means.</li>
+</ul>
+<h3 id="damage-type-categories">Damage Type Categories</h3>
+<p>Some damage types are organized into categories, such as Physical, Elemental, and Mystical.</p>
+<ul>
+<li><strong>Physical Damage:</strong> Includes Slashing, Piercing, and Bludgeoning damage.</li>
+<li><strong>Elemental Damage:</strong> Includes Cold, Corrosion, Fire, Lightning, and Poison damage.</li>
+<li><strong>Mystical Damage:</strong> Includes Psychic, Radiant, Sonic, and Umbral damage.</li>
+</ul>
+<h2 id="damage-vulnerability-resistance-immunity">Damage Vulnerability, Resistance, &amp; Immunity</h2>
+<p>Resistance is a way for creatures to reduce the damage
+they take, while Vulnerability increases damage taken. The
+source of what gives them this ability could come from a
+natural ability they have, a Class Feature, Magic Items, etc.
+Here are the different ways that these different effects work:</p>
+<h3 id="damage-resistance">Damage Resistance</h3>
+<p><em>Resistance (X):</em> Damage taken of the specified type is
+reduced by X each time the creature takes damage of that
+type.</p>
+<blockquote>
+<p><strong>Example:</strong> If you had Fire Resistance (2) and took 7 Fire
+damage, you would instead take 5 Fire damage (you subtract
+2 from the Fire damage taken, so 7–2 = 5).</p>
+</blockquote>
+<p><em>Resistance (Half):</em> Damage taken of the specified type is
+halved (minimum of 1 damage reduced).</p>
+<blockquote>
+<p><strong>Example 1:</strong> If you had Fire Resistance (Half) and took 7 Fire
+damage, you would instead take 4 Fire damage (half of 7 is
+3.5, rounded up is 4).</p>
+<p><strong>Example 2:</strong> If you had Radiant Resistance and took
+1 Radiant damage, the damage would be halved to 0.5
+and rounded back up to 1 damage taken. However, since
+Resistance reduces damage by a minimum of 1, the damage
+would be reduced to 0.</p>
+</blockquote>
+<h3 id="damage-immunity">Damage Immunity</h3>
+<p>Damage taken of the specified type is reduced to 0.</p>
+<blockquote>
+<p><strong>Example:</strong> If you had Cold Immunity and were dealt 7 Cold
+damage, you would take 0 damage instead.</p>
+</blockquote>
+<h3 id="damage-vulnerability">Damage Vulnerability</h3>
+<p><em>Vulnerability (X):</em> Increase damage taken by X each time
+the creature takes damage of that type.</p>
+<blockquote>
+<p><strong>Example:</strong> If you had Poison Vulnerability (2) and took 3
+Poison damage, you would instead take 4 Poison damage
+(you add 1 to the Poison damage taken, so 3 + 2 = 5).</p>
+</blockquote>
+<p><em>Vulnerability (Double):</em> Increases the Damage taken by 2
+times of the specified type.</p>
+<blockquote>
+<p><strong>Example:</strong> If a Werewolf has Vulnerability (Double) to
+Silvered Weapons and takes 5 damage from an Attack, they
+would instead take 10 damage (5 x 2 = 10).</p>
+</blockquote>
+<h2 id="damage-reduction-dr">Damage Reduction (DR)</h2>
+<p>Damage Reduction (DR) grants Damage Resistance (Half)
+against Attacks, except against Critical Hits and Heavy
+Hits (or higher).</p>
+<p>There are 3 types of Damage Reduction:
+* <strong>Physical Damage Reduction:</strong> PDR protects you from
+the following damage types: Bludgeoning, Piercing, and
+Slashing.
+* <strong>Elemental Damage Reduction:</strong> EDR protects you from the
+following damage types: Cold, Corrosion, Fire, Lightning,
+Poison, and Sonic.
+* <strong>Mystical Damage Reduction:</strong> MDR protects you from the
+following damage types: Radiant, Psychic, and Umbral.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> There can be specific types of DR for certain
+Damage Types that special items or monsters have. You could
+have something that even gives “Fire Damage Reduction”
+for example.
+Example: A creature makes an Attack to hit a target with
+an PD of 10. The result of their Check is 12, which hits the
+target and deals 4 Bludgeoning damage. The target has a
+PDR, which provides Bludgeoning Resistance against this
+Attack, and halves the damage to 2 (4 / 2 = 2). Alternatively, if
+the result of the Check was 15, it would be 5 over the target’s
+PD of 10, making it a Heavy Hit. In this scenario, the PDR is
+bypassed, the damage isn’t reduced, and the target takes the
+full 4 damage plus 1 damage for the Heavy Hit.</p>
+</blockquote>
+<h2 id="stacking-damage-vulnerabilities-resistances-immunities">Stacking Damage Vulnerabilities, Resistances, &amp; Immunities</h2>
+<blockquote>
+<p><strong>Example:</strong> If you had Fire Resistance (1) from an Ancestry
+Trait and Fire Resistance (1) from a Class Feature, these
+Resistances would be replaced by Fire Resistance (Half)
+instead. So if you took 4 Fire damage from an Attack,
+the damage would be reduced by half down to 2 damage
+(4 / 2 = 2).</p>
+</blockquote>
+<h3 id="damage-resistance-x-vulnerability-x">Damage Resistance X &amp; Vulnerability X</h3>
+<p>A creature that gains Damage Resistance X or Damage
+Vulnerability X from multiple sources they are all
+added together.</p>
+<h4 id="damage-resistance-half-vulnerability-double">Damage Resistance (Half) &amp; Vulnerability (Double)</h4>
+<p>Multiple sources of Damage Resistance (Half) or Damage
+Vulnerability (Double) do not stack.</p>
+<blockquote>
+<p><strong>Example:</strong> If you had Lightning Resistance (Half) from a
+Class Feature and Elemental Resistance (which includes
+Lightning Resistance) from the EDR granted by your Armor,
+you would still only take half damage when you take
+Lightning damage (not a quarter of the damage, because they
+don’t stack).</p>
+</blockquote>
+<h2 id="damage-modifications">Damage Modifications</h2>
+<p>Total damage is determined after all damage modifications
+are taken into account. When a creature takes damage,
+the total damage taken is determined by following the
+steps below:</p>
+<ol>
+<li>Adding &amp; Subtracting<ul>
+<li><strong>Damage Resistance X:</strong> its Resist X reduces the damage by
+the value of X (1, 2, 3, etc.)</li>
+</ul>
+</li>
+<li><strong>Damage Vulnerability X:</strong> its Vulnerable X increases the
+   damage by the value of X (1, 2, 3, etc.)</li>
+<li>Doubling &amp; Halving</li>
+<li>Damage Resistance (Half): The damage is halved
+   (rounded up, minimum of 1 damage reduced).</li>
+<li>Damage Vulnerability (Double): The damage is doubled
+   (minimum of 1 damage taken).</li>
+</ol>
+<p>If a creature has the same type and amount of Resistance
+and Vulnerability, they cancel each other out (e.g. Fire
+Resistance (1) &amp; Fire Vulnerability (1), or Cold Resistance
+(Double) &amp; Cold Vulnerability (Double)).</p>
+<blockquote>
+<p><strong>DC Tip:</strong> Basically any kind of addition or subtraction of
+damage happens FIRST, then any multiplication or division of
+damage AFTER.</p>
+<p><strong>Example 1:</strong> A creature has Cold Resistance (1) from its
+Ancestry, and Cold Vulnerability (Double) from a Monster
+Effect. When that creature is Hit by an Attack that deals 5
+Cold damage, the damage is reduced by 1 (Cold Resistance
+(1)) to a total of 3, and then doubled (Cold Vulnerability) to
+a total of 6.</p>
+<p><strong>Example 2:</strong> A creature has Fire Vulnerability (1) from
+its Ancestry, and Fire Resistance (Half) from the EDR
+granted by its Armor. When that creature is Hit by an Attack
+that deals 5 Fire damage, the damage is increased by 1
+(Fire Vulnerability (1)) to a total of 6, and then halved (Fire
+Resistance (Half) from EDR) to a total of 3.</p>
+</blockquote>
+<h2 id="managing-damage-multiples">Managing Damage Multiples</h2>
+<h3 id="multiple-damage-types">Multiple Damage Types</h3>
+<p><strong>Resistances:</strong> When you take multiple types of damage that
+you have Resistances to, you apply your Resistances to
+each damage type individually.</p>
+<blockquote>
+<p><strong>Example:</strong> You have Physical Resistance (Half) from PDR
+granted by Armor and take 3 Piercing damage and 3 Slashing
+damage from an Attack. The Piercing damage would be
+reduced by half to 1.5, then rounded up to 2 damage taken.
+The same would be true of the Slashing damage (2 damage
+taken). You would take a total of 4 damage from the Attack.</p>
+</blockquote>
+<p><strong>Bonus Damage:</strong> When dealing bonus damage on an Attack
+that deals more than 1 type of damage, you choose which of
+those damage types the bonus damage increases.</p>
+<blockquote>
+<p><strong>Example:</strong> A Barbarian Hits a target with an Attack using a
+magical Hammer that deals 2 Bludgeoning damage and 2
+Lightning damage. If the Barbarian is Raging at the time, they
+deal +1 damage from their Rage Feature. The Barbarian can
+choose to apply their Rage damage to the Bludgeoning or
+Lightning damage.</p>
+</blockquote>
+<h3 id="bonus-damage-against-multiple-targets">Bonus Damage Against Multiple Targets</h3>
+<p>If you add bonus damage to an Attack that targets multiple
+targets, the bonus damage only applies to one target of your
+choice. The Attack still benefits from Critical Hits, Heavy
+Hits, and beyond against each target.</p>
+<h3 id="shared-damage">Shared Damage</h3>
+<p>When 2 or more creatures share damage, divide the damage
+by the number of creatures (rounding up), and distribute
+the damage equally among the creatures. If the creatures
+are sharing damage of multiple types, you calculate the
+shared damager for each type taken (see example 3)</p>
+<blockquote>
+<p><strong>Example 1:</strong> A Champion steps in front of an Attack against
+an ally and they share the damage. If the total damage was
+5, then each creature now takes 3 damage (half of 5 is 2.5,
+rounded up to 3).</p>
+<p><strong>Example 2:</strong> A creature is thrown 10 Spaces into a wall, taking
+10 Bludgeoning damage upon impact. However, if 2 creatures
+were to stand side-by-side in the thrown creature’s path, all
+3 creatures would share the damage upon impact. The 10
+damage would be divided by the 3 creatures, resulting in each
+creature taking 3.33 Bludgeoning damage. No matter what
+the fraction is, you always round up in DC20, so now each
+creature takes 4 damage.</p>
+<p><strong>Example 3:</strong> A Barbarian steps in front of an Attack against
+an ally and they share the damage. If the total damage was
+3 Bludgeoning and 2 Lightning damage, then each creature
+now takes 2 Bludgeoning (half of 3 is 1.5, rounded up to 2).
+and 1 Lightning damage.</p>
+<p><strong>DC Tip:</strong> Yes this does mean that sharing damage might
+result in the group as a whole taking more damage than if
+they had not shared the damage. This is on purpose and also
+accounts for everyone smashing into each other and truly
+sharing the blow.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../6_hp/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Health Points &amp; Death’s Door">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Health Points & Death’s Door
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../8_combat/" class="md-footer__link md-footer__link--next" aria-label="Next: Combat Resources">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Combat Resources
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "navigation.expand", "navigation.footer", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3727 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../11_technique/">
+      
+      
+        <link rel="next" href="../13_startcombat/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Spellcasting - DC20</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#spellcasting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DC20" class="md-header__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Spellcasting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DC20" class="md-nav__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributes & Prime Modifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skills, Trades & Languages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Checks & Saves
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Checks & Saves
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_checksave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Save
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_attackdefence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attacks & Defense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Points & Death’s Door
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_damage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combat Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actions & Reactions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Actions & Reactions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_action/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_reaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reactions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maneuvers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_technique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spellcasting-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spellcasting Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spells-known" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spells Known
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Lists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcane" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arcane
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gaining-a-spell-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gaining a Spell List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#action-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Action Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mana-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mana Points
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spellcasting-without-mana-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spellcasting without Mana Points
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spellcasting without Mana Points">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cantrips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cantrips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rituals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rituals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Enhancements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mana-spend-limit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mana Spend Limit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mp-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      MP Effects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casting-a-spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casting a Spell
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casting a Spell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-defense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Defense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-spell-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Spell DC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Save
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynamic Attack Save
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#natural-1s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Natural 1’s
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targeting-multiple-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targeting Multiple Creatures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structure-of-spellcasting-mechanics-sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure of Spellcasting Mechanics (Sidebar)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verbal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verbal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verbal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Somatic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Somatic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Duration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instantaneous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instantaneous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustain-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sustain Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#areas-of-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Areas of Effect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Areas of Effect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arc
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cube
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cylinder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cylinder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    <span class="md-ellipsis">
+      Line
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sphere" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sphere
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wall
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#categorizing-spells" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorizing Spells
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Categorizing Spells">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schools-of-magic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools of Magic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools of Magic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#astromancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astromancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chronomancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chronomancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conjuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conjuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#destruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destruction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enchantment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enchantment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#illusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Illusion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#necromancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Necromancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restoration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transmutation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transmutation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Tags
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-spellcasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Spellcasting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Spellcasting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combo-spellcasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combo Spellcasting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Combo Spellcasting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacking-magical-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stacking Magical Effects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_startcombat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_creatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creatures & Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19_resting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20_dcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DCs in DC20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21_GM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22_charactercreation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 Step Character Creation Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23_talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Talents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../25_ancestry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ancestries System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_26_1" id="__nav_26_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Class list
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_26_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26_1">
+            <span class="md-nav__icon md-icon"></span>
+            Class list
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barbarian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Champion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commander
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Druid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hunter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorcerer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellblade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warlock
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wizard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../27_spell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Premade Spell Lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magic Items
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            Magic Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitemsproperties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monsters Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            Monsters Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_encounter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Encounter Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_gmtip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Tips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Homebrew
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Homebrew
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_cazzim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cazzim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_spells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spells
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sanity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_30_4" id="__nav_30_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_30_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30_4">
+            <span class="md-nav__icon md-icon"></span>
+            General Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giostra a Squadre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta contro Kaiju
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crafiting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta su carro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assedio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spellcasting-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spellcasting Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spells-known" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spells Known
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Lists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Lists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcane" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arcane
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gaining-a-spell-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gaining a Spell List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#action-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Action Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mana-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mana Points
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spellcasting-without-mana-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spellcasting without Mana Points
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spellcasting without Mana Points">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cantrips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cantrips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rituals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rituals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Enhancements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mana-spend-limit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mana Spend Limit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mp-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      MP Effects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casting-a-spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casting a Spell
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casting a Spell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-defense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Defense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-spell-dc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Spell DC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-check-vs-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Check vs Save
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-attack-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynamic Attack Save
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#natural-1s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Natural 1’s
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targeting-multiple-creatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targeting Multiple Creatures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structure-of-spellcasting-mechanics-sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure of Spellcasting Mechanics (Sidebar)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spell-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spell Characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verbal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verbal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verbal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Somatic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Somatic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downsides_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downsides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Duration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instantaneous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instantaneous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustain-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sustain Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#areas-of-effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Areas of Effect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Areas of Effect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arc
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cube
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cylinder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cylinder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    <span class="md-ellipsis">
+      Line
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sphere" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sphere
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wall
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#categorizing-spells" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorizing Spells
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Categorizing Spells">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schools-of-magic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools of Magic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools of Magic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#astromancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Astromancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chronomancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chronomancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conjuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conjuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#destruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destruction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enchantment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enchantment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#illusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Illusion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#necromancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Necromancy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restoration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transmutation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transmutation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spell Tags
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-spellcasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Spellcasting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Spellcasting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combo-spellcasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combo Spellcasting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Combo Spellcasting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacking-magical-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stacking Magical Effects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="spellcasting">Spellcasting</h1>
+<h2 id="spellcasting-requirements">Spellcasting Requirements</h2>
+<p>In order to cast a Spell, you must know the Spell, and spend the amount of Resources it requires (Action Points and Mana Points). The maximum number of Mana Points you can spend on a single Spell must be equal to or lower than your Mana Spend Limit (see below).</p>
+<h2 id="spells-known">Spells Known</h2>
+<p>Spellcaster Classes know a number of Spells as shown in the Spells Known column of their Class Tables. The number of Spells they know increases with level to reflect their growing knowledge of magic as they gain experience. When a PC learns a new Spell, the Spell must be included in their Spell List and possess any required Spell Tags. If a PC has access to multiple Spellcasting Features, they can learn new Spells by following the rules of either Feature.</p>
+<blockquote>
+<p><strong>Example:</strong> A Wizard can learn any Spell from the Arcane Spell List, however Sorcerers get to choose 1 of the 3 Spell Lists to learn their Spells from. Alternatively, Warlocks can learn any Spell from any Spell List, but are restricted by only being able to choose from 4 Spell Schools.</p>
+</blockquote>
+<p>Spellcasters increase their Spells Known as they gain levels or through certain Class Features, Subclass Features, Talents, or Ancestry Traits.</p>
+<h2 id="spell-lists">Spell Lists</h2>
+<p>There are 3 Spell Lists: Arcane, Divine, and Primal. A Spell List represents the domains of magic accessible to a Spellcaster using a certain source of magic. The Arcane Spell List includes all manner of Spells that can be cast using Arcane magic. The same is true of other Spell Lists; the Divine Spell list includes Spells that can be cast using Divine Magic, and the Primal Spell list includes Spells that can be cast using Primal Magic.</p>
+<h3 id="arcane">Arcane</h3>
+<p>Arcane magic draws power from unrefined, raw, chaotic magical sources. This type of magic is used by mortal beings, covers a wide variety of unique Spells, and can be cast using incantations, rituals, runes, and other forms of organization that transforms raw magic into structured forms. Wizards, Warlocks, and Bards are the primary practitioners of this type of magic.</p>
+<h3 id="divine">Divine</h3>
+<p>Divine magic draws power from divine beings, such as deities (greater and lesser gods), their followers (angels, archons, etc.), or the manifestations of abstract universal concepts (order, love, peace, war, etc.).</p>
+<h3 id="primal">Primal</h3>
+<p>Primal magic draws power from the physical embodiment of the universe (the land, air, rivers, and fires) and the natural creatures that abide within it (plants, animals, and nature spirits). Druids use Primal magic through their supernatural relationship with nature itself, while Shamans use powerful totems of nature to manifest aspects of its power (bear fortitude, bull strength, wolf smell, eagle sight, etc.).</p>
+<h2 id="gaining-a-spell-list">Gaining a Spell List</h2>
+<p>You can gain access to a Spell List through your Class's Spellcasting Feature (if it has one) or by selecting one from another Class using a Multiclassing Talent. When you learn a new Spell, you can select that Spell from any Spell List to which you currently have access.</p>
+<blockquote>
+<p><strong>Example:</strong> If a Spellcasting Feature grants you access to the Arcane Spell List but only to Spells within the Necromancy Spell School, then you can only learn a Necromancy Spell from the Arcane Spell List, unless another Feature grants you access to the Arcane Spell list without that restriction on Spell choice.</p>
+</blockquote>
+<h2 id="spell-resources">Spell Resources</h2>
+<p>Each Spell has a minimum number of Action Points (AP)
+that must be spent to cast the Spell. Many Spells also
+include a minimum number of Mana Points (MP) that must
+also be spent to cast the Spell. This is known as the Base
+Mana Cost of a Spell.</p>
+<h3 id="action-points">Action Points</h3>
+<p>All Spells require you to spend AP to cast them, with 2
+AP as the standard cost for most Spells. Some Spells cost
+1 AP (such as Cantrips) and usually have a lower base
+damage with modest effects. More powerful Spells have a
+higher AP cost (3 AP or higher) and deal greater damage or
+produce greater effects. These Spells may require a single
+Spellcaster to spend multiple turns to cast, or multiple
+Spellcasters working together (see “Combo Spellcasting”
+on page 60 below).</p>
+<h3 id="mana-points">Mana Points</h3>
+<p>Each Spell has an MP cost that you must spend to cast it.
+There are different ways to spend additional MP on Spells,
+and the MP is spent when the Spell goes off successfully.</p>
+<p><strong>Gaining Mana:</strong> Your PC starts off by having 0 MP, but can
+gain MP in a few ways:</p>
+<ul>
+<li>
+<p><strong>Spellcaster Class Feature:</strong> If you choose a Spellcaster
+Class then you have a maximum number of MP equal
+to the amount of MP in the Mana Points column of your
+Spellcaster Class Table. You gain MP from this table from
+levels 1-10 and then you gain MP from your Prestige
+Path from levels 11-20.</p>
+</li>
+<li>
+<p><strong>Spellcaster Path:</strong> If you spend a Path point on the
+Spellcaster Path, you gain bonus MP equal to the amount
+shown on the Mana Points column of the Spellcaster
+Path Table.</p>
+</li>
+</ul>
+<p>You Regain all of your Mana Points when you
+complete a Long Rest.</p>
+<p><strong>Missing with Mana:</strong> When you spend MP to cast a Spell
+that deals damage, the target takes half damage on a Miss.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> See “Combat Resources” on page 39 for more
+information on Action Points and Mana Points.</p>
+</blockquote>
+<h2 id="spellcasting-without-mana-points">Spellcasting without Mana Points</h2>
+<p>Certain Spells can be cast without spending MP. These Spells include special Spell Tags, such as the Cantrip and Ritual Spell Tags.</p>
+<h3 id="cantrips">Cantrips</h3>
+<p>Spells with the Cantrip Spell Tag don’t have an MP cost but can be empowered with MP to enhance their damage or effects.</p>
+<h3 id="rituals">Rituals</h3>
+<p>By performing a 10 minute ritual immediately before casting a Spell with the Ritual Spell Tag, the Spell can be cast without spending MP even if it normally has an MP cost.</p>
+<h2 id="spell-enhancements">Spell Enhancements</h2>
+<p>Spell Enhancements allow a Spellcaster to increase the potency of their Spells by spending additional MP on the Spell (or AP for Cantrips). Spell Enhancements are specific to each Spell and are included in a Spell’s description. Many Spell Enhancements increase a Spell’s damage, its duration, its range, its number of targets, or its Area of Effect.</p>
+<p><strong>Performing a Spell Enhancement:</strong> When you cast a Spell, you can spend additional AP or MP (stated in the Spell’s description) to perform a Spell Enhancement with your Spell. If the Spell requires a Spell Check, you must choose to do so before you make the Check. You can perform the same Spell Enhancement multiple times per Spell, unless it’s stated otherwise.</p>
+<h2 id="mana-spend-limit">Mana Spend Limit</h2>
+<p>You can only spend a maximum number of Mana Points equal to your Combat Mastery at one time. This limitation includes MP spent on Spell Enhancements and other Features that require MP. This is called your Mana Spend Limit.</p>
+<blockquote>
+<p><strong>Example:</strong> A level 6 Sorcerer (Combat Mastery of 3) can spend up to 3 MP on any Spell they cast. They could cast a Spell with a base cost of 3 MP, or they could cast a Spell with a base cost of 2 MP and spend 1 MP on Spell Enhancements. Alternatively, they could cast a Spell with no MP cost, such as a Cantrip, and spend 3 MP on Spell Enhancements.</p>
+</blockquote>
+<h2 id="mp-effects">MP Effects</h2>
+<p>These are abilities and effects (usually coming from Class
+Features) that cost MP and are very similar to what types of
+effects a Spell could cause. You can use an MP Effect (such
+as the Bard’s Bardic Performance Feature) in place of a
+Spell for the purposes of a Spell Duel or Combo Spellcasting.</p>
+<h2 id="casting-a-spell">Casting a Spell</h2>
+<p>When you cast a Spell, you must make a Spell Check to
+determine the Spell’s degree of success or failure. Your
+Spell Check is compared against the target’s Defense, the
+Spell’s DC, or the target’s Contested Check.</p>
+<h3 id="spell-check-vs-defense">Spell Check vs Defense</h3>
+<p>These Spell Checks are compared against the target’s
+Defense to determine whether or not the Attack hits the
+target. This type of Spell Check is called a Spell Attack.
+The Spell’s description will state whether the Spell Check
+is made against the target’s PD or AD (see Defense). If
+the result of the Spell Check is equal to or greater than the
+target’s Defense, then the Attack hits.</p>
+<h3 id="spell-check-vs-spell-dc">Spell Check vs Spell DC</h3>
+<p>These Spell Checks are compared against the Spell’s own
+DC. Some Spells have a Spell DC in order to fully cast the
+Spell as intended. The Spell is still cast on a failure (except
+for a Critical Failure) but at a reduced effect. Depending on
+the Spell’s DC Success statements, exceeding the Spell DC
+by 5 or more may yield additional benefits.</p>
+<h3 id="spell-check-vs-save">Spell Check vs Save</h3>
+<p>These Spells impose an effect on its target (such as a
+Condition). The Spell Check is Contested against the
+target’s Save. If the result of the Spell Check is greater
+than the target’s Save, the target becomes subjected to
+the Spell’s effect. Depending on the Spell’s Save Failure
+statements, failing the Save by 5 or more may impose
+additional penalties on the target.</p>
+<h3 id="dynamic-attack-save">Dynamic Attack Save</h3>
+<p>When a Spell you cast initiates a Dynamic Attack Save
+against the target, you make a Spell Check against the
+target’s Defense (as shown above) and the target makes a
+Save against your Save DC. Your Spell Check determines
+if the Spell deals damage to the target. The target’s Save
+determines if they’re subjected to the effects of the Spell.</p>
+<h3 id="natural-1s">Natural 1’s</h3>
+<p>When you make a Spell Check and get a Natural 1 on the
+d20 the Spell does not go off and it fizzles. You still spend
+the AP for the attempt, but you don’t spend any MP or
+other resources. This Spell Check still counts as a Spell
+Check towards the Multiple Check Penalty.</p>
+<h3 id="targeting-multiple-creatures">Targeting Multiple Creatures</h3>
+<p>If a Spell you cast targets more than 1 creature, or includes
+more than 1 in an Area of Effect (such as an Arc, Cone,
+Cylinder, Line, or Sphere), then you make 1 Spell Check
+against all creatures. Any Features you use to add extra
+damage only affect 1 target of your choice (not all of them).</p>
+<blockquote>
+<p><strong>Example:</strong> If a Wizard casts <em>Fireball</em> that covers an area that includes 4 creatures, the Wizard would make 1 Spell Check and compare it to the Physical Defense (PD) of each creature. If it’s Spell Check is equal to or higher than a target’s PD, it deals full damage against that target. If the Spell Check is lower than a target’s PD, it deals half damage instead.</p>
+</blockquote>
+<h3 id="structure-of-spellcasting-mechanics-sidebar">Structure of Spellcasting Mechanics (Sidebar)</h3>
+<p>When you cast a Spell, you'll always make a Spell Check. Your result will be contested by one of 3 values depending on what the Spell does and may force the target to make a Save.</p>
+<ul>
+<li><strong>Only Damage:</strong> Your Spell Check is contested by a target's PD or MD.</li>
+<li><strong>Only Effect:</strong> Your Spell Check is contested by a target's Check or Save.</li>
+<li><strong>Damage &amp; Effect:</strong> Your Spell Check is contested by a target's PD or MD, and the target makes a Check or Save against your Save DC.</li>
+</ul>
+<h2 id="spell-characteristics">Spell Characteristics</h2>
+<h3 id="components">Components</h3>
+<p>There are 3 types of Components that a Spell could have. Some Spells require all 3, while some only require 1. In order to cast any Spell you must satisfy its Components outlined below.</p>
+<h4 id="verbal">Verbal</h4>
+<p>These are the magical words and incantations needed to manifest the magical effects of a spell. This represents the PC uttering a few words to cast the Spell.</p>
+<h5 id="downsides">Downsides</h5>
+<ul>
+<li>Nearby creatures may hear you cast the Spell.</li>
+<li>You can’t cast Spells with a Verbal Component if you’re silenced by magical or mundane means (<em>Silence</em> Spell or your mouth is gagged).</li>
+<li>You lose your Breath when using a Verbal Component to cast a spell while underwater or when you otherwise need to hold your breath (see Breath).</li>
+</ul>
+<blockquote>
+<p><strong>DC Tip:</strong> From a roleplay perspective, the PC could say a specific word, a phrase, a strange sound, or ignore this completely. It’s just important for both GM and Player to understand that the PC is making a sound of some kind when casting a Spell.</p>
+</blockquote>
+<h4 id="somatic">Somatic</h4>
+<p>These are the gestures, movements, and physical actions needed to control the magical energies within a Spell.</p>
+<h5 id="downsides_1">Downsides</h5>
+<ul>
+<li>Creatures that can see you may notice that you’re casting a Spell.</li>
+<li>If your hands are bound or restrained from movement in any way, you can’t cast Spells with Somatic Components.</li>
+<li>You need at least one free hand that’s not holding anything to satisfy the Somatic Component. Having a Shield strapped to one hand doesn’t count as a “free hand”.</li>
+</ul>
+<blockquote>
+<p><strong>DC Tip:</strong> From a roleplay perspective, the PC could move their arms around in a grand display, use simple hand gestures, or ignore this completely. It’s just important for both GM and Player to understand that the PC is visibly moving their hand around when casting a Spell.</p>
+</blockquote>
+<h4 id="material">Material</h4>
+<p>These are objects, items, ingredients, and other physical items needed to cast the Spell. Most Spells don’t have Material Components required to cast them, but those that do usually either have a high gold cost or use an item that the GM can determine the rarity of.</p>
+<p><strong>Consumed Materials:</strong> These materials are consumed when you cast the Spell, being burnt away, disintegrating, or vanishing in some manner. Consumed Materials are gone after casting the Spell.</p>
+<p><strong>Persistent Materials:</strong> These materials aren’t consumed but are required to have on hand to cast the Spell.</p>
+<h5 id="downsides_2">Downsides</h5>
+<ul>
+<li>You can’t cast these Spells without having the Material Component.</li>
+<li>If the Spell consumes the Material Component, then you must replace it before you can cast it again.</li>
+<li>The required item could be very rare or have a high gold cost to obtain.</li>
+</ul>
+<blockquote>
+<p><strong>DC Tip:</strong> From a roleplay perspective, the PC could weave in the Spell Components into their description of them casting a Spell. Players that want to add flavor to their spellcasting can create their own Material Components for a Spell (like slime from a frog to cast the <em>Grease</em> Spell). But these “flavor” Components should not be held against them by the GM unless the player wants to track how many Spell Components they have.</p>
+</blockquote>
+<h3 id="duration">Duration</h3>
+<p>Spells can either be Instantaneous or Continuous in their duration, and some Spells require you to Concentrate on them in order to keep them going.</p>
+<h4 id="instantaneous">Instantaneous</h4>
+<p>Instantaneous Spells take effect the moment a spellcaster finishes casting the Spell.</p>
+<h4 id="continuous">Continuous</h4>
+<p>These Spells last a specific amount of time. They can often end early when the affected creature succeeds on a following Save against the effect, the affected creature or another creature within 1 space performs an Action to end the effect, or some other condition mentioned by the effect, such as breaking line of sight, occurs.</p>
+<p><strong>Repeated Saves:</strong> Some Spell effects have a lingering effect to them that allows the target to repeat their Save at the end of their turns.</p>
+<h4 id="sustain-action">Sustain Action</h4>
+<p>Some effects require you to Sustain them or they end. You
+must spend 1 AP at the start of each of your turns to Sustain
+an effect until the start of your next turn. You can’t Sustain
+an effect while Dazed. When you become Dazed, any
+effect you’re Sustaining immediately ends.</p>
+<p><strong>Outside of Combat:</strong> You can only Sustain 1 effect at a time
+outside of Combat. If you attempt to Sustain a 2nd effect
+while already Sustaining a first, the first effect immediately
+ends.</p>
+<h3 id="targets">Targets</h3>
+<p>Spells will declare a certain number of targets (one or multiple). The targets might have to be inside of the Spell’s Range or Area of Effect to be chosen as targets.</p>
+<h3 id="range">Range</h3>
+<p>How far away a Spell can be cast on a target. If the Spell affects an area centered on a space, Range determines how far away the targeted space can be.</p>
+<h3 id="areas-of-effect">Areas of Effect</h3>
+<p>The area that the Spell takes up. This is represented in a zone of some kind in one of the following patterns below:</p>
+<h4 id="arc">Arc</h4>
+<p>An Arc forms half of a sphere. The Arc’s size is expressed as a radius in Spaces that extends in a 180° arc from the point of origin in a direction of your choice. An Arc's point of origin isn’t included in the Arc's area of effect.</p>
+<h4 id="aura">Aura</h4>
+<p>An Aura extends from an object, creature, or location in a fixed distance in all directions, but not through Full Cover, and moves with it. Unless otherwise stated, the object, creature, or location is subjected to the Aura’s effect(s).</p>
+<h4 id="cone">Cone</h4>
+<p>A Cone extends in a direction you choose from its point of origin. A cone's width at a given point along its length is equal to that point's distance from the point of origin. A cone's area of effect specifies its maximum length. A cone's point of origin is not included in the cone's area of effect.</p>
+<h4 id="cube">Cube</h4>
+<p>You select a Cube's point of origin, which lies anywhere on a face of the cubic effect. The cube's size is expressed as the length of each side. A cube's point of origin is not included in the cube's area of effect.</p>
+<h4 id="cylinder">Cylinder</h4>
+<p>A Cylinder is expressed as a circle that extends vertically. A Cylinder's point of origin is the center of a circle of a particular radius, as given in the spell description. The circle must either be on the ground or at the height of the spell effect. The energy in a Cylinder expands in straight lines from the point of origin to the perimeter of the circle, forming the base of the Cylinder. The spell's effect then shoots up from the base or down from the top, to a distance equal to the height of the Cylinder.</p>
+<p>A Cylinder's point of origin is included in the Cylinder's area of effect.</p>
+<h4 id="line">Line</h4>
+<p>A Line is 1 Space wide and 1 Space tall, unless stated otherwise, and extends a fixed distance in one direction from an object, creature, or location. A Line’s point of origin isn’t included in the Line's area of effect.</p>
+<h4 id="sphere">Sphere</h4>
+<p>You select a Sphere's point of origin, and the Sphere extends outward in all directions from that point. The Sphere's size is expressed as a radius in feet that extends from the point.</p>
+<p>A Sphere's point of origin is included in the Sphere's area of effect.</p>
+<h4 id="wall">Wall</h4>
+<p>A Wall is a series of 1 Space squares connected to each other with at least one face adjacent to the face of another square. The width and height of a Wall is assumed to be 1 Space unless otherwise stated. A length will always be given.</p>
+<h2 id="categorizing-spells">Categorizing Spells</h2>
+<h3 id="schools-of-magic">Schools of Magic</h3>
+<h4 id="astromancy">Astromancy</h4>
+<p>Astromancy is the magic of space and gravity. Spells that alter gravity (reversing, decreasing, or increasing gravity), create portals that link two different locations on the same plane of existence (or between different planes), or teleport creatures fall into the School of Astromancy.</p>
+<h4 id="chronomancy">Chronomancy</h4>
+<p>Chronomancy is the magic of time. Spells that reverse, slow, or speed up time fall into the School of Chronomancy.</p>
+<h4 id="conjuration">Conjuration</h4>
+<p>Conjuration is the magic of summoning things from one place to another or fabricating something from nothing. Spells that teleport things, summon creatures, or create objects fall into the School of Conjuration.</p>
+<h4 id="destruction">Destruction</h4>
+<p>Destruction is the magic of battle. Spells that produce effects that injure, maim, or kill creatures fall into the School of Destruction.</p>
+<h4 id="divination">Divination</h4>
+<p>Divination is the magic of revealing what cannot normally be seen, such as a distant place, another plane of existence, or even the future. It can also reveal knowledge and truth. Spells that grant magical sight, give untold knowledge, or discern the future fall into the School of Divination.</p>
+<h4 id="enchantment">Enchantment</h4>
+<p>Enchantment is the magic of influencing other creatures, such as provoking strong emotions or imparting mental domination. Spells that charm other creatures through fabricated terror, loyalty, or love fall into the School of Enchantment.</p>
+<h4 id="illusion">Illusion</h4>
+<p>Illusion is the magic of warping the perception of creatures or transposing a false state of reality in an area. Spells that alter the senses using hallucinations or artificial images and sounds fall into the School of Illusion.</p>
+<h4 id="necromancy">Necromancy</h4>
+<p>Necromancy is the magic of undeath. Spells that reanimate corpses into Undead creatures fall into the School of Necromancy.</p>
+<h4 id="protection">Protection</h4>
+<p>Protection is the magic of defense. Spells that ward against damage or magical influence fall into the School of Protection.</p>
+<h4 id="restoration">Restoration</h4>
+<p>Restoration is the magic of healing, life, and resurrection. Spells that mend wounds, cure sicknesses, and bring the dead back to life fall into the School of Restoration.</p>
+<h4 id="transmutation">Transmutation</h4>
+<p>Transmutation is the magic of transforming one thing into another. Spells that change a creature or object’s physical form fall into the School of Transmutation.</p>
+<h3 id="spell-tags">Spell Tags</h3>
+<p>Spell Tags represent a Spell’s various properties. Spells can be organized into groups using these Spell Tags.</p>
+<p>(More to come in future updates)</p>
+<h2 id="advanced-spellcasting">Advanced Spellcasting</h2>
+<h3 id="combo-spellcasting">Combo Spellcasting</h3>
+<p>If you and 1 or more creatures know the same Spell, you can join your resources together to cast the Spell as a team. This is called Combo Spellcasting.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> Remember that MP Effects (such as a Druid’s Nature’s Veil Feature) count as Spells for the purposes of Spell Duels and Combo Spellcasting.</p>
+</blockquote>
+<h4 id="requirements">Requirements</h4>
+<p>You must meet the following requirements to participate in a Combo Spell:</p>
+<ul>
+<li>You know the Spell.</li>
+<li>You have enough AP to cast the Spell.</li>
+<li>You are within 5 Spaces of at least 1 other participant.</li>
+<li>Each participant must share the same position in the Initiative Order (see “Simultaneous Initiative” on page 63).</li>
+</ul>
+<blockquote>
+<p><strong>DC Tip:</strong> You can always delay your turn to act alongside an ally (see “Delayed Initiative” on page 63).</p>
+</blockquote>
+<p><strong>Primary Caster:</strong> Everyone participating in the Combo Spellcasting must agree on which of them will be the Primary Caster. They will act as the Spell’s Point of Origin.</p>
+<p><strong>Contributing Mana:</strong> Each participant can contribute an amount of MP between 1 and their Mana Spend Limit towards the casting of the Spell. The total mana spent must be equal to or higher than the base MP cost of the Spell. The total MP spent on the Spell has no limit as long as participants do not exceed their own Mana Spend Limits.</p>
+<blockquote>
+<p><strong>Example:</strong> 2 creatures have a Mana Spend Limit of 4 each. By performing a Combo Spellcasting, they can combine their MP together, up to 4 MP each for a total of 8 MP spent to cast a Spell. By working together, they can produce a much more powerful version of a Spell they could normally cast individually.</p>
+</blockquote>
+<p><strong>Highest Check &amp; DC:</strong> Every participant makes their Spell Check to cast the Spell. The highest Spell Check and the highest Save DC among them is used to determine the outcome.</p>
+<h3 id="stacking-magical-effects">Stacking Magical Effects</h3>
+<p>A target can only be affected by a single magical effect of the
+same name (a single creature can only be mind controlled
+by 1 person). If there’s a magical effect on a creature and
+you cast a Spell with the same effect, both casters must
+perform a Contested Spell Check to determine which Spell
+effect prevails over the target.</p>
+<p>The Spellcaster who already has the effect on the creature
+doesn’t have to spend any additional MP, they get to add a
+bonus to their roll equal to the base MP of the Spell they cast.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../11_technique/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Techniques">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Techniques
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../13_startcombat/" class="md-footer__link md-footer__link--next" aria-label="Next: Starting Combat">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Starting Combat
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "navigation.expand", "navigation.footer", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

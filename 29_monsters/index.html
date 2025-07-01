@@ -1,0 +1,2965 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../28_magicitemsproperties/">
+      
+      
+        <link rel="next" href="../29_encounter/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Basics of Monster Building - DC20</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#basics-of-monster-building" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DC20" class="md-header__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DC20
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Basics of Monster Building
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DC20" class="md-nav__button md-logo" aria-label="DC20" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DC20
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributes & Prime Modifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skills, Trades & Languages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Checks & Saves
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Checks & Saves
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_checksave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_save/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Save
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_attackdefence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attacks & Defense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_hp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Points & Death’s Door
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_damage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Damage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Combat Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actions & Reactions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Actions & Reactions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_action/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_reaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reactions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_maneuvers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maneuvers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_technique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_spellcasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellcasting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_startcombat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starting Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_creatures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creatures & Combat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19_resting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20_dcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DCs in DC20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21_GM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22_charactercreation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 Step Character Creation Outline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23_talents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Talents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../25_ancestry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ancestries System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Classes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_26_1" id="__nav_26_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Class list
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_26_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26_1">
+            <span class="md-nav__icon md-icon"></span>
+            Class list
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barbarian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Champion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_commander/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commander
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Druid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hunter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rogue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sorcerer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_spellblade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spellblade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warlock
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../26_wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wizard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../27_spell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Premade Spell Lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Magic Items
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            Magic Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../28_magicitemsproperties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Item Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_29" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Monsters Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            Monsters Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics of Monster Building
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#monster-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Statistics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Statistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pc-averages-at-level-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      PC Averages at Level 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Speed
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-checks-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Checks &amp; Saves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-survivability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Survivability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Survivability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#determining-defense-health-and-damage-reduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determining Defense, Health, and Damage Reduction
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Damage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-action-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Action Points
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Features
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utility
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Ideas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Maneuvers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attack-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attack Enhancements:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Save Effects:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-passive-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Passive Effects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-difficulties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Difficulties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-stat-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Stat Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Stat Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-level-1-2-monster-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Level 1 &amp; 2 Monster Statistics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-stat-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Stat Ranges
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_encounter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Encounter Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../29_gmtip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Master Tips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Homebrew
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Homebrew
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_cazzim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cazzim
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_spells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spells
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_sanity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sanity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_30_4" id="__nav_30_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_30_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30_4">
+            <span class="md-nav__icon md-icon"></span>
+            General Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_giostra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giostra a Squadre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_kaiju/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta contro Kaiju
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crafiting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_carro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lotta su carro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100_generalrules_assedio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assedio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#monster-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Statistics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Statistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pc-averages-at-level-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      PC Averages at Level 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Speed
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-checks-saves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Checks &amp; Saves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-survivability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Survivability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Survivability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#determining-defense-health-and-damage-reduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determining Defense, Health, and Damage Reduction
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Damage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-action-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Action Points
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Features
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utility
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Ideas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-maneuvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Maneuvers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Maneuvers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attack-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attack Enhancements:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Save Effects:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-passive-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Passive Effects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-difficulties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Difficulties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-stat-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Stat Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monster Stat Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-level-1-2-monster-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Level 1 &amp; 2 Monster Statistics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monster-stat-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monster Stat Ranges
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="basics-of-monster-building">Basics of Monster Building</h1>
+<p>Building a monster in DC20 involves carefully adjusting several key statistics to achieve the right balance of challenge and enjoyment for the players. Health determines the monster's durability, dictating how long it can stay in the fight. Defense influences how difficult it is for players to hit the monster, while Speed affects the monster's movement and ability to maneuver on the battlefield. Damage represents the potential harm the monster can inflict on the players, and Damage Reduction mitigates the impact of incoming attacks, making the monster harder to defeat. Action Points govern the number of actions the monster can take in a turn, influencing its overall effectiveness in combat. By tweaking these statistics, GMs can create monsters that provide a balanced and engaging challenge, ensuring encounters are neither too easy nor overwhelmingly difficult.</p>
+<h2 id="monster-statistics">Monster Statistics</h2>
+<p>To begin deciding the statistics for a monster, you can use the statistics of the Player Characters as a baseline (shown in the table below).</p>
+<h3 id="pc-averages-at-level-1">PC Averages at Level 1</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Statistic</th>
+<th style="text-align: center;">Average PC</th>
+<th style="text-align: center;">Physical PC</th>
+<th style="text-align: center;">Mental PC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Health</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Physical Defense</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mystical Defense</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr>
+<td style="text-align: left;">Damage Reduction</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Attack &amp; Spell Check</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Damage per Round</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">4 or 5</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Speed</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Action Points</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="monster-speed">Monster Speed</h2>
+<p>Most monsters should have a Speed of 5 to match the default PC Speed. You should consider increasing or decreasing a monster’s Speed if it’s an especially fast or slow creature. A horse might have a Speed of 8, while a turtle might have a Speed of 2.</p>
+<h2 id="monster-checks-saves">Monster Checks &amp; Saves</h2>
+<p>Level 1 monsters should have a +4 bonus on all Checks and Saves they have Mastery in, including Attack Checks, Spell Checks, and any chosen Skill Masteries (such as Awareness, Athletics, Stealth, Insight, etc.) or Save Masteries (such as Might, Agility, Intelligence, or Charisma). A level 1 monster also has a Save DC of 14.</p>
+<h2 id="monster-survivability">Monster Survivability</h2>
+<p>To determine a monster's overall survivability in DC20, it’s essential to balance its Health, Defense, and Damage Reduction. These 3 statistics collectively define how long a monster can endure in Combat against the PCs.</p>
+<ul>
+<li><strong>Health:</strong> Increasing a monster's Health (HP) makes it more durable by allowing it to sustain more damage before being defeated.</li>
+<li><strong>Defense:</strong> Increasing a monster’s Physical Defense (PD) or Mystical Defense (MD) makes it harder to Hit with Attacks, which in turn makes it less likely to take damage. PD generally protects against Attacks that deal Physical or Elemental damage, whereas MD protects against Mystical damage.</li>
+<li><strong>Damage Reduction:</strong> Increasing a monster’s Physical Damage Reduction (PDR) or Mystical Damage Reduction (MDR) further mitigates the amount of damage it takes when it does get Hit by an Attack, reducing the impact of an Attack on the monster’s Health.</li>
+</ul>
+<h3 id="determining-defense-health-and-damage-reduction">Determining Defense, Health, and Damage Reduction</h3>
+<p>To keep its survivability within reason, if you significantly raise the monster's Health, you should consider lowering its Defense proportionally. This adjustment ensures the monster doesn't become unkillable, maintaining a fair challenge for the PCs. Similarly, Damage Reduction, which reduces the impact of incoming attacks, should be balanced with Health and Defense to prevent creating an overly resilient monster. Thoughtful adjustments to these statistics help create encounters that are both challenging and enjoyable, avoiding frustration or monotony for the players.</p>
+<ul>
+<li><strong>PC Attacks:</strong> Since the average damage of a level 1 PC is 2 damage per Attack (and they’re likely to make 2 Attacks on their turn) you’ll want to make sure your Monsters have enough Health, Defense, and Damage Reduction to survive 6 Attacks before being defeated (to ensure they last 3 rounds of Combat).</li>
+<li><strong>Monster Defense:</strong> The PCs should have a 65% hit rate against the average monster, and since a level 1 PC has a +4 bonus to Hit, the average level 1 monster needs to have 12 Defense. This means about 4 out of 6 Attacks will hit a monster. Of the 4 Attacks that Hit, 2 are likely to be Heavy Hits (dealing +1 damage).</li>
+<li><strong>Monster Health:</strong> If a PC scores 2 normal Hits and 2 Heavy Hits against a monster across 3 rounds of Combat, they would deal 10 damage. Accordingly, a level 1 monster should have 10 HP.</li>
+<li><strong>Monster Damage Reduction:</strong> If you give a monster Damage Reduction (maximum of 1 at level 1), then you should decrease its HP. In the scenario above, a monster is hit by 4 Attacks across 3 rounds of Combat. If that monster had a 1 PDR, then they would take 4 less damage (1 less per Attack), so it would only need 6 HP instead.</li>
+</ul>
+<h2 id="monster-damage">Monster Damage</h2>
+<p>The amount of health a PC has is a good indicator for determining how much damage a monster should deal if the goal is for the monster to potentially defeat the PC in no less than 3 rounds of Combat. To achieve this balance, the monster's average damage per round should be approximately one-third of the PC's total health. This ensures that the PC can withstand at least 3 rounds of attacks before being defeated, providing a fair yet challenging encounter that allows for strategic play and potential recovery or intervention from the PC's allies.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> The average health of a level 1 PC is 9 HP, so a Level 1 or 2 Monster should deal up to 3 damage per round. Anything more than a base damage of 3 could also end up “one shotting” a PC with 5 HP.</p>
+</blockquote>
+<h2 id="monster-action-points">Monster Action Points</h2>
+<p>Spending Action Points (AP) can significantly increase a monster's damage output, thereby escalating the threat it poses to the PCs. By allocating AP towards powerful attacks or multiple strikes within a single turn, a monster can maximize its offensive capabilities, dealing substantially more damage than with standard Actions alone. This increase in damage potential can quickly turn the tide of battle, making encounters more perilous for the PCs. However, GMs must carefully balance this to avoid overwhelming the players, ensuring that the encounter remains challenging yet fair. Properly managing AP expenditure not only heightens the tension and excitement of combat but also tests the PCs' strategic responses and resource management, contributing to a more dynamic and engaging gameplay experience.</p>
+<blockquote>
+<p><strong>Example 1:</strong> A monster’s base Attack does 1 damage. With 4 AP, the monster can make 1 Attack that deals a total of 3 damage. Attack: 1 AP to Attack, plus 2 AP to increase the damage by 2 (total of 3 damage), plus 1 AP to gain ADV. If the Attack benefits from a Weapon Style (such as an Axe’s +1 bonus against Bleeding creatures), then the damage increases to 4 total.</p>
+<p><strong>Example 2:</strong> A monster’s base Attack does 1 damage. With 4 AP, the monster can make 2 Attacks that deal a total of 3 damage. First Attack: 1 AP to Attack plus 1 AP to increase the damage by 1 (total of 2 damage). Second Attack: 1 AP to Attack (with DisADV) plus 1 AP to gain ADV (canceling out the DisADV to become a normal d20 roll). If these Attacks benefit from a Weapon Style (such as a Sword’s +1 bonus against Exposed creatures), then the damage increases to 5 total (+1 per Attack).</p>
+</blockquote>
+<h2 id="monster-features">Monster Features</h2>
+<p>Monsters can be granted Features that endow them with special strengths and weaknesses, reflecting their unique abilities and characteristics. These Features serve to differentiate each monster, ensuring that every encounter remains distinct and memorable. For instance, an elusive shadow creature could have a Feature that makes it difficult to detect but susceptible to light-based attacks. By assigning at least 1 Feature to every monster, their roles and challenges in the game become more defined and engaging, encouraging players to strategize and adapt to the diverse array of threats they face.</p>
+<h3 id="class-features">Class Features</h3>
+<p>You can grant monsters the Class Features typically reserved for PCs. This approach allows monsters to possess traits such as a Fighter’s Action Surge, a Wizard’s Arcane Sigil, or a Rogue's Debilitating Strike.</p>
+<blockquote>
+<p><strong>Example:</strong> A Goblin with a Rogue’s Cunning Action and Cheap Shot Features can surprise players with its agility and precision, while a Giant imbued with a Barbarian's Rage Feature can deliver devastating blows that test the party's endurance.</p>
+<p><strong>DC Tip:</strong> This is a great way to showcase how different Classes work that are NOT represented by the party’s PCs.</p>
+</blockquote>
+<h3 id="quick-features">Quick Features</h3>
+<p>Below are examples that you could use at a glance to add 1 or 2 Features onto a monster.</p>
+<blockquote>
+<p><strong>Beta Note:</strong> More features like this will be released in future Kickstarters and on Patreon.</p>
+</blockquote>
+<h4 id="offense">Offense</h4>
+<ul>
+<li><strong>Cleave:</strong> Apply 1 Attack Check per turn to 2 adjacent targets within range.</li>
+<li><strong>Rampage:</strong> Each Round the monster increases its Base Damage by +1 (make sure it doesn’t start off too high).</li>
+<li><strong>Enrage:</strong> Once it becomes Bloodied (1/2 HP or lower) it gains +1 damage on all Attack Checks.</li>
+</ul>
+<h4 id="defense">Defense</h4>
+<ul>
+<li><strong>Regeneration:</strong> It heals for 2 HP at the start of each of its turns.</li>
+<li><strong>Resistance:</strong> It has Resistance (Half) to a specific damage type.</li>
+<li><strong>Shielded:</strong> It can spend 1 AP to give itself 2 Temp HP (this can’t stack).</li>
+</ul>
+<h4 id="utility">Utility</h4>
+<ul>
+<li><strong>Shot Caller:</strong> When it gives the Help Action to another creature, their next Attack Check deals +1 damage.</li>
+<li><strong>Inspire:</strong> Once per turn it can give a Help Die to any allied creature for free.</li>
+<li><strong>Walls:</strong> It can spend 1 AP to create a 4 Space long wall that’s 1 Space wide and 1 Space high (choose a material that makes sense for the monster).</li>
+</ul>
+<h4 id="other-ideas">Other Ideas</h4>
+<ul>
+<li><strong>Damage Type:</strong> Change the damage type the monster deals (or part of it) to another damage type.</li>
+<li><strong>Reach:</strong> Give the creature a 2, or even 3, Space Melee Attack Range.</li>
+<li><strong>Death’s Door:</strong> Give this monster the ability to use the Death's Door mechanic that the PCs have.</li>
+</ul>
+<h2 id="monster-maneuvers">Monster Maneuvers</h2>
+<p>If you’re familiar with Martial Maneuvers (see the Core DC20 Rules for more), these work the same way. You can give ANY monster you want FULL access to Attack, Save, Defense, and Grapple Maneuvers. You can also choose to put these types of effects on Spell Checks as well (especially single target Spell Attacks). Below is a compiled list of extra effects that you can add to the Attacks of your monsters.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> These effects are based on Martial Maneuvers and Conditions combined together and can be expanded even further.</p>
+</blockquote>
+<h3 id="attack-enhancements">Attack Enhancements:</h3>
+<p>These modify Attacks in some way and each cost 1 AP.</p>
+<ul>
+<li>Grant itself ADV.</li>
+<li>+1 Space Attack Range (or +5 for ranged).</li>
+<li>+1 Damage (possibly of another type).</li>
+</ul>
+<h3 id="save-effects">Save Effects:</h3>
+<p>These force the target to also make a Save against one of the following effects and each cost 1 AP. These work like Dynamic Attack Saves (see Dynamic Attack Save rules for more) and work exactly like Martial Maneuvers too. Listed below are the conditions that the monster can attempt to inflict on its target.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> You can even combine multiple of these together if it makes sense for the monster. Just remember that the target would only make a single Physical Save.</p>
+</blockquote>
+<ul>
+<li><strong>Knockback</strong> (pushed 1 Space + 1 for every 5 it fails its Save by)</li>
+<li><strong>Slowed 1</strong> (every 1 Space you move costs an extra 1 Space of movement)</li>
+<li><strong>Exposed</strong> (ADV on the next Attack Check against the target)</li>
+<li><strong>Hinder</strong> (target has DisADV on its next Attack Check)</li>
+<li><strong>Impaired</strong> (target has DisADV on Physical Checks)</li>
+<li><strong>Dazed</strong> (target has DisADV on Mental Checks)</li>
+<li><strong>Grappled</strong></li>
+<li><strong>Bleeding</strong></li>
+<li><strong>Burning</strong></li>
+<li><strong>Vicious</strong> (It can give the target DisADV on a Save it forces it to make)</li>
+<li>Other Powerful Effects (these should cost 2 AP since they’re so strong)<ul>
+<li><strong>Prone</strong></li>
+<li><strong>Poisoned</strong></li>
+<li><strong>Restrained</strong></li>
+<li><strong>Exhausted</strong></li>
+<li><strong>Weakened</strong> (DisADV on all Checks)</li>
+</ul>
+</li>
+</ul>
+<h2 id="monster-passive-effects">Monster Passive Effects</h2>
+<p>These are extra little passives that you can give monsters that work just like how Martial Weapon Passives work. If a target has a certain Condition (or other triggering effect), then the monster would deal an extra +1 damage.</p>
+<blockquote>
+<p><strong>Example:</strong> This can be any Condition (such as Bleeding, Prone, Poisoned, Exposed, etc.) or any sort of other mechanic (such as being Flanked, using a Help Die, moving at least 2 Spaces before the Attack, etc.).</p>
+</blockquote>
+<h2 id="monster-difficulties">Monster Difficulties</h2>
+<p>Monsters can be categorized based on their strength and the challenge they pose to players, creating a diverse array of encounters.</p>
+<ul>
+<li><strong>Minions</strong> are the weakest, designed to be defeated with a single hit, providing a sense of immediate accomplishment without significant threat.</li>
+<li><strong>Low-tier monsters</strong> typically take one turn to kill, presenting a slightly greater challenge that still allows for quick victories.</li>
+<li><strong>Mid-tier monsters</strong> are tougher, requiring about two rounds to defeat, encouraging players to employ more strategy and coordination.</li>
+<li><strong>High-tier monsters</strong>, often the alphas of their groups, boast formidable strength and abilities, serving as significant threats that demand focused effort from the party.</li>
+</ul>
+<blockquote>
+<p><strong>Example:</strong> The Wolves might each have 10 HP, but the Alpha Wolf might have 15 HP.</p>
+</blockquote>
+<ul>
+<li><strong>Boss monsters</strong> act as powerful adversaries that require extensive planning and teamwork to overcome, often requiring several rounds of direct engagement to take down.</li>
+<li><strong>Solo monsters</strong> stand at the pinnacle, designed to challenge an entire party of player characters single-handedly, with enough power and resilience to create an epic, memorable battle.</li>
+</ul>
+<blockquote>
+<p><strong>Example:</strong> Even without the assistance of its underlings, a fire-breathing Dragon might be a challenge for a group of adventurers to take on.</p>
+</blockquote>
+<p>This tiered structure ensures a balanced and engaging progression of difficulty, keeping players engaged and on their toes.</p>
+<h2 id="monster-stat-examples">Monster Stat Examples</h2>
+<p>The table below shows example monster stat blocks by difficulty sorted by column. A GM can quickly generate a monster by copying the statistics in a column (such as the Minion column) to create a monster of that difficulty.</p>
+<h3 id="example-level-1-2-monster-statistics">Example Level 1 &amp; 2 Monster Statistics</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Statistic</th>
+<th style="text-align: center;">Minion</th>
+<th style="text-align: center;">Low</th>
+<th style="text-align: center;">Mid</th>
+<th style="text-align: center;">High</th>
+<th style="text-align: center;">Boss</th>
+<th style="text-align: center;">Solo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Health</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Level 1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr>
+<td style="text-align: left;">Level 2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">35</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Physical Defense</strong></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mystical Defense</strong></td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Damage Reduction</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Attack &amp; Spell Check</strong></td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+4</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Damage per Attack</strong></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Speed</strong></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Action Points</strong></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Legendary Action Points</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Legendary Action Points:</strong> These are a unique resource for Solo Monsters. See the Game Master Tips section later in this chapter for more information.</p>
+<h2 id="monster-stat-ranges">Monster Stat Ranges</h2>
+<p>This table shows numbers for what would be considered above average (high), below average (low), or standard (middle) for a monster at levels 1 and 2. When you make a monster you can decide to give it low scores in one category, but high in another. Mix and match these stat ranges to fit the type of creature you want and make them more unique.</p>
+<blockquote>
+<p><strong>Example:</strong> You could make an assassin type monster by giving it high Base Damage and low Health, or you could make a brute by giving it high Physical Defense and low Mental Defense. You could also make a huge monster that has high Base Damage and a high bonus to Attack Checks, but with low Speed, Action Points, and Physical Defense.</p>
+</blockquote>
+<p>The Low values are lower than any PC could be and the High values are higher than any PC could achieve. This just gives you a range to play with and branch out from.</p>
+<blockquote>
+<p><strong>DC Tip:</strong> If you were to make a monster with ALL high stats it would be VERY strong. I would love to hear about a group defeating such a monster. Just be aware that you need to even the stats out between high and low if you truly want the monster to be balanced.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Low</th>
+<th style="text-align: center;">Middle</th>
+<th style="text-align: center;">High</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Health</strong></td>
+<td style="text-align: center;">2-5</td>
+<td style="text-align: center;">8-12</td>
+<td style="text-align: center;">25-35</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Physical Defense</strong></td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">17</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mystical Defense</strong></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Damage Reduction</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Attack &amp; Spell Check</strong></td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">+5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Base Damage</strong></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Speed</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Action Points</strong></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Legendary Action Points</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../28_magicitemsproperties/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Magic Item Properties">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Magic Item Properties
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../29_encounter/" class="md-footer__link md-footer__link--next" aria-label="Next: Encounter Planning">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Encounter Planning
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "navigation.expand", "navigation.footer", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

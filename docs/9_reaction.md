@@ -33,37 +33,77 @@ If a Reaction has a resource cost (Action Points, Mana Points, Stamina Points, e
 
 **Prerequisite:** Martial Mastery
 
-**Trigger:** A creature you can see within your Melee Range uses its movement to leave your Melee Range, stands up from Prone, picks up an item off the ground, or takes the Object Action.
+**Trigger:** A creature you can see within your Melee Range
+uses its movement to leave your Melee Range, draws
+a Weapon, picks an item up off the ground, or takes the
+Object Action.
 
-**Reaction:** You can spend 1 AP to make a Melee Martial Attack against the provoking creature. You can spend additional AP to gain ADV or to perform Maneuvers with the Attack.
+**Reaction:** You can spend 1 AP to make a Melee Martial
+Attack against the provoking creature.
+
+> **DC Tip:** You can spend additional AP to gain ADV or to
+perform Maneuvers with the Attack.
 
 ### Spell Duel
 
 **Prerequisite:** Spellcasting Mastery
 
-**Trigger:** When another creature that you can see casts a Spell.
+**Trigger:** Another creature you can see casts a Spell
 
-> **DC Tip:** Remember that MP Effects (such as a Druid’s Nature’s Veil Feature) count as Spells for the purposes of Spell Duels and Combo Spellcasting.
+> **DC Tip:** Remember that MP Effects (such as a Bard’s Bardic
+Performance Feature) count as Spells for the purposes of
+Spell Duels and Combo Spellcasting.
 
-**Reaction:** You declare a Spell Duel and spend 2 AP and 1 or more MP to challenge the creature with a Spell of your own. You can declare a Spell Duel after the creature makes its Spell Check but before you know the result of its Check. 
+**Reaction:** You declare a Spell Duel and spend 2 AP and 1
+or more MP to challenge the creature with a Spell of your
+own. You can declare a Spell Duel after the creature makes
+its Spell Check but before you know the result of its Check
 
-> **DC Tip:** Once a Spell Duel is declared, the opponent can’t change their declared Spell or modify their Spell Check in any way.
+> **DC Tip:** Once a Spell Duel is declared, the opponent
+can’t change their declared Spell or modify their Spell
+Check in any way.
 
-**Multiple Participants:** Additional creatures can choose to participate in helping the Spell take effect or participate in stopping the Spell from taking effect. If multiple creatures choose to participate in the Spell Duel, the participants are sorted into Initiators (those trying to help the Spell take effect) and Challengers (those trying to prevent the Spell from taking effect). During the Contest (see further below), every participant makes their Spell Check and the highest Initiator result is compared against the highest Challenger result to determine the outcome.
+**Multiple Participants:** Additional creatures can choose to
+participate in helping the Spell take effect or participate in
+stopping the Spell from taking effect. If multiple creatures
+choose to participate in the Spell Duel, the participants are
+sorted into Initiators (those trying to help the Spell take
+effect) and Challengers (those trying to prevent the Spell
+from taking effect). During the Contest (see further below)
+every participant makes their Spell Check, and the highest
+Initiator result is compared against the highest Challenger
+result to determine the outcome.
 
 **Choosing a Spell**
 
-You declare which Spell you’re using to challenge the opposing Spell, and then describe how you do so using your Spell. The GM decides if that makes sense.
+You declare which Spell you are using to challenge the
+opposing Spell and then describe how you do so using your
+Spell. The GM decides if that makes sense.
 
-> **DC Tip:** You’re not actually casting the Spell as stated in its description. You’re instead using the “flavor” of the Spell to represent how you initiate the Spell Duel. The only part of the Spell’s mechanics that matter is its Range and/or Area of Effect.
+> **DC Tip:** You are not actually casting this Spell as stated in its
+description, you are instead using the “flavor” of the Spell to
+be how you initiate the Spell Duel. The only part of the Spell’s
+mechanics that matter is its Range and/ or Area of Effect.
 
-* **Targeted:** If your chosen Spell targets 1 or more creatures or objects, you must be able to target the opposing creature or any of its targets with your Spell.
-* **Area of Effect:** If your chosen Spell covers an area (such as an Arc, Cone, Cube, Cylinder, Line, or Sphere), then your Spell’s Area of Effect must include the opposing creature, any of its targets, or cover an area between the opposing creature and any of its targets.
-* **Success & Failure:** The success and failure statements of your Spell are replaced by the success and failure statements in the Contest section below.
+* **Targeted:** If your chosen Spell targets 1 or more creatures or
+objects, you must be able to target the opposing creature or
+any of its targets with your Spell.
+* **Area of Effect:** If your chosen Spell covers an area (such as
+an Arc, Cone, Cube, Cylinder, Line, or Sphere), then your
+Spell’s Area of Effect must include the opposing creature,
+any of its targets, or cover an area between the opposing
+creature and any of its targets.
+* **Success & Failure:** The success and failure statements of
+your Spell are replaced by the success and failure statements
+in the Contest section below.
 
 **Contest**
 
-The Spell Check the opposing creature makes to cast its Spell is Contested by the Spell Check you make to cast your Spell. When comparing the Spell Checks for the purpose of determining the winner of the Contest, each creature gains a bonus to its Check equal to the MP it spent on its Spell.
+The Spell Check the opposing creature makes to cast its
+Spell is Contested by the Spell Check you make to cast your
+Spell. When comparing the Spell Checks for the purpose of
+determining the winner of the Contest, each creature gains
+a bonus to its Check equal to the MP it spent on its Spell.
 
 * **Success:** The target creature’s Spell fails and has no effect.
 * **Failure:** The target creature’s Spell succeeds and takes effect.
@@ -85,25 +125,25 @@ Whatever the result, each creature still spends all AP, MP, or other resources t
 
 ## Wild Magic Table
 
-| d20 Result |  |
-|---|---|
-| 1 | You turn into a small creature with the stats of a Sheep (HP 2, PD 5, Melee Attack +2, Damage 1). |
-| 2 | You explode with a magical blast wave. You take True damage equal to your Prime Modifier and creatures within 5 Spaces must succeed a Physical Save against your Save DC or take the same amount of damage. |
-| 3 | You are Stunned. |
-| 4 | You feel lethargic and lose a number of Rest Points equal to your Prime Modifier and have DisADV on all Checks. |
-| 5 | A strong gravitational pull originates from you. All creatures within 5 Spaces must make a Might Save or be pulled 4 Spaces towards you. |
-| 6 | Your maximum AP is decreased by 1 and you lose 1 AP (min of 0 AP). |
-| 7 | You are Blinded and Deafened. |
-| 8 | All living creatures are Invisible to you. |
-| 9 | You become affected by the Bane spell. |
-| 10 | You grow by 1 size, become 2 times heavier, and your Speed is reduced by 2. |
-| 11 | You grow by 1 size, are one and a half times as heavy, and your Speed increases by 2. |
-| 12 | You become affected by the Bless Spell. |
-| 13 | You gain a Truesight of 10 Spaces. |
-| 14 | You become Invisible. |
-| 15 | Your maximum AP increases by 1 and you gain 1 AP. |
-| 16 | Forceful winds shoot out from you in all directions. All creatures within 5 Spaces (except you) must make a Might Save or be pushed 4 Spaces away from you. |
-| 17 | You feel empowered and regain a number of Rest Points equal to your Prime Modifier and have ADV on all Checks. |
-| 18 | You gain a surge of power, granting you +5 to all Spell Checks you make. |
-| 19 | You overflow with life energy. You and creatures within 5 Spaces regain HP equal to your Prime Modifier. |
-| 20 | You turn into a large creature with the stats of a Young Purple Dragon, but without a Breath Weapon (HP 30, PD 16, Attack +10, Damage 4, Fly Speed 6). |
+| d20 Result |                                                                                                                                                                                                             |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1          | You turn into a small creature with the stats of a Sheep (HP 2, PD 5, Melee Attack +2, Damage 1).                                                                                                           |
+| 2          | You explode with a magical blast wave. You take True damage equal to your Prime Modifier and creatures within 5 Spaces must succeed a Physical Save against your Save DC or take the same amount of damage. |
+| 3          | You are Stunned.                                                                                                                                                                                            |
+| 4          | You feel lethargic and lose a number of Rest Points equal to your Prime Modifier and have DisADV on all Checks.                                                                                             |
+| 5          | A strong gravitational pull originates from you. All creatures within 5 Spaces must make a Might Save or be pulled 4 Spaces towards you.                                                                    |
+| 6          | Your maximum AP is decreased by 1 and you lose 1 AP (min of 0 AP).                                                                                                                                          |
+| 7          | You are Blinded and Deafened.                                                                                                                                                                               |
+| 8          | All living creatures are Invisible to you.                                                                                                                                                                  |
+| 9          | You become affected by the Bane spell.                                                                                                                                                                      |
+| 10         | You grow by 1 size, become 2 times heavier, and your Speed is reduced by 2.                                                                                                                                 |
+| 11         | You grow by 1 size, are one and a half times as heavy, and your Speed increases by 2.                                                                                                                       |
+| 12         | You become affected by the Bless Spell.                                                                                                                                                                     |
+| 13         | You gain a Truesight of 10 Spaces.                                                                                                                                                                          |
+| 14         | You become Invisible.                                                                                                                                                                                       |
+| 15         | Your maximum AP increases by 1 and you gain 1 AP.                                                                                                                                                           |
+| 16         | Forceful winds shoot out from you in all directions. All creatures within 5 Spaces (except you) must make a Might Save or be pushed 4 Spaces away from you.                                                 |
+| 17         | You feel empowered and regain a number of Rest Points equal to your Prime Modifier and have ADV on all Checks.                                                                                              |
+| 18         | You gain a surge of power, granting you +5 to all Spell Checks you make.                                                                                                                                    |
+| 19         | You overflow with life energy. You and creatures within 5 Spaces regain HP equal to your Prime Modifier.                                                                                                    |
+| 20         | You turn into a large creature with the stats of a Young Purple Dragon, but without a Breath Weapon (HP 30, PD 16, Attack +10, Damage 4, Fly Speed 6).                                                      |

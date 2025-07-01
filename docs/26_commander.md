@@ -14,18 +14,18 @@ tactical mastermind.
 
 ### Commander Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|---------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features            |
-| 2          | +1       | +1               |              |                |                 |                  | Class Feature, Talent     |
-| 3          | +1       |                  | +1           | +1             |                 | +1               | Subclass Feature          |
-| 4          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           |                | +1              | +1               | Class Feature             |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature          |
-| 7          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 8          | +1       |                  | +1           |                | +1              | +1               | Class Capstone Feature    |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |                |                 |                  | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|---------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features            |
+| 2          | +3       |                  |              |              |                |                 |                  | Class Feature, Talent     |
+| 3          | +3       | +1               | +1           | +1           | +1             |                 | +1               | Subclass Feature          |
+| 4          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature             |
+| 6          | +3       |                  | +1           |              | +1             |                 |                  | Subclass Feature          |
+| 7          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 8          | +3       | +1               | +1           | +1           |                | +1              | +1               | Class Capstone Feature    |
+| 9          | +3       |                  |              |              | +1             |                 |                  | Subclass Capstone Feature |
+| 10         | +3       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent         |
 
 
 ### Starting Equipment
@@ -48,13 +48,12 @@ Commander Class Table.
 * **Stamina Points:** Your maximum number of Stamina Points
 increases as shown in the Stamina Points column of the
 Commander Class Table.
+* **Stamina Regen:** Once per round, you can regain up to half
+your maximum SP when you grant a creature a Help Die.
 
 ### Commander Class Features
 
 #### Level 1 Class Features
-
-##### Commander Stamina
-You regain 1 SP each time you grant a creature a Help Die.
 
 ##### Inspiring Presence
 Whenever you spend SP while in Combat, you can restore
@@ -165,25 +164,3 @@ military history and strategy. You gain ADV on Checks
 related to analyzing fields of battle, understanding historical
 battles and military organizations, or deciphering complex
 tactical maneuvers.
-
----
-
-### SubClass: Paragon Commander
-
-#### Seize Momentum
-
-*Requirements:* Commander’s Call, Commanding Aura, Level 3
-
-When an ally within your Commanding Aura scores
-a Heavy Hit, you can use your Commander’s Call
-as a Reaction.
-
-#### Coordinated Command
-
-*Requirement:* Commander’s Call, Level 3
-
-Once per Round when you use your Commander’s Call,
-you can spend 1 additional SP to target a second creature
-within range (including yourself), and they also gain the
-benefits of the chosen command. You choose who acts first
-between the targeted creatures.

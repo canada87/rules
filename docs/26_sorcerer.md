@@ -17,18 +17,18 @@ blessing, or curse).
 
 ### Sorcerer Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                  |
-|------------|----------|------------------|--------------|-------------|----------------|--------------|---------------------------| 
-| 1          |          |                  |              | +6          | +2             | +3           | Class Features            |
-| 2          |          | +1               |              |             |                |              | Class Feature, Talent     |
-| 3          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 4          | +1       | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           | +2          | +1             |              | Class Feature             |
-| 6          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 7          |          | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 8          | +1       |                  | +1           | +2          | +1             |              | Class Capstone Feature    |
-| 9          |          | +1               |              | +2          |                | +1           | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |             |                |              | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Mana Points | Cantrips Known | Spells Known | Features                  |
+|------------|----------|------------------|--------------|--------------|-------------|----------------|--------------|---------------------------| 
+| 1          | +8       |                  |              |              | +6          | +2             | +3           | Class Features            |
+| 2          | +2       |                  |              |              |             |                |              | Class Feature, Talent     |
+| 3          | +2       | +1               | +1           | +1           | +2          |                | +1           | Subclass Feature          |
+| 4          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 5          | +2       | +1               | +2           | +1           | +2          | +1             |              | Class Feature             |
+| 6          | +2       |                  | +1           |              | +2          |                | +1           | Subclass Feature          |
+| 7          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 8          | +2       | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature    |
+| 9          | +2       |                  |              |              | +2          |                | +1           | Subclass Capstone Feature |
+| 10         | +2       | +1               | +2           | +1           |             |                |              | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 1 Weapon
@@ -74,7 +74,7 @@ Enhancement without spending any MP (up to your
 Mana Spend Limit). You regain the ability to use this
 benefit when you roll for Initiative.
 
-Sorcerous Origins:
+**Sorcerous Origins:**
 
 * **Intuitive Magic:** You learn an additional Spell and
 Cantrip from your Sorcerer Spell List.
@@ -234,30 +234,3 @@ Additionally, you gain 1 level of Language Mastery in
 Draconic. If you’re already Fluent in Draconic, you gain
 1 level of Language Mastery in another Language of
 your choice.
-
----
-
-### SubClass: Paragon Sorcerer
-
-#### Greater Innate Power
-
-*Requirements:* Innate Power, Level 3
-
-You gain the following benefits:
-
-* Your MP maximum increases by 1.
-* When you use your Innate Power to reduce the cost of
-a Spell, you gain ADV on the Spell Check you make to
-cast the Spell.
-* You gain another Sorcerous Origin of your choice.
-
-#### Font of Magic
-
-*Requirements:* Meta Magic, Level 3
-
-Your magical vitality grants you the following benefits:
-
-* You gain the following Rest Point Formula: Level +
-Prime Modifier.
-* You can spend Rest Points in place of MP on Meta Magic.
-* You regain 1 Rest Point when you roll for Initiative.

@@ -31,18 +31,18 @@ the powers of a Spellblade.
 
 ### Spellblade Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Mana Points | Cantrips Known | Spells Known | Features                   |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|-------------|----------------|--------------|----------------------------| 
-| 1          | +1       |                  |              | +1             | +2              |                  | +3          | +1             | +1           | Class Features             |
-| 2          |          | +1               |              |                |                 |                  |             |                |              | Class Feature, Talent      |
-| 3          | +1       |                  | +1           |                |                 | +1               | +1          | +1             |              | Subclass Feature           |
-| 4          |          | +1               |              |                |                 |                  |             |                |              | Talent, 2 Ancestry Points  |
-| 5          |          | +1               | +2           |                | +1              |                  | +1          | +1             |              | Class Feature              |
-| 6          | +1       |                  | +1           | +1             |                 |                  | +1          |                | +1           | Subclass Feature           |
-| 7          |          | +1               |              |                |                 |                  |             |                |              | Talent, 2 Ancestry Points  |
-| 8          |          |                  | +1           |                |                 | +1               | +1          | +1             |              | Class Capstone Feature     |
-| 9          | +1       | +1               |              |                |                 |                  | +1          |                | +1           | Subclass Capstone Feature  |
-| 10         |          | +1               | +2           |                |                 |                  |             |                |              | Epic Boon, Talent          |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Traid Points | Stamina Points | Maneuvers Known | Techniques Known | Mana Points | Cantrips Known | Spells Known | Features                   |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|-------------|----------------|--------------|----------------------------| 
+| 1          | +9       |                  |              |              | +1             | +2              |                  | +3          | +1             | +1           | Class Features             |
+| 2          | +2       |                  |              |              |                |                 |                  |             |                |              | Class Feature, Talent      |
+| 3          | +3       | +1               | +1           | +1           |                |                 | +1               | +1          | +1             |              | Subclass Feature           |
+| 4          | +2       |                  |              |              |                |                 |                  |             |                |              | Talent, 2 Ancestry Points  |
+| 5          | +3       | +1               | +2           | +1           |                | +1              |                  | +1          | +1             |              | Class Feature              |
+| 6          | +2       |                  | +1           |              | +1             |                 |                  | +1          |                | +1           | Subclass Feature           |
+| 7          | +3       |                  |              |              |                |                 |                  |             |                |              | Talent, 2 Ancestry Points  |
+| 8          | +2       | +1               | +1           | +1           |                |                 | +1               | +1          | +1             |              | Class Capstone Feature     |
+| 9          | +3       |                  |              |              |                |                 |                  | +1          |                | +1           | Subclass Capstone Feature  |
+| 10         | +2       | +1               | +2           | +1           |                |                 |                  |             |                |              | Epic Boon, Talent          |
 
 ### Starting Equipment
 * 2 Weapons or Light Shields (or Heavy Shields if you
@@ -338,48 +338,3 @@ Here’s a section to add some flavor to the names of the runes.
 | Lightning | Thurisaz | Fulmen |
 | Water     | Laquz    | Aqua   |
 | Wind      | Ansuz    | Ventus |
-
----
-
-### SubClass: Paragon Spellblade
-
-#### Sling-Blade
-
-*Requirements:* Spellstrike, Level 3
-
-You’re able to sling magic off your blade to extend the range
-of your Spells and Attacks in the following ways:
-
-* **Distant Strike:** The range of your Attacks with Melee
-Weapons is increased by 2.
-* **Extended Spellstrike:** When you use Spellstrike, the
-range of the Spell changes to match your Weapon’s range.
-
-> **Example:** If a Spellblade casts the Light Spell (range of 1
-Space) using their Spellstrike feature, and uses a Shortbow
-as the Weapon (range of 15/45) then normally the range
-would be limited to 1 Space (the Spell’s range), but using
-Extended Spellstrike the range would match the Weapon’s
-full range (up to 45 Spaces).
-
-#### Adaptive Bond
-
-*Requirements:* Bound Weapon, Level 3
-
-You’re able to adapt your Bound Weapon to match the
-situation. You gain the following benefits:
-
-* At the start of your turn, you can switch your Bound
-Damage type for free, or you can spend 1 AP do to so
-during your turn.
-* After you take Elemental or Mystical damage from
-an Attack, you can immediately change your Bound
-Damage type to a damage type dealt by the Attack for
-free.
-* You gain Resistance (1) to your Bound Damage.
-
-> **Example:** A Spellblade is fighting several Fire Elementals.
-When a Fire Elemental hits the Spellblade with an Attack
-that deals Fire damage, the Spellblade can change its Bound
-Damage to Fire after the Attack is resolved. The Spellblade
-then has Fire Resistance against the next Attack against them.

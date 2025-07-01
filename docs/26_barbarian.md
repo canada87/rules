@@ -27,37 +27,40 @@ the Toss or Thrown Property
 * **Maneuvers:** You learn all Attack Maneuvers. You learn additional Maneuvers as shown in the Maneuvers Known column of the Barbarian Class Table.
 * **Techniques:** The number of Techniques you know increases as shown in the Techniques Known column of the Barbarian Class Table.
 * **Stamina Points:** Your maximum number of Stamina Points increases as shown in the Stamina Points column of the Barbarian Class Table.
+* **Stanina Regen:** Once per round, you can regain up to half your maximum SP when:
+  * You score a Heavy or Critical Hit against a creature.
+  * A Heavy or Critical Hit is scored against you.
 
 ### Barbarian Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|---------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features            |
-| 2          | +1       | +1               |              |                |                 |                  | Class Feature, Talent     |
-| 3          | +1       |                  | +1           | +1             |                 | +1               | Subclass Feature          |
-| 4          | +1       | +1               |              |                |                 |                  | Talent,2 Ancestry Points  |
-| 5          | +1       | +1               | +2           |                | +1              | +1               | Class Feature             |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature          |
-| 7          | +1       | +1               |              |                |                 |                  | Talent,2 Ancestry Points  |
-| 8          | +1       |                  | +1           |                | +1              | +1               | Class Capstone Feature    |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature |
-| 10         | +1       | +1               | +2           |                |                 |                  | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|---------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features            |
+| 2          | +3       | +1               |              |              |                |                 |                  | Class Feature, Talent     |
+| 3          | +3       |                  | +1           | +1           | +1             |                 | +1               | Subclass Feature          |
+| 4          | +3       | +1               |              |              |                |                 |                  | Talent,2 Ancestry Points  |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature             |
+| 6          | +3       |                  | +1           |              | +1             |                 |                  | Subclass Feature          |
+| 7          | +3       | +1               |              |              |                |                 |                  | Talent,2 Ancestry Points  |
+| 8          | +3       |                  | +1           | +1           |                | +1              | +1               | Class Capstone Feature    |
+| 9          | +3       | +1               |              |              | +1             |                 |                  | Subclass Capstone Feature |
+| 10         | +3       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent         |
 
 ### Barbarian Class Features
 
 #### Level 1 Class Features
 
-##### Barbarian Stamina
-When you score a Heavy or Critical Hit against a creature (or one is scored against you), you regain 1 SP, provided you don’t spend SP as part of that action.
-
 ##### Rage
-During Combat, you can spend 1 AP and 1 SP to enter a Rage for 1 minute. For the duration, you’re subjected to the following effects:
+During Combat, you can spend 1 AP and 1 SP to enter a
+Rage for 1 minute. For the duration, you’re subjected to the
+following effects:
 
-* You deal +1 damage on Melee Attacks.
-* You have ADV on Might Checks and Saves.
+* You deal +1 damage on Melee Martial Attacks.
+* You have ADV on Might Saves.
 * Your PD decreases by 5.
 * You gain Resistance (Half) to Elemental and Physical damage.
-* **Ending Early:** Your Rage ends early if you fall Unconscious, die, or you choose to end it for free on your turn. 
+* **Ending Early:** Your Rage ends early if you fall Unconscious,
+die, or you choose to end it for free on your turn.
 
 > **DC Tip:** The GM may allow you to Rage during stressful events, such as trying to lift a boulder to save an ally.
 
@@ -180,26 +183,3 @@ history of your Ancestries (such as Human, Dwarf, or Elf).
 Additionally, once per Long Rest when you make a Trade
 or Language Check, you can choose to gain ADV on the
 Check as a spirit lends you its experience.
-
----
-
-### SubClass: Paragon Barbarian
-
-#### Unfathomable Strength
-
-*Requirements:* Rage, Level 3
-
-**Titan Grip:** While Raging, you can wield Two-Handed Weapons using only one hand.
-
-**Leg Day:** Your Jump Distance increases by 1.
-
-#### Swift Berserker
-
-*Requirements:* Rage, Berserker, Level 3
-
-**Quick to Anger:** When you roll for Initiative, you can spend
-1 SP, as a Reaction, to Rage.
-
-**Unstoppable Charge:** The movement granted by your
-Charge ignores Difficult Terrain and doesn’t provoke
-Opportunity Attacks.

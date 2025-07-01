@@ -43,18 +43,18 @@ Wizard Class Table.
 
 ### Wizard Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points  | Cantrips Known | Spells Known | Features                   |
-|------------|----------|------------------|--------------|--------------|----------------|--------------|----------------------------| 
-| 1          |          |                  |              | +6           | +2             | +3           | Class Features             |
-| 2          |          | +1               |              |              |                |              | Class Feature, Talent      |
-| 3          |          |                  | +1           | +2           |                | +1           | Subclass Feature           |
-| 4          |          | +1               |              |              |                |              | Talent, 2 Ancestry Points  |
-| 5          |          | +1               | +2           | +2           | +1             |              | Class Feature              |
-| 6          |          |                  | +1           | +2           |                | +1           | Subclass Feature           |
-| 7          |          | +1               |              |              |                |              | Talent, 2 Ancestry Points  |
-| 8          |          |                  | +1           | +2           | +1             |              | Class Capstone Feature     |
-| 9          |          | +1               |              | +2           |                | +1           | Subclass Capstone Feature  |
-| 10         |          | +1               | +2           |              |                |              | Epic Boon, Talent          |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Traid Points | Mana Points | Cantrips Known | Spells Known | Features                   |
+|------------|----------|------------------|--------------|--------------|-------------|----------------|--------------|----------------------------| 
+| 1          | +8       |                  |              |              | +6          | +2             | +3           | Class Features             |
+| 2          | +2       |                  |              |              |             |                |              | Class Feature, Talent      |
+| 3          | +2       | +1               | +1           | +1           | +2          |                | +1           | Subclass Feature           |
+| 4          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points  |
+| 5          | +2       | +1               | +2           | +1           | +2          | +1             |              | Class Feature              |
+| 6          | +2       |                  | +1           |              | +2          |                | +1           | Subclass Feature           |
+| 7          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points  |
+| 8          | +2       | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature     |
+| 9          | +2       |                  |              |              | +2          |                | +1           | Subclass Capstone Feature  |
+| 10         | +2       | +1               | +2           | +1           |             |                |              | Epic Boon, Talent          |
 
 ### Wizard Class Features
 
@@ -219,33 +219,3 @@ of any Cursed creature or Cursed object within range. If
 you spend 10 minutes in contact with a Cursed creature
 or object, you learn the nature of the Curse but not the
 knowledge of how to remove it.
-
----
-
-### SubClass: Paragon Wizard
-
-#### Crowned Sigil
-
-*Requirements:* Arcane Sigil Feature, Level 3
-
-When you create an Arcane Sigil, you can bind it to
-yourself. While bound, the Arcane Sigil moves with you
-and grants you a +2 bonus to your MD. A creature can only
-be bound to one Arcane Sigil at a time. You can spend
-1 AP to anchor an Arcane Sigil on the ground that’s
-bound to you.
-
-#### Overly Prepared Spell
-
-*Requirements:* Prepared Spell, Spell School Initiate, Level 3
-
-Your Prepared Spell gains the following benefits:
-
-* You can change your Prepared Spell when you complete
-a Short Rest.
-* You have ADV on Saves made to maintain Concentration
-on your Prepared Spell.
-* When you declare a Spell Duel using your Prepared
-Spell, you gain ADV on your Spell Check.
-* You can use Signature School on your Prepared Spell,
-even if it’s not from the chosen Spell School.

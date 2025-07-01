@@ -14,18 +14,18 @@ figure, or their own deep meditation.
 
 ### Monk Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|---------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features            |
-| 2          | +1       | +1               |              |                |                 |                  | Class Feature, Talent     |
-| 3          |          |                  | +1           | +1             |                 | +1               | Subclass Feature          |
-| 4          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           |                | +1              | +1               | Class Feature             |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature          |
-| 7          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 8          |          |                  | +1           |                | +1              | +1               | Class Capstone Feature    |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |                |                 |                  | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Traid Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|---------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features            |
+| 2          | +3       |                  |              |              |                |                 |                  | Class Feature, Talent     |
+| 3          | +3       | +1               | +1           | +1           | +1             |                 | +1               | Subclass Feature          |
+| 4          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature             |
+| 6          | +3       |                  | +1           |              | +1             |                 |                  | Subclass Feature          |
+| 7          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 8          | +3       | +1               | +1           | +1           |                | +1              | +1               | Class Capstone Feature    |
+| 9          | +3       |                  |              |              | +1             |                 |                  | Subclass Capstone Feature |
+| 10         | +3       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 2 Weapons
@@ -45,6 +45,9 @@ Class Table.
 * **Stamina Points:** Your maximum number of Stamina Points
 increases as shown in the Stamina Points column of the
 Monk Class Table.
+* **Stamina Regen:** Once per round, you can regain up to half
+your maximum SP when you succeed on an Attack Check,
+Athletics Check, or Acrobatics Check.
 
 ---
 
@@ -52,31 +55,29 @@ Monk Class Table.
 
 #### Level 1 Class Features
 
-##### Monk Stamina
-You regain 1 SP when you hit a target with a Melee Martial Attack. You don’t regain SP in this way if you spend SP on the Attack.
-
 ##### Monk Training
 
 Your martial arts training grants you greater offense, defense,
 and movement.
 
-* **Iron Palm:** Your Unarmed Strikes deal 1 damage and are
-considered Melee Weapons with the Impact Property.
-* **Patient Mystical Defense:** You gain access to the following
-MD formula: 8 + Combat Mastery + Charisma +
-Intelligence + 2.
-* **Patient Physical Defense:** While you aren’t wearing Armor,
-you gain access to the following PD formula: 8 + Combat
-Mastery + Agility + 2.
+* **Iron Palm:** Your limbs are considered Natural Weapons
+with the Impact Property that deal 1 Bludgeoning damage.
+
+> **DC Tip:** Your hands are Natural Weapons that count as
+Weapons for the purposes of Dual Wielding.
+
+* **Patient Defense:** While you aren’t wearing Armor, you gain
++2 PD.
 * **Step of the Wind:** While you aren’t wearing Armor, you
 gain the following benefits:
+
     * You gain +1 Speed and Jump Distance.
     * You can move a number of Spaces up to your Speed along
-    vertical surfaces and across liquids without falling during
-    your move.
+      vertical surfaces and across liquids without falling during
+      your move.
     * You can use your Prime Modifier instead of Agility to
-    determine your Jump Distance and the damage you take
-    from Falling.
+      determine your Jump Distance and the damage you take
+      from Falling.
 
 ##### Monk Stance
 You learn 2 Monk Stances from the list below.
@@ -237,29 +238,3 @@ do, you can redirect the Attack to another target within 1 Space of you.
 
 #### Fluid Movement (Flavor Feature)
 You can move through Spaces as if you were one size Smaller.
-
----
-
-### SubClass: Paragon Monk
-
-#### Steel Fist
-
-*Requirements:* Monk Training, Level 3
-
-Your Unarmed Strikes deal 2 damage but no longer have
-the Impact Property.
-Once on each of your turns when you make a Melee
-Martial Attack, you can spend 1 SP to immediately make
-an Unarmed Strike against a creature within range. This
-Unarmed Strike isn’t subjected to the Multiple Check
-Penalty and doesn’t advance that penalty.
-
-#### Internal Damage
-
-*Requirements:* 1 or more Monk Features, Level 3
-
-When you make an Unarmed Strike, you can spend any
-amount of SP to cause the target to make a Repeated
-Physical Save. Failure: They become Impaired for 1
-minute. While Impaired this way they take Sonic damage
-at the start of each of their turns equal to the SP spent.

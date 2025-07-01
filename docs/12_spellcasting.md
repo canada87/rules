@@ -12,12 +12,6 @@ Spellcaster Classes know a number of Spells as shown in the Spells Known column 
 
 Spellcasters increase their Spells Known as they gain levels or through certain Class Features, Subclass Features, Talents, or Ancestry Traits.
 
-### Wizard Spellbooks
-
-Wizards can learn additional Spells beyond their Spells Known limit by using their Spellbook Feature. Spells they learn using their Spellbook feature don’t count against their number of Spells Known.
-
-> **DC Tip:** PCs can Roleplay that they teach each other Spells that they know, but in order for a Spellcaster to actually learn that Spell, they would need to increase their Spells Known and spend it on learning that new Spell. Wizards can inscribe Spells that they know onto a Spell Scroll and another Wizard could then inscribe that Spell into their own Spellbook. 
-
 ## Spell Lists
 
 There are 3 Spell Lists: Arcane, Divine, and Primal. A Spell List represents the domains of magic accessible to a Spellcaster using a certain source of magic. The Arcane Spell List includes all manner of Spells that can be cast using Arcane magic. The same is true of other Spell Lists; the Divine Spell list includes Spells that can be cast using Divine Magic, and the Primal Spell list includes Spells that can be cast using Primal Magic.
@@ -42,26 +36,53 @@ You can gain access to a Spell List through your Class's Spellcasting Feature (i
 
 ## Spell Resources
 
-Each Spell has a minimum number of Action Points (AP) that must be spent to cast the Spell. Moreover, many Spells also include a minimum number of Mana Points (MP) that must also be spent to cast the Spell. This is known as the Base Mana Cost of a Spell.
+Each Spell has a minimum number of Action Points (AP)
+that must be spent to cast the Spell. Many Spells also
+include a minimum number of Mana Points (MP) that must
+also be spent to cast the Spell. This is known as the Base
+Mana Cost of a Spell.
 
 ### Action Points
 
-All Spells require you to spend AP to cast them, with 2 AP as the standard cost for most Spells. Some Spells cost 1 AP (such as Cantrips), and usually have a lower base damage with modest effects. Moreover, more powerful Spells have a higher AP cost (3 AP or higher) and deal greater damage or produce greater effects. These Spells may require a single Spellcaster to spend multiple turns to cast, or multiple Spellcasters working together (see “Combo Spellcasting” on page 60 ).
+All Spells require you to spend AP to cast them, with 2
+AP as the standard cost for most Spells. Some Spells cost
+1 AP (such as Cantrips) and usually have a lower base
+damage with modest effects. More powerful Spells have a
+higher AP cost (3 AP or higher) and deal greater damage or
+produce greater effects. These Spells may require a single
+Spellcaster to spend multiple turns to cast, or multiple
+Spellcasters working together (see “Combo Spellcasting”
+on page 60 below).
 
 ### Mana Points
 
-Each Spell has an MP cost that you must spend to cast it. There are different ways to spend additional MP on Spells, and the MP is spent when the Spell goes off successfully.
+Each Spell has an MP cost that you must spend to cast it.
+There are different ways to spend additional MP on Spells,
+and the MP is spent when the Spell goes off successfully.
 
-**Gaining Mana:** Your PC starts off by having 0 MP, but can gain MP in a few ways:
+**Gaining Mana:** Your PC starts off by having 0 MP, but can
+gain MP in a few ways:
 
-*   **Spellcaster Class Feature**: If you choose a Spellcaster Class then you have a maximum number of MP equal to the amount of MP in the Mana Points column of your Spellcaster Class Table. You gain MP from this table from levels 1-10 and then you gain MP from your Prestige Path from levels 11-20.
-*   **Multiclass Talent**: If you take a Spellcasting Talent, you gain bonus MP equal to the amount shown in the Mana Points column of the Spellcasting Talent Table.
+* **Spellcaster Class Feature:** If you choose a Spellcaster
+Class then you have a maximum number of MP equal
+to the amount of MP in the Mana Points column of your
+Spellcaster Class Table. You gain MP from this table from
+levels 1-10 and then you gain MP from your Prestige
+Path from levels 11-20.
 
-You regain all of your expended Mana Points when you complete a Long Rest.
+* **Spellcaster Path:** If you spend a Path point on the
+Spellcaster Path, you gain bonus MP equal to the amount
+shown on the Mana Points column of the Spellcaster
+Path Table.
 
-**Missing with Mana:** When you spend MP to cast a Spell that deals damage, the target takes half damage on a miss.
+You Regain all of your Mana Points when you
+complete a Long Rest.
 
-> **DC Tip:** See Combat Resources for more information on Action Points and Mana Points.
+**Missing with Mana:** When you spend MP to cast a Spell
+that deals damage, the target takes half damage on a Miss.
+
+> **DC Tip:** See “Combat Resources” on page 39 for more
+information on Action Points and Mana Points.
 
 ## Spellcasting without Mana Points
 
@@ -89,35 +110,72 @@ You can only spend a maximum number of Mana Points equal to your Combat Mastery 
 
 ## MP Effects
 
-These are abilities and effects (usually coming from Class Features) that cost MP and are very similar to what types of effects a Spell could have. You can use an MP Effect (such as the Druid’s Nature’s Veil Feature) in place of a Spell for the purposes of a Spell Duel and Combo Spellcasting.
+These are abilities and effects (usually coming from Class
+Features) that cost MP and are very similar to what types of
+effects a Spell could cause. You can use an MP Effect (such
+as the Bard’s Bardic Performance Feature) in place of a
+Spell for the purposes of a Spell Duel or Combo Spellcasting.
 
 ## Casting a Spell
 
-When you cast a Spell, you must make a Spell Check to determine the Spell’s degree of success or failure. Your Spell Check is compared against the target’s Defense, the Spell’s DC, or the target’s Contested Check.
+When you cast a Spell, you must make a Spell Check to
+determine the Spell’s degree of success or failure. Your
+Spell Check is compared against the target’s Defense, the
+Spell’s DC, or the target’s Contested Check.
 
 ### Spell Check vs Defense
 
-These Spell Checks are compared against the target’s Defense to determine whether or not the Attack hits the target. This type of Spell Check is called a Spell Attack. The type of damage dealt determines whether the Spell Check is made against the target’s Physical Defense or Mystical Defense (see “Defense” on page 31). If the result of the Spell Check is equal to or greater than the target’s Defense, the attack hits. Depending on the Spell’s Hit Success statements, exceeding the target’s Defense by 5 or more can yield additional damage (see “Degrees of Damage” on page 35).
+These Spell Checks are compared against the target’s
+Defense to determine whether or not the Attack hits the
+target. This type of Spell Check is called a Spell Attack.
+The Spell’s description will state whether the Spell Check
+is made against the target’s PD or AD (see Defense). If
+the result of the Spell Check is equal to or greater than the
+target’s Defense, then the Attack hits.
 
 ### Spell Check vs Spell DC
 
-These Spell Checks are compared against the Spell’s own DC. Some Spells have a Spell DC you must meet in order to cast the Spell as intended. The Spell is still cast on a failure (except for a Critical Failure), but at a reduced effect. Depending on the Spell’s DC Success statements, exceeding the Spell DC by 5 or more may yield additional benefits.
+These Spell Checks are compared against the Spell’s own
+DC. Some Spells have a Spell DC in order to fully cast the
+Spell as intended. The Spell is still cast on a failure (except
+for a Critical Failure) but at a reduced effect. Depending on
+the Spell’s DC Success statements, exceeding the Spell DC
+by 5 or more may yield additional benefits.
 
 ### Spell Check vs Save
 
-These Spells impose an effect on their target (such as a Condition). The Spell Check is Contested against the target’s Save. If the result of the Spell Check is greater than the target’s Save, the target becomes subjected to the Spell’s effect. Depending on the Spell’s Save Failure statements, failing the Save by 5 or more may impose additional penalties on the target.
+These Spells impose an effect on its target (such as a
+Condition). The Spell Check is Contested against the
+target’s Save. If the result of the Spell Check is greater
+than the target’s Save, the target becomes subjected to
+the Spell’s effect. Depending on the Spell’s Save Failure
+statements, failing the Save by 5 or more may impose
+additional penalties on the target.
 
 ### Dynamic Attack Save
 
-When a Spell you cast initiates a Dynamic Attack Save against the target, you make a Spell Check against the target’s Defense (as shown above) and the target makes a Save against your Save DC. Your Spell Check determines if the Spell deals damage to the target. The target’s Save determines if they’re subjected to the effects of the Spell.
+When a Spell you cast initiates a Dynamic Attack Save
+against the target, you make a Spell Check against the
+target’s Defense (as shown above) and the target makes a
+Save against your Save DC. Your Spell Check determines
+if the Spell deals damage to the target. The target’s Save
+determines if they’re subjected to the effects of the Spell.
 
 ### Natural 1’s
 
-When you make a Spell Check and get a Natural 1 on the d20, the Spell fizzles and does not go off. You still spend the AP for the attempt, but you don’t spend any MP or other resources. This Spell Check counts as a Spell Check towards the Multiple Check Penalty as normal.
+When you make a Spell Check and get a Natural 1 on the
+d20 the Spell does not go off and it fizzles. You still spend
+the AP for the attempt, but you don’t spend any MP or
+other resources. This Spell Check still counts as a Spell
+Check towards the Multiple Check Penalty.
 
 ### Targeting Multiple Creatures
 
-If a Spell you cast targets more than 1 creature, or includes more than 1 in an Area of Effect (such as an Arc, Cone, Cylinder, Line, or Sphere), then you make 1 Spell Check against all creatures. Any Features you use to add extra damage only affect 1 target of your choice (not all of them).
+If a Spell you cast targets more than 1 creature, or includes
+more than 1 in an Area of Effect (such as an Arc, Cone,
+Cylinder, Line, or Sphere), then you make 1 Spell Check
+against all creatures. Any Features you use to add extra
+damage only affect 1 target of your choice (not all of them).
 
 > **Example:** If a Wizard casts *Fireball* that covers an area that includes 4 creatures, the Wizard would make 1 Spell Check and compare it to the Physical Defense (PD) of each creature. If it’s Spell Check is equal to or higher than a target’s PD, it deals full damage against that target. If the Spell Check is lower than a target’s PD, it deals half damage instead.
 
@@ -189,19 +247,18 @@ These Spells last a specific amount of time. They can often end early when the a
 
 **Repeated Saves:** Some Spell effects have a lingering effect to them that allows the target to repeat their Save at the end of their turns.
 
-#### Concentration
+#### Sustain Action
 
-Some Spells require the caster to maintain Concentration for the effects of that Spell to persist. Things can happen to you (like taking damage) that cause you to make a Mental Save to maintain Concentration. You can only maintain Concentration on 1 effect at a time. If you successfully cast a 2nd Spell that requires Concentration, you lose Concentration on the 1st Spell immediately.
+Some effects require you to Sustain them or they end. You
+must spend 1 AP at the start of each of your turns to Sustain
+an effect until the start of your next turn. You can’t Sustain
+an effect while Dazed. When you become Dazed, any
+effect you’re Sustaining immediately ends.
 
-##### Maintaining Concentration
-
-Whenever you take damage or are put into a distracting or dangerous situation (GM’s discretion) you must make a Mental Save in order to maintain Concentration. The DC is equal to 10 or double the amount of damage taken (whichever is higher).
-
-**Concentration DC Formula:**
-
-```
-10 or 2x damage taken (whichever is higher)
-```
+**Outside of Combat:** You can only Sustain 1 effect at a time
+outside of Combat. If you attempt to Sustain a 2nd effect
+while already Sustaining a first, the first effect immediately
+ends.
 
 ### Targets
 
@@ -334,6 +391,13 @@ You must meet the following requirements to participate in a Combo Spell:
 
 ### Stacking Magical Effects
 
-A target can only be affected by a single magical effect of the same name (a single creature can only be mind controlled by 1 person). If there’s a magical effect on a creature and you cast a Spell with the same effect, both casters must perform a Contested Spell Check to determine which Spell effect prevails over the target.
+A target can only be affected by a single magical effect of the
+same name (a single creature can only be mind controlled
+by 1 person). If there’s a magical effect on a creature and
+you cast a Spell with the same effect, both casters must
+perform a Contested Spell Check to determine which Spell
+effect prevails over the target.
 
-The Spellcaster who already has the effect on the creature does not have to spend any additional MP. They get to add a bonus to their roll equal to the base MP of the Spell they cast.
+The Spellcaster who already has the effect on the creature
+doesn’t have to spend any additional MP, they get to add a
+bonus to their roll equal to the base MP of the Spell they cast.

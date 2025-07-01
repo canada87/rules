@@ -34,18 +34,18 @@ fluidly and freely paint images, each triggering a specific Spell.
 
 ### Bard Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                  |
-|------------|----------|------------------|--------------|-------------|----------------|--------------|---------------------------| 
-| 1          |          |                  |              | +6          | +2             | +3           | Class Features            |
-| 2          |          | +1               |              |             |                |              | Class Feature, Talent     |
-| 3          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 4          | +1       | +1               |              |             |                |              | Talent, 2 Ancestry Point  |
-| 5          |          | +1               | +2           | +2          | +1             |              | Class Feature             |
-| 6          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 7          |          | +1               |              |             |                |              | Talent, 2 Ancestry Point  |
-| 8          | +1       |                  | +1           | +2          | +1             |              | Class Capstone Feature    |
-| 9          |          | +1               |              | +2          |                | +1           | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |             |                |              | Epic Boon, Talent         |
+| Char Level | Health Points | Attribute Points | Trade Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                  |
+|------------|---------------|------------------|--------------|--------------|-------------|----------------|--------------|---------------------------| 
+| 1          | +8            |                  |              |              | +6          | +2             | +3           | Class Features            |
+| 2          | +2            | +1               |              |              |             |                |              | Class Feature, Talent     |
+| 3          | +2            |                  | +1           | +1           | +2          |                | +1           | Subclass Feature          |
+| 4          | +2            |                  |              |              |             |                |              | Talent, 2 Ancestry Point  |
+| 5          | +2            | +1               | +1           | +2           | +2          | +1             |              | Class Feature             |
+| 6          | +2            |                  |              | +1           | +2          |                | +1           | Subclass Feature          |
+| 7          | +2            |                  |              |              |             |                |              | Talent, 2 Ancestry Point  |
+| 8          | +2            | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature    |
+| 9          | +2            |                  |              |              | +2          |                | +1           | Subclass Capstone Feature |
+| 10         | +2            | +1               | +1           | +2           |             |                |              | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 2 Weapons
@@ -211,31 +211,3 @@ turn.
 
 #### Comedian (Flavor Feature)
 You have ADV on Checks to make other creatures laugh.
-
----
-
-### Paragon Bard
-
-#### Helping Hands
-
-*Requirement:* Font of Inspiration, Level 3
-
-Once per Round when you take the Help Action, you can
-grant a bonus d8 Help Die to a different creature within
-range (including yourself) that they can apply to the same
-type of Check.
-
-#### Expanded Repertoire
-
-*Requirement:* Remarkable Repertoire, Level 3
-
-You gain the following benefits:
-
-* **Skill Expertise:** Choose 2 Skills. Your Mastery Limit and
-Mastery Level in the chosen Skills both increase by 1. A
-Skill can only benefit from 1 Feature that increases its
-Skill Mastery Limit at a time.
-* **Magical Secrets:** Choose 2 Spell Schools. You learn 2
-Spells of your choice from the chosen Spell Schools.
-Additionally, when you learn a new Spell you can choose
-any Spell from the chosen Spell Schools.

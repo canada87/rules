@@ -1,13 +1,23 @@
-# Combat Resources
+# Combat Rules
 
 ## Action Points
-You have Actions Points (AP) which you can spend in Combat. You can spend AP on Actions, Reactions, or Features, such as Maneuvers, Cantrip Enhancements, Class Features, and Ancestry Features. Your Action Point maximum is 4.
+You have Actions Points (AP) which you can spend in
+Combat. You can spend AP on Actions, Reactions, or
+Features, such as Maneuvers, Cantrip Enhancements, Class
+Features, and Ancestry Features. You are considered to
+be taking an action when you spend Action Points. Your
+Action Point maximum is 4.
 
-**Gaining AP:** At the start of Combat, each creature gains a number of Actions Points equal to its AP Maximum. Once an Action Point is spent, it can’t be used again until it’s regained. 
+* **Gaining AP:** At the start of Combat, each creature gains a
+number of Actions Points equal to its AP Maximum. Once
+an Action Point is spent, it can’t be used again until it’s
+regained.
+* **Regaining AP:** You regain all spent Action Points when
+your turn ends.
 
-**Regaining AP:** You regain all spent Action Points when your turn ends.
-
-> **DC Tip:** Remember, you get all of your AP back at the end of your turn, so make sure you spend all of your AP before your turn ends.
+> **DC Tip:** Remember, you get all of your AP back at the end
+of your turn, so make sure you spend all of your AP before
+your turn ends.
 
 ### AP Outside of Combat
 Action Points can’t be spent outside of Combat. Instead, a creature declares what Action it’ll take and performs that Action. A creature can’t take an Action that has an AP cost higher than the creature’s AP maximum.
@@ -45,13 +55,22 @@ When you spend MP outside of Combat, the cost is reduced by 1 (minimum of 1). Th
 > **DC Tip:** If you were to run 1 mile to a neighbor's house, there’s not much stress there… but if you were to run 1 mile away from a tiger that was chasing you… that’s FAR more difficult and exhausting. This concept holds true for Spellcasting too.
 
 ## Stamina Points
-Martial PCs have Stamina Points (SP) which can be spent on Techniques, on Class Features, and in place of Action Points when performing Martial Maneuvers.
+Martial PCs have Stamina Points (SP) which can be spent
+on Techniques and Class Features, and are also used in place
+of Action Points when performing Martial Maneuvers.
 
-**Gaining Maximum SP:** You can gain SP from the Martial Mastery Feature granted by Martial Classes (Barbarian, Fighter, Rogue, etc.), from Talents (such as the Multiclassing Talents), or from Ancestry Features.
+* **Gaining Maximum SP:** You can gain SP from the Martial
+Mastery Feature granted by Martial Classes (Barbarian,
+Champion, Rogue, etc.), from Talents (such as the
+Multiclassing Talents), or from Ancestry Features.
+* **Regaining SP:** You can regain SP during Combat in a
+variety of ways based on your Class’s Stamina Regen. You
+regain all spent SP when Combat ends.
 
-**Regaining SP:** You can regain SP during Combat in a variety of ways depending on your Class Features. You regain all spent SP when Combat ends. 
-
-> **Example:** The Fighter Class regains SP by performing Maneuvers, the Barbarian regains SP by taking or scoring Heavy, Brutal, and Critical Hits, and the Rogue regains SP by hitting a creature that’s affected by Conditions.
+> **Example:** The Champion Class regains SP by performing
+Maneuvers, the Barbarian regains SP by taking or scoring
+Heavy, Brutal, and Critical Hits, and the Rogue regains SP by
+hitting a creature that’s affected by Conditions.
 
 **Action Points to Stamina:** On your turn, you can spend 2 AP to regain 1 SP. 
 
@@ -67,14 +86,24 @@ You can perform any Action outside of Combat that uses Stamina without spending 
     This isn’t game breaking because Stamina Points are not like Mana Points. Features that use Stamina don’t provide magical benefits, they provide physical benefits such as being able to jump farther, shove things, or smash things. These things usually don’t provide many advantages outside of combat. It’s also intended that if a PC can spend SP to jump farther, then they should be able to use that outside of Combat to jump farther for free.
 
 ## Grit Points
-Characters with a high Charisma Attribute have a strong force of will and ability to influence and impact others around them, especially their friends and allies. Grit Points represent a Characters being able to enact that ability on themselves or allies. 
+Characters with a high Charisma Attribute have a strong
+force of will. Grit Points represent a Character being able to
+push through and go beyond their limits in difficult situations.
 
 ### Grit Points
-You gain a number of Grit Points equal to 2 + your Charisma. If your Charisma is negative, then your total Grit Points is reduced by the same amount.
+You gain a number of Git Points equal to 2 + your Charisma.
+If your Charisma is negative, then your total Grit Points is
+reduced by the same amount.
 
-**Regaining Grit Points:** You regain all expended Grit Points when you complete a Long Rest.
+**Regaining Grit Points:** You regain all spent Grit Points
+when you complete a Long Rest.
 
 ### Spending Grit Points
-**Bearing Damage:** When you are Hit by an Attack, you can spend 1 Grit Point to reduce the damage you take by 1.
 
-**Save Resolve:** When you or a creature that can see or hear you makes a Save, you can spend 1 Grit Point as a Reaction to grant the creature ADV on the Save. When you do, you must do so before the creature rolls any dice as part of making the Save. A creature can only gain the benefits of 1 Grit Point per Save. 
+**Bearing Damage:** When you’re Hit by an Attack, you can
+spend 1 or more Grit Points to reduce the damage you take
+by 1 per Grit Point spent.
+
+**Save Resolve:** When you make a Save, you can spend Grit
+Points to grant yourself ADV on the Save. You must do so
+before you roll any dice as part of making the Save.

@@ -2,61 +2,93 @@
 
 ### Attributes
 
-There are 4 Attributes in DC20 that represent your Physical (Might & Agility) and Mental (Intelligence & Charisma) abilities. Each Attribute has a value that ranges from -2 to +7 (for most creatures) which measures your aptitude with that Attribute.
+There are 4 Attributes in DC20 that represent your Physical
+(Might & Agility) and Mental (Intelligence & Charisma)
+abilities. Each Attribute has a value that ranges from -2 to
++7 (for most creatures) which measures your aptitude with
+that Attribute.
 
-* **Might:** Your Strength of Body.
-* **Agility:** Your Balance, Nimbleness, and Dexterity.
-* **Intelligence:** Your Reasoning, Understanding, and Wisdom.
-* **Charisma:** Your Charm, Presence, Persuasiveness, and Force of Will. 
+* **Might** = your Strength of Body.
+* **Agility** = your Balance, Nimbleness, and Dexterity.
+* **Charisma** = your Charm, Presence, Persuasiveness, and
+Force of Will.
+* **Intelligence** = your Reasoning, Understanding, and
+Wisdom.
 
-> **Example:** If you have an Agility of +3 then you would add +3 to any d20 roll that uses Agility.
-
-**DC Tip:** Each Attribute also contributes towards different aspects of your character (shown below) that you should keep in mind when creating your character.
+> **Example:** If you have an Agility of 3, then you would add +3
+to any d20 roll that uses Agility
 
 #### Might
 
-This represents your physical strength, health, and endurance. It’s commonly associated with the following:
+This represents your physical strength, health, and
+endurance. It’s commonly associated with the following:
 
-* Heavy Armor has a minimum Might requirement to use properly.
+* Your Might is added to your Area Defense.
 * Your Might is added to your maximum Health Points.
-* Checks made to Initiate or Escape Grapples use Athletics (Might) Checks.
-* Might also contributes to lifting, pushing, dragging, throwing, and encumbrance.
-* Might Saves are made to resist effects that push you away, knock you down, or crush you.
+* Checks made to Initiate or Escape Grapples use Athletics
+(Might) Checks.
+* Might contributes to lifting, pushing, dragging, throwing,
+and encumbrance.
+* Might Saves are made to resist effects that push you
+away, knock you down, or crush you.
 
 **DC Tip:** If you want to Roleplay a PC that’s the “go to” for being the strong one and overpowering your enemies, then Might is for YOU!
 
 #### Agility
 
-This represents your avoidance, dexterity, and finesse. It’s commonly associated with the following:
+This represents your avoidance, dexterity, and finesse. It’s
+commonly associated with the following:
 
-* Your Agility is added to your Physical Defense.
-* Checks made to Escape Grapples use Acrobatics (Agility) Checks.
-* Agility also contributes to jumping and reducing damage taken from falling.
-* Agility Saves are made to resist effects that reduce your Speed, cause you to lose your balance, or can be avoided by dodging out of the way. 
+* Your Agility is added to your Precision Defense.
+* Agility contributes to your Initiative Check.
+* Checks made to Escape Grapples use Acrobatics (Agility)
+Checks.
+* Agility contributes to jumping and reducing damage
+taken from falling.
+* Agility Saves are made to resist effects that reduce your
+Speed, cause you to lose your balance, or can be avoided
+by dodging out of the way.
 
 **DC Tip:** If you want to Roleplay a PC that’s nimble, light on their feet, and good with their hands, then Agility is for YOU!
 
 #### Charisma
 
-This represents your charm, presence, and force of will. Anything related to interacting socially with other creatures (your appearance, mannerisms, and the words you say) is Charisma. It’s commonly associated with the following:
+This represents your charm, presence, and force of will.
+Anything related to interacting socially with other creatures
+(your appearance, mannerisms, and the words you say) is
+Charisma. It’s commonly associated with the following:
 
-* Your Charisma is added to your Mystical Defense.
-* Charisma can contribute to a Language Check made to understand languages you have limited fluency with.
-* You gain a number of Grit Points equal to your Charisma (see Grit Points in Combat Resources for more).
-* Social Skill Checks use Charisma, such as the Skills to Influence other creatures or to gain Insights into their actions or behaviors.
-* Charisma Saves are made to resist effects that alter your emotions or dominate your will. 
+* Your Charisma is added to your Area Defense.
+* Charisma can contribute to Language Checks made to
+understand languages you have limited fluency with.
+* You gain a number of Grit Points equal to your Charisma
++ 2. See “Grit Points: 2 + Charisma” on page 93.
+* Social Skill Checks use Charisma, such as the Skills to
+Influence other creatures or to gain Insights into their
+actions or behaviors.
+* Charisma Saves are made to resist effects that attempt to
+alter your emotions or dominate your will.
 
 **DC Tip:** If you want to Roleplay as the “face of the party” and have good people skills, then Charisma is for YOU!
 
 #### Intelligence
 
-This represents your reasoning, understanding, and wisdom. Anything that is related to a person’s intellectual capacity or overall knowledge falls under Intelligence. It’s commonly associated with the following:
+This represents your reasoning, understanding, and
+wisdom. Anything that is related to a person’s intellectual
+capacity or overall knowledge falls under Intelligence. It’s
+commonly associated with the following:
 
-* Your Intelligence is added to your Mystical Defense.
-* Intelligence can contribute to a Language Check made to understand languages you have limited fluency with.
-* You gain a number of bonus Skill Points to spend on more Skills.
-* Knowledge Skill Checks use Intelligence, such as the knowledge of Nature, Religion, Occultism, History, or Magic (Arcana).
-* Intelligence Saves are made to resist effects that read your thoughts, alter your memories, confuse you, or use illusions to deceive your senses. 
+* Your Intelligence is added to your Precision Defense.
+* Intelligence can contribute to Language Checks made to
+understand languages you have limited fluency with.
+* You gain a number of bonus Skill Points to spend on more
+Skills.
+* Knowledge Trade Checks use Intelligence, such as the
+knowledge of Engineering, Nature, Religion, Occultism,
+History, or Magic (Arcana).
+* Intelligence Saves are made to resist effects that attempt
+to read your thoughts, alter your memories, confuse you,
+or use illusions to deceive your senses.
 
 **DC Tip:** If you want to roleplay a PC that’s the smartest person in the room and just *knows things*, then Intelligence is for YOU!
 
@@ -82,40 +114,17 @@ You determine your starting values by rolling 1d6-3 four times, and then assign 
 
 **DC Tip:** This method of determining your starting Attributes is the most risky. It offers the potential for the highest starting Attributes, but also the lowest. If you add all your Attributes together, their sum should be 4 (on average), after the +2 bonus points are added. If you get less than this, talk to your GM about potentially rerolling your Attributes (or using a different method).
 
-#### Prime Modifier Sidebar
-The Prime Modifier allows you to create the kind of
-character you truly want to play without negatively
-impacting their combat prowess. Since your Prime
-Modifier will be used to swing weapons and cast Spells, this
-allows you to choose which Attribute you want to be the
-highest without feeling forced into picking a specific one.
-An Intelligent or Charismatic Barbarian may not have as
-much health or be able to grapple or lift as much as a Might
-Barbarian, but their ability to wield a weapon is the same.
-It's up to you whether or not you want to roleplay the
-source of which Attribute your Prime Modifier comes
-from in Combat or not. You could describe your intelligent
-Barbarian as being a tactical mastermind on the battlefield,
-or your charismatic Barbarian as a fiery confident leader, or
-you can be a mindless rage monster in Combat if you want
-to just smash things. This is an opportunity to create the
-PC you want.
-
-> **Example:** Your highest Attribute at level 1 will be 3, so no
-matter which Attribute you choose as the highest your
-Prime Modifier will be 3.
-
 ### Attribute Limit
 
 You can increase your Attributes as you gain levels, but you can’t increase an Attribute past your Attribute Limit. Your Attribute Limit increases at certain levels as shown in the table below. You can increase an Attribute at the same level that your Attribute Limit increases.
 
 | PC Level | Attribute Limit |
-|---|---|
-| 1 | +3 |
-| 5 | +4 |
-| 10 | +5 |
-| 15 | +6 |
-| 20 | +7 |
+|----------|-----------------|
+| 1        | +3              |
+| 5        | +4              |
+| 10       | +5              |
+| 15       | +6              |
+| 20       | +7              |
 
 ### Gaining Attributes
 
@@ -142,11 +151,26 @@ The value of your Prime Modifier is always equal to the value of your highest At
 
 !!! note "Prime Modifier Sidebar"
 
-    The Prime Modifier allows you to create the kind of character you truly want to play without negatively impacting their combat prowess. Since your Prime Modifier will be used to swing weapons and cast Spells, this allows you to choose which Attribute you want to be the highest without feeling forced into picking a specific one. 
-
-    An Intelligent or Charismatic Barbarian may not have as much health or be able to grapple or lift as much as a Might Barbarian, but their ability to wield a weapon is the same. It's up to you whether or not you want to roleplay the source of which Attribute your Prime Modifier comes from in Combat or not. You could describe your intelligent Barbarian as being a tactical mastermind on the battlefield, or your charismatic Barbarian as a fiery confident leader, or you can be a mindless rage monster in Combat if you want to just smash things. This is an opportunity to create the PC you want.
-
-> **Example:** Your highest Attribute at level 1 will be 3, so no matter which Attribute you choose as the highest your Prime Modifier will be 3. 
+    The Prime Modifier allows you to create the kind of
+    character you truly want to play without negatively
+    impacting their combat prowess. Since your Prime
+    Modifier will be used to swing weapons and cast
+    Spells, this allows you to choose which Attribute you
+    want to be the highest without feeling forced into
+    picking a specific one. An Intelligent or Charismatic
+    Barbarian may not have as much health or be able
+    to grapple or lift as much as a Might Barbarian, but
+    your ability to wield a weapon is the same.
+    
+    You can choose whether you roleplay the source of
+    which Attribute your Prime Modifier comes from in
+    Combat or not. It’s up to you. You could describe
+    your intelligent Barbarian as being a tactical
+    mastermind on the battlefield, or your charismatic
+    Barbarian as a fiery confident leader, or you can be
+    a mindless rage monster in Combat if you want to
+    just smash things. This is an opportunity to create
+    the PC you want.
 
 ### Variant Rules
 

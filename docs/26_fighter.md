@@ -13,18 +13,18 @@ become a highly trained archer.
 
 ### Champion Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|---------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features            |
-| 2          | +1       | +1               |              |                |                 |                  | Class Feature, Talent     |
-| 3          | +1       |                  | +1           | +1             |                 | +1               | Subclass Feature          |
-| 4          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           |                | +1              | +1               | Class Feature             |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature          |
-| 7          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 8          | +1       |                  | +1           |                | +1              | +1               | Class Capstone Feature    |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |                |                 |                  | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|---------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features            |
+| 2          | +3       |                  |              |              |                |                 |                  | Class Feature, Talent     |
+| 3          | +3       | +1               | +1           | +1           | +1             |                 | +1               | Subclass Feature          |
+| 4          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature             |
+| 6          | +3       |                  | +1           |              | +1             |                 |                  | Subclass Feature          |
+| 7          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 8          | +3       | +1               | +1           | +1           |                | +1              | +1               | Class Capstone Feature    |
+| 9          | +3       |                  |              |              | +1             |                 |                  | Subclass Capstone Feature |
+| 10         | +3       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 3 Weapons or Shields
@@ -44,17 +44,12 @@ Champion Class Table.
 * **Stamina Points:** Your maximum number of Stamina Points
 increases as shown in the Stamina Points column of the
 Champion Class Table.
+* * **Stamina Regen:** Once per round, you can regain up to half
+your maximum SP when you perform a Maneuver.
 
 ### Champion Class Features
 
 #### Level 1 Class Features
-
-##### Champion Stamina
-You regain 1 SP when you perform 1 or more Maneuvers as
-part of an Action, provided you don’t spend SP as part of
-that Action.
-
-> **Example:** If you spend 1 AP to make a Martial Attack and then spend 3 AP to perform 3 Maneuvers on the Attack, you would only regain 1 SP. 
 
 ##### Master-at-Arms
 
@@ -76,9 +71,11 @@ the following benefits:
 * **Combat Readiness:** At the start of your first turn in
 Combat, you gain one of the following benefits:
 * **Brace:** You gain the benefits of the Dodge Action
-and ADV on the next Save you make.
+and ADV on the next Save you make until the end
+of Combat.
 * **Advance:** You gain the benefits of the Move Action
-and ADV on the next Physical Check you make.
+and ADV on the next Physical Check you make
+until the end of Combat.
 * **Second Wind:** Once per Combat when you start your turn
 Bloodied, you can regain 2 HP and 1 SP.
 
@@ -114,7 +111,7 @@ You gain 1 Talent of your choice. If the Talent has any prerequisites, you must 
 
 ### SubClass: Hero
 
-#### Fighting Spirit
+#### Hero’s Resolve
 
 Your warrior spirit refuses to yield in battle. You gain the
 following benefits:
@@ -161,22 +158,3 @@ During a Long Rest, if you spend both 4 hour periods doing
 Light Activity, you have ADV on the Might Save you
 make to avoid gaining Exhaustion. Additionally, the Save
 DC doesn’t increase on a Failure.
-
----
-
-### SubClass: Paragon Champion
-
-#### Champion’s Resolve
-
-*Requirement:* Adaptive Tactics, Level 3
-
-When you use a Tactical Die, you gain the following benefit:
-* **Assault:** The Attack deals +1 damage.
-* **Deflect:** If the Attack Misses, the Attacker takes 1 damage of a Physical damage type of your choice.
-
-#### Disciplined Combatant
-
-*Requirement:* Fighting Spirit, Level 3
-Once on each of your turns, you can spend 1 SP to gain the
-benefit of Combat Readiness. Additionally, you can use
-Second Wind without being Bloodied.

@@ -85,11 +85,26 @@ You can spend 1 AP to impose DisADV on the next Attack or Grapple made against y
 
 ### Hide
 
-You can spend 1 AP to attempt to Hide from 1 or more creatures that can’t see you (Unseen). Make a Stealth Check against the opposing creature’(s) Passive Awareness. 
+You can spend 1 AP to attempt to Hide from 1 or more
+creatures that can’t see you (Unseen). Make a Stealth
+Check against any opposing creatures’ Passive Awareness.
 
-**Success:** You become Hidden from creatures whose Passive Awareness you beat (making you Unseen and Unheard by them). You remain Hidden until you make a noise louder than a whisper, make an Attack, cast a Spell with a Verbal Component, or a creature takes the Search Action and successfully locates you. See “Hidden Creatures” on page 56 for more on hiding.
+**Success:** You become Hidden from creatures whose
+Passive Awareness you beat (making you Unseen and
+Unheard by them). You remain Hidden until you make a
+noise louder than a whisper, make an Attack, cast a Spell
+with a Verbal Component, or a creature takes the Search
+Action and successfully locates you.
 
-> **DC Tip:** When you take the Hide Action and beat an enemy’s Passive Awareness, you only become Hidden from that creature because it can’t see or hear you (you’re both Unseen and Unheard). However, if your Stealth Check beats one enemy’s Awareness Score but not another’s, then you’re Hidden from the first enemy, but you’re not Hidden from the second enemy.
+See “Hidden Creatures” on page 74 for more on hiding.
+
+> **DC Tip:** When you take the Hide Action and beat an enemy’s
+Passive Awareness, you only become Hidden from that
+creature because it can’t see or hear you (you are both
+Unseen and Unheard). However, if your Stealth Check beats
+one enemy’s Awareness Score but not another’s, then you
+are Hidden from the first enemy, but you’re not Hidden from
+the second enemy.
 
 ## Utility Actions
 

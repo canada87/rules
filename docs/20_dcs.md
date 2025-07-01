@@ -2,26 +2,41 @@
 
 ## Difficulty Class (DC)
 
-Difficulty Class (DC) is the number that a Game Master sets as the level of difficulty required to succeed in a given situation. Lockpicking a door, climbing a steep mountain, trying to persuade someone to give you something, or even trying to resist a Spell’s effect over you ALL have a “DC” that needs to be met or exceeded in order to succeed. 
+Difficulty Class (DC) is the number that a Game Master
+sets as the level of difficulty required to be able to succeed
+in a given situation. Lockpicking a door, climbing a
+steep mountain, trying to persuade someone to give you
+something, or even trying to resist a Spell’s effect over
+you all have a DC that needs to be met or exceeded in
+order to succeed.
 
-You always roll a d20 and add whatever relevant modifiers there are based on what the Game Master asks for. This is usually a Check or a Save
+You always roll a D20 and add whatever relevant modifiers
+there are based on what the Game Master asks for. Usually
+(unless you are attacking something) this is going to be a
+Check or a Save.
 
 ## Setting a DC “by 5’s”
 
-In general, checks work on a “by 5’s” system. This helps to stay consistent and fair in a GM’s ruling of how difficult something is to accomplish. Below is a chart with a quick reference and examples. These are just to give a Game Master a foundation to use and a general expectation for PCs to understand. If you want to get more specific, then of course you can set any number you want.
+Checks (in general) work on a “by 5’s” system. This helps
+to stay consistent and fair in a GM’s ruling of how difficult
+something is to accomplish. Below is a chart with a quick
+reference, and examples are listed below that. These are
+meant to give Game Masters a foundation to use and players
+a general expectation to understand. If you want to get
+more specific, you can set any number you want as the DC.
 
 > **DC Tip:** I personally always have checks be “by 5’s”, but when it comes to setting a DC for combat-related things I use more specific numbers. Things like the DC of a Trap or the DC of sneaking by a particular creature might be something like a 12, 14, 17, etc.
 
 ### DC Task Difficulty
 
-| DC  | Task Difficulty |
-| --- | --- |
-| 5   | Very Easy       |
-| 10  | Moderate      |
-| 15  | Hard          |
-| 20  | Very Hard      |
-| 25  | Extremely Hard |
-| 30  | Near Impossible|
+| DC    | Task Difficulty   |
+|-------|-------------------|
+| 5     | Very Easy         |
+| 10    | Moderate          |
+| 15    | Hard              |
+| 20    | Very Hard         |
+| 25    | Extremely Hard    |
+| 30    | Near Impossible   |
 
 Most DCs that you will ask for will either be 10, 15, or 20. Once PCs get to higher levels and start trying to accomplish crazier and crazier things, a DC 25 or even 30 might come up.
 

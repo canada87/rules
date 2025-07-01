@@ -1,13 +1,28 @@
 # Maneuvers
 
-Maneuvers are Martial abilities to perform feats of strength and agility on the battlefield. You gain access to these through gaining a Martial Mastery Feature from being a Martial Class or from certain Subclasses. If a Spellcaster Class spends a Talent to get a Martial Class Feature, they also gain access to Maneuvers through the Multiclass Martial Feature (see “Multiclass & Prestige Systems”).
+Maneuvers are Martial abilities to perform feats of strength
+and agility on the battlefield. You gain access to these
+through gaining a Martial Mastery Feature from being a
+Martial Class or certain Subclasses. If a Spellcaster Class
+spends a Talent to get a Martial Class Feature they also gain
+access to Maneuvers through the Multiclass Martial Path
+(see “Multiclass Talents” on page 100).
 
-You can spend AP to perform one or multiple Maneuvers, which allow PCs with Martial Mastery to enhance their offensive and defensive abilities in combat. You can use the same Maneuver multiple times, unless it’s stated otherwise. There are several types of Maneuvers: Attack, Save, Grapple, and Defense.
+You can spend AP to perform one or multiple Maneuvers,
+which allow PCs with Martial Mastery to enhance their
+offensive and defensive abilities in combat. You can use the
+same Maneuver multiple times, unless it’s stated otherwise.
+There are several types of Maneuvers: Attack, Save,
+Grapple, and Defense.
 
-*   **Attack:** Attack Maneuvers modify your Martial Attacks with additional damage, range, or targets.
-*   **Save:** Save Maneuvers modify your Martial Attacks with additional effects that impose debilitating Conditions.
-*   **Grapple:** Grapple Maneuvers modify your Grapple Checks with additional slams, pins, throws, and other effects.
-*   **Defense:** Defense Maneuvers enable you to avoid or mitigate taking damage by using blocking, deflecting, or dodging Attacks.
+* **Attack:** Attack Maneuvers modify your Martial Attacks
+with additional damage, range, or targets.
+* **Save:** Save Maneuvers modify your Martial Attacks with
+additional effects that impose debilitating Conditions.
+* **Grapple:** Grapple Maneuvers modify your Grapple Checks
+with additional slams, pins, throws, and other effects.
+* **Defense:** Defense Maneuvers enable you to avoid or mitigate
+taking damage by blocking, deflecting, or dodging Attacks.
 
 ### Multiple Maneuvers
 
@@ -19,11 +34,18 @@ If a Maneuver deals damage, it deals the same type of damage as the Weapon or Un
 
 ### Save Effects
 
-Some Maneuvers force the target to make a Save against your Save DC or suffer a chosen effect. If you force a creature to Save against the effects of multiple Maneuvers that are a part of the same Attack, the target only makes 1 Save against all Physical Save effects.
+Some Maneuvers force the target to make a Save against
+your Save DC or suffer a chosen effect. If you force a
+creature to Save against the effects of multiple Maneuvers
+that are a part of the same Attack, the target only makes 1
+Save against all Physical Save effects.
 
 ### Contest Effects
 
-Some Maneuvers force a Contest between you and the target creature. If you initiate a Contest with a creature against the effects of multiple Maneuvers, you and the target participate in 1 Contest for all effects.
+Some Maneuver force a Contest between you and the
+target creature. If you initiate a Contest with a creature
+against the effects of multiple Maneuvers, you and the
+target participate in 1 Contest for all effects.
 
 ### Spending Stamina
 
@@ -87,13 +109,24 @@ When you make a Martial Attack, you can spend additional AP to perform a Save Ma
 
 ### Trip
 
-***Maneuver:*** (2 AP) The target falls Prone.
+***Maneuver:*** (1 AP) The target falls Prone.
 
 ## Grapple Maneuvers
 
-When you attempt to Grapple a creature, you can spend additional AP to perform a Grapple Maneuver as part of the Grapple attempt. You must choose to do so before you make the Grapple Check. ***Grapple Success:*** The target is Grappled and suffers the damage or effects of your Maneuver.
+When you attempt to Grapple a creature, you can spend
+additional AP to perform a Grapple Maneuver as part of
+the Grapple attempt. You must choose to do so before
+you make the Grapple Check. Grapple Success: The
+target is Grappled and suffers the damage or effects of
+your Maneuver.
 
-You can also perform Grapple Maneuvers on creatures you have Grappled. When you perform a Grapple Maneuver against a creature you have Grappled, you make an Athletics Check Contested by the target’s Martial Check. ***Contest Success:*** The target suffers the damage or effects of your maneuver. ***Contest Failure:*** The target suffers no additional effects but remains Grappled by you.
+You can also perform Grapple Maneuvers on creatures you
+have Grappled. When you perform a Grapple Maneuver
+against a creature you have Grappled, you make an
+Athletics Check Contested by the target’s Martial Check.
+Contest Success: The target suffers the damage or effects
+of your maneuver. Contest Failure: The target suffers no
+additional effects but remains Grappled by you.
 
 ### Body Block
 
@@ -119,7 +152,11 @@ You can also perform Grapple Maneuvers on creatures you have Grappled. When you 
 
 ***Requires:*** The Grappled creature is your size or smaller.
 
-***Maneuver:*** (1 AP) The target is thrown up to a number of Spaces equal to 1/2 of your Might (ending the Grappled Condition) + up to 1 additional Space for every 5 they fail the Contest by (see “Throwing Creatures”).
+***Maneuver:*** (1 AP) The target is thrown up to a number of
+Spaces away from you equal to 1/2 of your Might (ending
+the Grappled Condition) + up to 1 additional Space for
+every 5 they fail the Contest by (see “Throwing Creatures”
+on page 72 for more information).
 
 ## Defense Maneuvers
 

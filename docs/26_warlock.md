@@ -30,18 +30,18 @@ from them.
 
 ### Warlock Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                   |
-|------------|----------|------------------|--------------|-------------|----------------|--------------|----------------------------| 
-| 1          | +1       |                  |              | +6          | +2             | +3           | Class Features             |
-| 2          |          | +1               |              |             |                |              | Class Feature, Talent      |
-| 3          | +1       |                  | +1           | +2          |                | +1           | Subclass Feature           |
-| 4          |          | +1               |              |             |                |              | Talent, 2 Ancestry Points  |
-| 5          |          | +1               | +2           | +2          | +1             |              | Class Feature              |
-| 6          | +1       |                  | +1           | +2          |                | +1           | Subclass Feature           |
-| 7          |          | +1               |              |             |                |              | Talent, 2 Ancestry Points  |
-| 8          |          |                  | +1           | +2          | +1             |              | Class Capstone Feature     |
-| 9          | +1       | +1               |              | +2          |                | +1           | Subclass Capstone Feature  |
-| 10         |          | +1               | +2           |             |                |              | Epic Boon, Talent          |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Mana Points | Cantrips Known | Spells Known | Features                   |
+|------------|----------|------------------|--------------|--------------|-------------|----------------|--------------|----------------------------| 
+| 1          | +9       |                  |              |              | +6          | +2             | +3           | Class Features             |
+| 2          | +2       |                  |              |              |             |                |              | Class Feature, Talent      |
+| 3          | +3       | +1               | +1           | +1           | +2          |                | +1           | Subclass Feature           |
+| 4          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points  |
+| 5          | +3       | +1               | +2           | +1           | +2          | +1             |              | Class Feature              |
+| 6          | +2       |                  | +1           |              | +2          |                | +1           | Subclass Feature           |
+| 7          | +3       |                  |              |              |             |                |              | Talent, 2 Ancestry Points  |
+| 8          | +2       | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature     |
+| 9          | +3       |                  |              |              | +2          |                | +1           | Subclass Capstone Feature  |
+| 10         | +2       | +1               | +2           | +1           |             |                |              | Epic Boon, Talent          |
 
 ### Starting Equipment
 * 1 Weapon
@@ -136,7 +136,7 @@ wearing the Armor :
 your Pact Armor.
 * **Maneuvers:** You learn 3 Defensive Maneuvers of your
 choice.
-* **Mystical Armor:** You gain +1 MD and +1 MDR.
+* **Mystical Armor:** You gain MDR.
 * **Pocket Dimension:** Using a Minor Action, you can dismiss
 the Armor into a pocket dimension, summon it from that
 pocket dimension, or summon it from anywhere on the
@@ -283,43 +283,3 @@ Check against the target’s Intelligence Save. Success: You
 can witness their dream. You choose if the creature notices
 that you’re watching their dream or not. Failure: You can’t
 use this Feature again on that creature until it wakes up.
-
----
-
-### SubClass: Paragon Warlock
-
-#### Pact Bane
-
-*Requirements:* Pact Boon, Level 3
-
-You learn the Bane Spell or a different Spell of your choice
-from your Spell List if you already know it. Creatures that
-are subjected to Bane suffer the following effects based on
-your chosen Pact Boon.
-
-* **Pact Weapon & Cantrip:** When you Hit the creature with
-your Pact Weapon or Pact Cantrip, it takes +1 True
-damage.
-* **Pact Armor:** When the creature Misses you with an Attack,
-it becomes Stunned 1 until the end of its next turn, provided
-it’s within 10 Spaces and you’re wearing your Pact Armor.
-* **Pact Familiar:** The creature is considered Flanked while
-within 1 Space of your Pact Familiar.
-
-#### Warlock Subcontract
-
-*Requirements:* Warlock Contract, Level 3
-
-You can spend 1 minute to create a Warlock Subcontract
-with a willing creature within 1 Space, provided it doesn’t
-share your HP (such as a Familiar). While within 20 Spaces
-of each other, you gain the following benefits:
-
-* **Shared Telepathy:** You can speak Telepathically with
-each other.
-* **Extended Bargain:** They can use Hasty Bargain. When
-they do, you gain 1 Temp HP.
-* **Willing Sacrifice:** You can spend their HP on your
-Warlock Features and Talents, provided they are willing.
-* **Void Contract:** This benefit lasts until you end it for free or
-use this Feature again.

@@ -13,18 +13,18 @@ noble, or an assassin in training.
 
 ### Rogue Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|---------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features            |
-| 2          |          | +1               |              |                |                 |                  | Class Feature, Talent     |
-| 3          | +1       |                  | +1           | +1             |                 | +1               | Subclass Feature          |
-| 4          |          | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           |                | +1              | +1               | Class Feature             |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature          |
-| 7          |          | +1               |              |                |                 |                  | Talent, 2 Ancestry Points |
-| 8          |          |                  | +1           |                | +1              | +1               | Class Capstone Feature    |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |                |                 |                  | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Traid Points | Stamina Points | Maneuvers Known | Techniques Known | Features                  |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|---------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features            |
+| 2          | +2       |                  |              |              |                |                 |                  | Class Feature, Talent     |
+| 3          | +3       | +1               | +1           | +1           | +1             |                 | +1               | Subclass Feature          |
+| 4          | +2       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature             |
+| 6          | +2       |                  | +1           |              | +1             |                 |                  | Subclass Feature          |
+| 7          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry Points |
+| 8          | +2       | +1               | +1           | +1           |                | +1              | +1               | Class Capstone Feature    |
+| 9          | +3       |                  |              |              | +1             |                 |                  | Subclass Capstone Feature |
+| 10         | +2       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 2 Weapons or Light Shields
@@ -44,17 +44,17 @@ Table.
 * **Stamina Points:** Your maximum number of Stamina Points
 increases as shown in the Stamina Points column of the Rogue
 Class Table.
+* **Stamina Regen:** Once per round, you can regain up to half
+your maximum SP when:
+
+    * You Hit a Flanked or Prone target.
+    * You Hit a target affected by at least 1 Condition.
+    * You Hit a target you’re Hidden from.
+    * You gain the benefits of your Cunning Action.
 
 ### Rogue Class Features
 
 #### Level 1 Class Features
-
-##### Rogue Stamina
-You regain 1 SP when you:
-
-* Hit a Flanked target.
-* Hit a target that’s affected by a Condition.
-* Once per turn, when you gain the benefits of Cunning Action.
 
 ##### Debilitating Strike
 When you make an Attack with a Weapon, you can spend
@@ -97,9 +97,12 @@ to a generic thieves guild option.
 #### Level 2 Class Features
 
 ##### Cheap Shot
-You deal +1 damage on Martial Attacks against creatures that are Flanked or subjected to at least 1 Condition.
+You deal +1 damage on Martial Attacks against a creature
+that fulfills at least one of the following:
 
-> **DC Tip:** While Unseen, creatures are Exposed to you (your Attacks against them have ADV) and Hindered against you (they have DisADV on Attacks).
+* It’s Flanked or Prone.
+* It has any Condition other than Invisibile.
+* You’re Hidden from it.
 
 ##### Talent
 You gain 1 Talent of your choice. If the Talent has any prerequisites, you must meet those prerequisites to choose that Talent.
@@ -113,15 +116,11 @@ You gain 1 Talent of your choice. If the Talent has any prerequisites, you must 
 #### Thousand Cuts
 
 When a creature fails its Save against your Debilitating
-Strike, it also begins Bleeding (even if it’s immune to the
-Condition). Bleeding caused in this way:
-
-* Doesn’t end when the target regains HP.
-* The DC to end the Condition is equal to your Save DC.
-* Can stack multiple times, dealing True damage equal to
-the number of stacks. If a creature succeeds a Medicine
-Check to remove Bleeding, they remove 1 additional
-stack for every 5 they succeed by.
+Strike, it also begins Bleeding (even if it’s immune to
+the Condition). If a creature is affected by Bleeding from
+this Feature, the DC to end the Bleeding Condition is
+equal to your Save DC and it can no longer be ended by
+regaining HP.
 
 > **DC Tip:** These Rogues are able to apply magic or alchemical
 toxins to their blades that eat away at their targets over time,
@@ -166,31 +165,3 @@ crowd have DisADV on Awareness Checks.
 
 > **DC Tip:** A creature with DisADV on Awareness would have a
 -5 penalty to their Passive Awareness.
-
-### SubClass: Paragon Rogue
-
-#### Unseen Ambusher
-
-*Requirements:* Debilitating Strike, Level 3
-
-Your mastery over unseen attacks grants you the
-following benefits:
-
-* **Skulker:** You have ADV on Stealth Checks made in
-Combat.
-* **Backstab:** Enemies you’re Hidden from have DisADV on
-their Saves against your Debilitating Strikes.
-
-#### Sinister Shot
-
-*Requirements:* Cheap Shot, Level 3
-
-Your Cheap Shot deals +1 damage for each additional
-Condition on the target. Multiple stacks of the same
-Condition count only once.
-
-> **DC Tip:** Nested Conditions aren’t considered separate
-Conditions on the target. For example, a creature with the
-Prone Condition isn’t considered Exposed or Hindered
-for the purposes of this Feature, unless they’re Exposed or
-Hindered by other effects.

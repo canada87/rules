@@ -17,18 +17,18 @@ sense and connect to nature and use its magic as their own.
 
 ### Druid Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                  |
-|------------|----------|------------------|--------------|-------------|----------------|--------------|---------------------------| 
-| 1          |          |                  |              | +6          | +2             | +3           | Class Features            |
-| 2          |          | +1               |              |             |                |              | Class Feature, Talent     |
-| 3          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 4          | +1       | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           | +2          | +1             |              | Class Feature             |
-| 6          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 7          |          | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 8          | +1       |                  | +1           | +2          | +1             |              | Class Capstone Feature    |
-| 9          |          | +1               |              | +2          |                | +1           | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |             |                |              | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Mana Points | Cantrips Known | Spells Known | Features                  |
+|------------|----------|------------------|--------------|--------------|-------------|----------------|--------------|---------------------------| 
+| 1          | +8       |                  |              |              | +6          | +2             | +3           | Class Features            |
+| 2          | +2       |                  |              |              |             |                |              | Class Feature, Talent     |
+| 3          | +2       | +1               | +1           | +1           | +2          |                | +1           | Subclass Feature          |
+| 4          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 5          | +2       | +1               | +2           | +1           | +2          | +1             |              | Class Feature             |
+| 6          | +2       |                  | +1           |              | +2          |                | +1           | Subclass Feature          |
+| 7          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 8          | +2       | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature    |
+| 9          | +2       |                  |              |              | +2          |                | +1           | Subclass Capstone Feature |
+| 10         | +2       | +1               | +2           | +1           |             |                |              | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 1 Weapon
@@ -169,15 +169,15 @@ Keen Senses and Skillful Traits.
 ##### Wild Form Stat Block
 Small or Medium Beast (your choice)
 
-|           |         |           |      |
-|-----------|---------|-----------|------|
-| HP        | 2       | AP        | same | 
-| PD        | 8+CM+PM | PDR       | 0    | 
-| MD        | Same    | MDR       | same | 
-| Speed     | 5       | Masteries | same | 
-| Prime     | Same    | Save DC   | same | 
-| MIG       | 1       | CHA       | same | 
-| AGI       | 1       | INT       | same | 
+|       |          |           |      |
+|-------|----------|-----------|------|
+| HP    | 2        | AP        | same | 
+| PD    | 8+CM+PM  | PDR       | 0    | 
+| AD    | 8+CM+PM  | MDR       | same | 
+| Speed | 5        | Masteries | same | 
+| Prime | Same     | Save DC   | same | 
+| MIG   | 1        | CHA       | same | 
+| AGI   | 1        | INT       | same | 
 
 > **DC Tip:** Shapeshifting presents a unique problem for players,
 since they can have Mastery in something that’s physically
@@ -219,6 +219,46 @@ Commune with Nature Spell as a Ritual once per Long Rest.
     * **Passing of Time:** A seedling might consider a recent event something that happened a moment ago and an ancient event something that happened yesterday. An ancient oak tree might consider a recent event something that happened 10 years ago and an ancient event something over 100 years ago.
     * **Expertise:** A plant may be able to describe in keen detail the different kinds of rains, storms, quality of soil, and various local bugs and herbivores.
 
+
+!!! note "WILD FORM TEMPLATES SIDEBAR"
+
+    There are a ton of options you can use to
+    make your Wild Form unique, here’s some
+    good ideas to get you started.
+
+    **Defensive**
+
+    * **(1) Resistance (1):** You gain Resistance (1) *to
+    Slashing Damage.
+    * **(1) Defensive:** Your PD increases by 2.
+    * **(1) Defensive:** Your AD increases by 2.
+
+    **Grappler**
+
+    * **(2) Size:** Your size changes to Large.
+    * **(1) Attribute Increase:** You gain +2 to Might,
+    up to your Attribute Limit.
+
+    **Parkour**
+
+    * **(1) Swift:** Your Speed is increased by 1 Space.
+    * **(1) Jumper:** Your Jump Distance increases
+    by 2, and you can take the Jump Action as a
+    Minor Action.
+    * **(1) Skillful:** Your Skill Mastery in Acrobatics
+    and Athletics both increase by 1, up to
+    your Skill Mastery Cap. If your Mastery with
+    Acrobatics or Athletics is already equal to
+    your Skill Mastery Cap, you instead gain ADV
+    on the Check.
+
+    **Infiltrator**
+
+    * **(2) Size:** Your size changes to Tiny.
+    * **(1) Skillful:** Your Skill Mastery in Stealth and
+    Awareness both increase by 1, up to your
+    Skill Mastery Cap.
+
 ---
 
 #### Level 2 Class Features
@@ -250,7 +290,7 @@ Below is a list of repeatable and unique Wild Form Traits. You can choose repeat
 ##### Repeatable Traits
 
 * **(1) Attribute Increase:** You gain +2 to Might or Agility (your choice), up to your Attribute Limit.
-* **(1) Defensive:** Your PD or MD increases by 2 (your choice).
+* **(1) Defensive:** Your PD or AD increases by 2 (your choice).
 * **(1) Healthy:** You gain +1 maximum HP.
 * **(1) Resistance (1):** Choose a Physical or Elemental damage type. You gain Resistance 1 to the chosen damage type.
 * **(1) Skillful:** You gain Skill Mastery in 2 of the following Skills of your choice, up to your Skill Mastery Cap: 
@@ -311,35 +351,3 @@ Nature’s Grasp, it begins Bleeding.
 
 You can magically produce the seeds of any mundane plant
 that you’ve ever touched.
-
----
-
-### SubClass: Paragon Druid
-
-#### Wild Form Expansion
-
-*Requirements:* Wild Form, Level 3
-
-You gain the following benefits:
-
-* At the start of each of your turns, you can transform
-into your True Form or a Wild Form you have access to
-without spending AP.
-* When you use Wild Form, you get 2 additional Trait
-Points to spend.
-
-#### Nature’s Vortex
-
-*Requirements:* Nature’s Torrent, Level 3
-
-You gain the following benefits:
-
-* Creatures of your choice are immune to your Nature’s
-Torrent.
-* When you use Nature’s Torrent, you can choose to
-increase its radius by 1 and impose DisADV on Ranged
-Attacks made against creatures within the area.
-* You can spend 2 AP on your turn to use Nature’s Torrent
-without requiring a creature to take Elemental damage.
-When you do, the Torrent is instead an Aura centered on
-you and you choose its Elemental damage type.

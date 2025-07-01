@@ -16,25 +16,25 @@ end life.
 
 ### Cleric Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Mana Points | Cantrips Known | Spells Known | Features                  |
-|------------|----------|------------------|--------------|-------------|----------------|--------------|---------------------------| 
-| 1          |          |                  |              | +6          | +2             | +3           | Class Features            |
-| 2          |          | +1               |              |             |                |              | Class Feature, Talent     |
-| 3          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 4          | +1       | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 5          |          | +1               | +2           | +2          | +1             |              | Class Feature             |
-| 6          |          |                  | +1           | +2          |                | +1           | Subclass Feature          |
-| 7          |          | +1               |              |             |                |              | Talent, 2 Ancestry Points |
-| 8          | +1       |                  | +1           | +2          | +1             |              | Class Capstone Feature    |
-| 9          |          | +1               |              | +2          |                | +1           | Subclass Capstone Feature |
-| 10         |          | +1               | +2           |             |                |              | Epic Boon, Talent         |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Trade Points | Mana Points | Cantrips Known | Spells Known | Features                  |
+|------------|----------|------------------|--------------|--------------|-------------|----------------|--------------|---------------------------| 
+| 1          | +8       |                  |              |              | +6          | +2             | +3           | Class Features            |
+| 2          | +2       |                  |              |              |             |                |              | Class Feature, Talent     |
+| 3          | +2       | +1               | +1           | +1           | +2          |                | +1           | Subclass Feature          |
+| 4          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 5          | +2       | +1               | +2           | +1           | +2          | +1             |              | Class Feature             |
+| 6          | +2       |                  | +1           |              | +2          |                | +1           | Subclass Feature          |
+| 7          | +2       |                  |              |              |             |                |              | Talent, 2 Ancestry Points |
+| 8          | +2       | +1               | +1           | +1           | +2          | +1             |              | Class Capstone Feature    |
+| 9          | +2       |                  |              |              | +2          |                | +1           | Subclass Capstone Feature |
+| 10         | +2       | +1               | +2           | +1           |             |                |              | Epic Boon, Talent         |
 
 ### Starting Equipment
 * 2 Weapons or 1 Light Shields (or Heavy Shields if you choose the Templar Holy Order, see below)
 * 1 set of Novice Light Armor (or Heavy Armor if you choose the Templar Holy Order, see below)
 * X or Y “Packs” (Adventuring Packs Coming Soon)
 
-### Cleric Spellcasting Mastery
+### Cleric Spellcasting Path
 
 * **Combat Training:** Light Armor, Light Shields
 * **Spell List:** When you learn a new Spell, you can choose any Spell on the Divine Spell List.
@@ -313,37 +313,3 @@ You have an understanding and divine guidance when
 attempting to learn what is ailing a creature. You have ADV
 on Checks made to identify or determine the effects of a
 Disease, Poison, or Curse affecting a creature.
-
-### SubClass: Paragon Cleric
-
-#### Bountiful Blessings
-
-*Requirement:* Divine Blessing, Level 3
-
-When Combat starts, you immediately gain a Blessing
-of your choice for free. Additionally, you can have 2
-Blessings at the same time, but you can’t apply both to the
-same creature at once.
-
-#### Divine Cleanse
-
-*Requirement:* Channel Divinity, Level 3
-
-You gain the following benefits:
-
-* **Saving Grace:** When a creature you can see within 10
-Spaces fails a Save, you can spend 1 AP as a Reaction
-to make a Spell Check against the effect’s Save DC or
-the opposing creature’s Check. Success: The creature
-Succeeds their Save instead.
-* **Cleansing Intervention:** When a creature benefits from
-your Lesser Divine Intervention, they’re cured of 1 of
-the following afflictions of their choice: Curse, Disease,
-Blinded, Deafened, or Poisoned. The Spell Check you
-made must be higher than the DC of the effect (if there is
-one) to cure the ailment.
-
-> **DC Tip:** Some Curses can only be removed by specific
-means, which are listed in the Curse’s description (such as
-performing a specific ritual, completing a quest, or being
-subjected to the Wish Spell).

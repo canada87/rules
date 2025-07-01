@@ -2,11 +2,20 @@
 
 ## Degrees of Damage
 
-Attack Checks and Spell Checks that deal damage have a base amount of damage that they deal to their target on a successful Check. This value is listed alongside the Weapon (see "Equipment") or in the Spell’s description (see "Spellcasting"). If the Check beats the target’s Defense by 5 or more, the target takes extra damage and may suffer additional effects (see “Check & Save Outcomes”).
+Each Attack has a base amount of damage that’s dealt
+on a Hit. This value is listed alongside the Weapon (see
+“Equipment” on page 75) or in the Spell’s description
+(see “Spellcasting” on page 54). If the Check beats the
+targets Defense by 5 or more, the target takes extra damage
+and may suffer additional effects (see “Check & Save
+Outcomes” on page 29 for more information).
 
 ### Hit & Miss
 
-When you make an Attack Check or Spell Check (that deals damage) against a target’s Defense, the Check is considered a Miss if the result is below the target’s Defense, and it's considered a Hit if the result is equal to or above the target’s Defense.
+When you make a Check against a target’s Defense, the
+Check is considered a Miss if the result is below the target’s
+Defense and it’s considered a Hit if the result is equal to or
+above the target’s Defense.
 
 ### Hit Success (each 5)
 
@@ -18,12 +27,12 @@ An Attack deals +1 additional damage for every 5 the result of the Check is abov
 
 The table below shows how the damage of an Attack Check or Spell Check can change as determined by the result of the Check.
 
-| Check vs Defense Result | Damage                      |
-| :---------------------- |:----------------------------|
-| Lower                  | Miss                        |
-| Equal or greater       | Hit: Base Damage            |
-| +5 and greater         | Heavy Hit: Base Damage + 1  |
-| +10 and greater        | Brutal Hit: Base Damage + 2 |
+| Check vs Defense Result | Damage                       |
+|:------------------------|:-----------------------------|
+| Lower                   | Miss                         |
+| Equal or greater        | Hit: Base Damage             |
+| +5 and greater          | Heavy Hit: Base Damage + 1   |
+| +10 and greater         | Brutal Hit: Base Damage + 2  |
 
 ### Critical Hits
 
@@ -33,66 +42,87 @@ When you roll a 20 on a d20 for an Attack, it’s considered a Critical Hit. A C
 
 !!! note "Damage Calculation Sidebar"
 
-    This is a way for both players and Game Masters to add up their damage in a way that’s simple and quick. It can get confusing if you’re trying to see how much damage you did and you’re randomly adding things together to try and find the total. Using an approach like this can help.
+    This is a way for both Players and Game
+    Masters to add up their damage in a way
+    that’s simple and quick. Once you Hit with an
+    Attack, the GM will tell you if the Attack was a
+    Heavy Hit or higher. This helps you determine
+    how much additional damage your Attack
+    deals (see the process shown below). The
+    GM will apply any applicable Resistances or
+    Vulnerabilities to determine the total amount
+    of damage the target takes (see “Damage
+    Modifications” on page 36 for more on the
+    target reducing damage).
 
-    Once you hit with an Attack, you will need to tell the GM how much damage your Attack did (the same is true for a GM adding up damage from their Attack). First you add up the damage from your Attack to get a single number (process shown below). Then you say that number and apply any kind of Resistance or Damage Reduction the target has (see ““Damage Modifications” for more on the target reducing damage).
+    *Adding Damage Order*
 
-#### Adding Damage Order
+    Add up the damage totals in the following
+    order:
 
-Add up the damage totals in the following order:
+    1. Base Damage: Start with the Base
+    Damage of the Attack.
 
-1.  Start with the Base Damage of the Attack.
-2.  Add up any + damage from Heavy Hits, Brutal Hits or higher, and Critical Hits.
-3.  Add any + damage from Action Points spent (Maneuvers, Class Features, AP Enhancements, etc.).
-4.  Add any + damage from Passives (Weapon Passives, Class Features, Magic Items, etc.).
+    2. Heavy & Critical Hits: Add any bonus
+    damage from Critical Hits or Heavy Hits
+    and higher.
 
-> **DC Tip:** Starting with the Base Damage is a great foundation and getting the Heavy Hits and higher out of the way first is nice. You’ll get better at all the “by 5’s” math over time! Then you add any damage gained by spending AP, then any passives. This creates a great “checkpoint” system for you to mentally navigate and keep things simple and quick.
+    3. Action Points: Add any bonus damage
+    from Action Points spent (Maneuvers,
+    Class Features, AP Enhancements, etc.).
 
-> **Example:** A Rogue attacks a beast with his Shortsword (we start off with a Base Damage of 2). They get a Brutal Hit and gain +2 bonus damage on their hit (2 + 2 = 4). The creature has a condition on them which increases the damage by +1 (2 + 2 + 1 = 5) because of their Cheap Shot Class Feature. They also got hit by the target this round and gain the Weapon Passive of the Sword of +1. So now their total damage is 6 (2 Base + 2 Brutal + 1 Cheap Shot + 1 Sword Passive = 6 Total).
+    4. Situational Bonuses: Add any bonus
+    damage from situational bonuses
+    (Weapon Passives, Class Features,
+    Magic Items, etc.).
+
+> **DC Tip:** Starting with the Base Damage is a great foundation,
+and getting the Heavy Hit + out of the way first is nice. You’ll
+get better at all the “by 5’s” math over time! Then you add
+any damage gained by spending AP, then any passives. This
+creates a great “checkpoin” system for you to mentally
+navigate and keep things simple and quick.
+
+> **Example:** A Rogue attacks a beast with his Shortsword (we
+start off with a Base Damage of 1). They get a Brutal Hit and
+gain +2 bonus damage on their hit (1 + 2 = 3). They target
+has a condition on it which increases their damage by +1 (1 + 2 + 1 = 4).
+They also got hit by the target this round and
+gain the Weapon Passive of the Sword of +1. So now their
+total damage is 5 (1 Base + 2 Brutal + 1 Cheap Shot + 1 Sword
+Passive = 5 Total).
 
 ## Damage Types
 
-There are 13 different damage types in the game, as seen in the list below. Each damage type represents a different method for harming a creature.
+There are 13 different damage types in the game, as seen
+in the list below. Each damage type represents a different
+method for harming a creature.
 
-*   Slashing
-*   Piercing
-*   Bludgeoning
-*   Fire
-*   Lightning
-*   Cold
-*   Sonic
-*   Poison
-*   Corrosion
-*   Radiant
-*   Umbral
-*   Psychic
-*   True
-
-**Slashing Damage:** Things that slash you, like a blade or claw.
-
-**Piercing Damage:** Things that pierce you, like an arrow or fangs.
-
-**Bludgeoning Damage:** Things that bludgeon you, like a hammer or fist.
-
-**Fire Damage:** Things that burn you, like fire or other forms of intense heat.
-
-**Lightning Damage:** Things that shock you, like lightning or other forms of electricity.
-
-**Cold Damage:** Things that freeze you, like ice or intense cold.
-
-**Sonic Damage:** Things that assault your hearing, like high volume or concentrated sound.
-
-**Poison Damage:** Things that poison you, like toxins.
-
-**Corrosion Damage:** Things that caustically burn you, like acids.
-
-**Radiant Damage:** Things that singe you, like holy light or divine power.
-
-**Umbral Damage:** Things that wither you, like dark or eldritch power.
-
-**Psychic Damage:** Things that assault your mind, like psychic attacks.
-
-**True Damage:** A special type of damage that can't be reduced by any means.
+* **Bludgeoning Damage:** Things that bludgeon you, like a
+hammer or fist.
+* **Piercing Damage:** Things that pierce you, like an arrow or
+fangs.
+* **Slashing Damage:** Things that slash you, like a blade or
+claw.
+* **Fire Damage:** Things that burn you, like fire or other forms
+of intense heat.
+* **Cold Damage:** Things that freeze you. like ice or intense
+cold.
+* **Lightning Damage:** Things that shock you, like lightning or
+other forms of electricity.
+* **Sonic Damage:** Things that assault your hearing, like high
+volume or concentrated sound.
+* **Poison Damage:** Things that poison you, like toxins.
+Corrosion Damage: Things that decay and wither you, like
+acids and rust effects.
+* **Psychic Damage:** Things that assault your mind, like
+psychic attacks.
+* **Radiant Damage:** Things that singe you, like holy light,
+lasers, and radiation.
+* **Umbral Damage:** Things that harm your soul, like dark or
+eldritch power.
+* **True Damage:** A special type of damage that can’t be
+reduced by any means.
 
 ### Damage Type Categories
 
@@ -102,83 +132,220 @@ Some damage types are organized into categories, such as Physical, Elemental, an
 *   **Elemental Damage:** Includes Cold, Corrosion, Fire, Lightning, and Poison damage.
 *   **Mystical Damage:** Includes Psychic, Radiant, Sonic, and Umbral damage.
 
+
+## Damage Vulnerability, Resistance, & Immunity
+
+Resistance is a way for creatures to reduce the damage
+they take, while Vulnerability increases damage taken. The
+source of what gives them this ability could come from a
+natural ability they have, a Class Feature, Magic Items, etc.
+Here are the different ways that these different effects work:
+
+### Damage Resistance
+*Resistance (X):* Damage taken of the specified type is
+reduced by X each time the creature takes damage of that
+type.
+
+> **Example:** If you had Fire Resistance (2) and took 7 Fire
+damage, you would instead take 5 Fire damage (you subtract
+2 from the Fire damage taken, so 7–2 = 5).
+
+*Resistance (Half):* Damage taken of the specified type is
+halved (minimum of 1 damage reduced).
+
+> **Example 1:** If you had Fire Resistance (Half) and took 7 Fire
+damage, you would instead take 4 Fire damage (half of 7 is
+3.5, rounded up is 4).
+
+> **Example 2:** If you had Radiant Resistance and took
+1 Radiant damage, the damage would be halved to 0.5
+and rounded back up to 1 damage taken. However, since
+Resistance reduces damage by a minimum of 1, the damage
+would be reduced to 0.
+
+### Damage Immunity
+Damage taken of the specified type is reduced to 0.
+
+> **Example:** If you had Cold Immunity and were dealt 7 Cold
+damage, you would take 0 damage instead.
+
+### Damage Vulnerability
+
+*Vulnerability (X):* Increase damage taken by X each time
+the creature takes damage of that type.
+
+> **Example:** If you had Poison Vulnerability (2) and took 3
+Poison damage, you would instead take 4 Poison damage
+(you add 1 to the Poison damage taken, so 3 + 2 = 5).
+
+*Vulnerability (Double):* Increases the Damage taken by 2
+times of the specified type.
+
+> **Example:** If a Werewolf has Vulnerability (Double) to
+Silvered Weapons and takes 5 damage from an Attack, they
+would instead take 10 damage (5 x 2 = 10).
+
 ## Damage Reduction (DR)
 
-Damage Reduction (DR) reduces the damage of an Attack Check or Spell Check that targets a creature’s Defense (PD). The amount reduced is equal to the DR value (minimum of 0). A Heavy Hit (5 over Defense), Brutal Hit (10 over Defense), or Critical Hit (natural 20) bypasses DR and deals full damage.
+Damage Reduction (DR) grants Damage Resistance (Half)
+against Attacks, except against Critical Hits and Heavy
+Hits (or higher).
 
-There are 2 types of Damage Reduction:
+There are 3 types of Damage Reduction:
+* **Physical Damage Reduction:** PDR protects you from
+the following damage types: Bludgeoning, Piercing, and
+Slashing.
+* **Elemental Damage Reduction:** EDR protects you from the
+following damage types: Cold, Corrosion, Fire, Lightning,
+Poison, and Sonic.
+* **Mystical Damage Reduction:** MDR protects you from the
+following damage types: Radiant, Psychic, and Umbral.
 
-*   **Physical Damage Reduction:** PDR protects you from the following damage types: Bludgeoning, Cold, Corrosion, Fire, Lightning, Piercing, Poison, Slashing.
-*   **Mystical Damage Reduction:** MDR protects you from the following damage types: Psychic, Radiant, Sonic, Umbral.
+> **DC Tip:** There can be specific types of DR for certain
+Damage Types that special items or monsters have. You could
+have something that even gives “Fire Damage Reduction”
+for example.
+Example: A creature makes an Attack to hit a target with
+an PD of 10. The result of their Check is 12, which hits the
+target and deals 4 Bludgeoning damage. The target has a
+PDR, which provides Bludgeoning Resistance against this
+Attack, and halves the damage to 2 (4 / 2 = 2). Alternatively, if
+the result of the Check was 15, it would be 5 over the target’s
+PD of 10, making it a Heavy Hit. In this scenario, the PDR is
+bypassed, the damage isn’t reduced, and the target takes the
+full 4 damage plus 1 damage for the Heavy Hit.
 
-> **Example:** A creature makes an Attack Check to hit a target with a PD of 10. The result of their Attack Check is 12, which hits the target. The target has a PDR of 3, reducing the damage taken by 3. Alternatively, if the result of the Attack Check was 15, it would be 5 over the target’s PD of 10, making it a Heavy Hit. In this scenario, the PDR is bypassed and doesn’t reduce the damage.
+## Stacking Damage Vulnerabilities, Resistances, & Immunities
 
-> **DC Tip:** There can be specific types of DR for certain Damage Types that special items or monsters have (see Resist X below as well). You could even have something that gives “Fire Damage Reduction” for example.
+> **Example:** If you had Fire Resistance (1) from an Ancestry
+Trait and Fire Resistance (1) from a Class Feature, these
+Resistances would be replaced by Fire Resistance (Half)
+instead. So if you took 4 Fire damage from an Attack,
+the damage would be reduced by half down to 2 damage
+(4 / 2 = 2).
 
-## Resistance & Vulnerability
+### Damage Resistance X & Vulnerability X
 
-Resistance is a way for creatures to reduce the damage they take, while Vulnerability increases damage taken. The source of what gives them this ability could come from a natural ability they have, a Class Feature, Magic Items, etc. Here are the different ways that these different effects work:
+A creature that gains Damage Resistance X or Damage
+Vulnerability X from multiple sources they are all
+added together.
 
-### Resistance
+#### Damage Resistance (Half) & Vulnerability (Double)
 
-*   **Resistance (Immune):** Reduce the damage taken to 0.
-*   **Resistance (Half):** Damage taken of the specified type is halved (rounded up). 
+Multiple sources of Damage Resistance (Half) or Damage
+Vulnerability (Double) do not stack.
 
-> **Example:** If you had Fire Resistance (Half) and took 7 Fire damage, you would instead take 4 Fire damage (half of 7 is 3.5, rounded up is 4).
-  
-* **Resistance (X):** Reduce damage taken by X from the given damage type each time the creature takes damage
-
-> **Example:** If you had Fire Resistance (5) and took 7 Fire damage, you would instead take 2 Fire damage (you subtract 5 from each time you take Fire damage, so 7-5 = 2).
-
-### Vulnerability
-
-*   **Vulnerability (Double):** Increase the damage taken by 2 times (double damage). 
-
-> **Example:** If a Werewolf has Vulnerability (Double) to Silvered Weapons and takes 5 damage from an Attack, they would instead take 10 damage. (5 x 2 = 10).
-  
-* **Vulnerable (X):** Increase damage taken by X from the given damage type each time the creature takes damage of that type. 
-
-> **Example:** If you had Poison Vulnerability (2) and took 3 Poison damage, you would instead take 5 Poison damage (you add 2 on top of the 3 Poison damage for a total of 5).
+> **Example:** If you had Lightning Resistance (Half) from a
+Class Feature and Elemental Resistance (which includes
+Lightning Resistance) from the EDR granted by your Armor,
+you would still only take half damage when you take
+Lightning damage (not a quarter of the damage, because they
+don’t stack).
 
 ## Damage Modifications
 
-Total damage is determined after all damage modifications are taken into account. When a creature takes damage, the total damage taken is determined by following the steps below:
+Total damage is determined after all damage modifications
+are taken into account. When a creature takes damage,
+the total damage taken is determined by following the
+steps below:
 
-1.  **Adding & Subtracting**
-    *   **Damage Reduction:** Its Damage Reduction (DR) reduces the damage.
-    *   **Resistance (X):** its Resist X reduces the damage by the value of X (1, 2, 3, etc.).
-    *   **Vulnerability (X):** its Vulnerable X increases the damage by the value of X (1, 2, 3, etc.).
+1. Adding & Subtracting
+    * **Damage Resistance X:** its Resist X reduces the damage by
+the value of X (1, 2, 3, etc.)
+   * **Damage Vulnerability X:** its Vulnerable X increases the
+   damage by the value of X (1, 2, 3, etc.)
+2. Doubling & Halving
+   * Damage Resistance (Half): The damage is halved
+   (rounded up, minimum of 1 damage reduced).
+   * Damage Vulnerability (Double): The damage is doubled
+   (minimum of 1 damage taken).
 
-2.  **Doubling & Halving**
-    *   **Resistance (Half):** its Resistance halves the damage (rounded up).
-    *   **Vulnerability (Double):** its Vulnerability doubles the damage.
+If a creature has the same type and amount of Resistance
+and Vulnerability, they cancel each other out (e.g. Fire
+Resistance (1) & Fire Vulnerability (1), or Cold Resistance
+(Double) & Cold Vulnerability (Double)).
 
-If a creature has the same type and amount of Resistance and Vulnerability, they cancel each other out (e.g. Fire Resistance (1) and Fire Vulnerability (1) or Cold Resistance (Half) and Cold Vulnerability (Double)).
+> **DC Tip:** Basically any kind of addition or subtraction of
+damage happens FIRST, then any multiplication or division of
+damage AFTER.
 
-> **DC Tip:** Basically, any kind of addition or subtraction of damage happens FIRST, then any multiplication or division of damage happens AFTER.
+> **Example 1:** A creature has Cold Resistance (1) from its
+Ancestry, and Cold Vulnerability (Double) from a Monster
+Effect. When that creature is Hit by an Attack that deals 5
+Cold damage, the damage is reduced by 1 (Cold Resistance
+(1)) to a total of 3, and then doubled (Cold Vulnerability) to
+a total of 6.
 
-**Example 1:** A creature has 1 DR from its Armor, Cold Resistance (1) from its Ancestry, and Cold Vulnerability (Double) from a Monster Effect. When that creature is Hit by an Attack that deals 5 Cold damage, the damage is reduced by 1 (DR) to a total of 4, then reduced by 1 (Cold Resistance 1) to a total of 3, and then doubled (Cold Vulnerability) to 6.
-
-**Example 2:** A creature has 2 DR from its Armor, and Fire Vulnerability (1) from its Ancestry. When that creature is Hit by an Attack that deals 2 Fire damage, the damage is reduced by 2 (DR) to a total of 0, and then increased by 1 (Fire Vulnerability 1) to a total of 1. The creature’s HP is reduced by 1.
+> **Example 2:** A creature has Fire Vulnerability (1) from
+its Ancestry, and Fire Resistance (Half) from the EDR
+granted by its Armor. When that creature is Hit by an Attack
+that deals 5 Fire damage, the damage is increased by 1
+(Fire Vulnerability (1)) to a total of 6, and then halved (Fire
+Resistance (Half) from EDR) to a total of 3.
 
 ## Managing Damage Multiples
 
 ### Multiple Damage Types
 
-When dealing bonus damage on an Attack Check or Spell Check deals more than 1 type of damage, you choose which of those damage types the bonus damage increases.
+**Resistances:** When you take multiple types of damage that
+you have Resistances to, you apply your Resistances to
+each damage type individually.
 
-> **Example:** A Barbarian hits a target with an Attack Check using a magical Hammer that deals 2 Bludgeoning damage + 2 Lightning damage. If the Barbarian is Raging at the time, they deal +1 damage from their Rage Feature. The Barbarian can choose to apply their Rage damage to the Bludgeoning or the Lightning damage.
+> **Example:** You have Physical Resistance (Half) from PDR
+granted by Armor and take 3 Piercing damage and 3 Slashing
+damage from an Attack. The Piercing damage would be
+reduced by half to 1.5, then rounded up to 2 damage taken.
+The same would be true of the Slashing damage (2 damage
+taken). You would take a total of 4 damage from the Attack.
+
+**Bonus Damage:** When dealing bonus damage on an Attack
+that deals more than 1 type of damage, you choose which of
+those damage types the bonus damage increases.
+
+> **Example:** A Barbarian Hits a target with an Attack using a
+magical Hammer that deals 2 Bludgeoning damage and 2
+Lightning damage. If the Barbarian is Raging at the time, they
+deal +1 damage from their Rage Feature. The Barbarian can
+choose to apply their Rage damage to the Bludgeoning or
+Lightning damage.
 
 ### Bonus Damage Against Multiple Targets
 
-If you add bonus damage to an Attack that targets multiple targets, the bonus damage only applies to one target of your choice. The Attack still benefits from Critical Hits, Heavy Hits, and beyond against each target.
+If you add bonus damage to an Attack that targets multiple
+targets, the bonus damage only applies to one target of your
+choice. The Attack still benefits from Critical Hits, Heavy
+Hits, and beyond against each target.
 
 ### Shared Damage
 
-When 2 or more creatures share damage, divide the total damage by the number of creatures (rounding up), and distribute the damage equally among the creatures.
+When 2 or more creatures share damage, divide the damage
+by the number of creatures (rounding up), and distribute
+the damage equally among the creatures. If the creatures
+are sharing damage of multiple types, you calculate the
+shared damager for each type taken (see example 3)
 
-**Small Example:** A Fighter steps in front of an Attack against an ally and they share the damage. If the total damage was 5, then each creature now takes 3 damage (half of 5 is 2.5, rounded up to 3).
+> **Example 1:** A Champion steps in front of an Attack against
+an ally and they share the damage. If the total damage was
+5, then each creature now takes 3 damage (half of 5 is 2.5,
+rounded up to 3).
 
-**Big Example:** A creature is thrown 10 Spaces into a wall, taking 10 Bludgeoning damage upon impact. However, if 2 creatures were to stand side-by-side in the thrown creature’s path, all 3 creatures would share the damage upon impact. The 10 damage would be divided by the 3 creatures, resulting in each creature taking 3.33 Bludgeoning damage. No matter what the fraction is, you always round up in DC20, so now each creature takes 4 damage.
+> **Example 2:** A creature is thrown 10 Spaces into a wall, taking
+10 Bludgeoning damage upon impact. However, if 2 creatures
+were to stand side-by-side in the thrown creature’s path, all
+3 creatures would share the damage upon impact. The 10
+damage would be divided by the 3 creatures, resulting in each
+creature taking 3.33 Bludgeoning damage. No matter what
+the fraction is, you always round up in DC20, so now each
+creature takes 4 damage.
 
-> **DC Tip:** Yes this does mean that sharing damage might result in the group as a whole taking more damage than if they had not shared the damage. This is on purpose and also accounts for everyone smashing into each other and truly sharing the blow. 
+> **Example 3:** A Barbarian steps in front of an Attack against
+an ally and they share the damage. If the total damage was
+3 Bludgeoning and 2 Lightning damage, then each creature
+now takes 2 Bludgeoning (half of 3 is 1.5, rounded up to 2).
+and 1 Lightning damage.
+
+> **DC Tip:** Yes this does mean that sharing damage might
+result in the group as a whole taking more damage than if
+they had not shared the damage. This is on purpose and also
+accounts for everyone smashing into each other and truly
+sharing the blow.

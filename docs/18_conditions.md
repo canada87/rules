@@ -1,235 +1,373 @@
 # Conditions
 
-## Condition Immunity
-
-When you have Immunity to a Condition, you completely ignore its effects.
-
 ## Conditions List
 
-### Bleeding
+### Bleeding X
 
-You take 1 True damage at the start of each of your turns.
+You take X True damage at the start of each of your turns.
 
-**Ending Bleeding**
+**Ending Bleeding:** All stacks of the Condition end when
+you’re subjected to an effect that restores your HP.
+Alternatively, a creature can attempt to remove 1 or more
+stacks of the Condition by taking the Medicine Action.
 
-* **Healed:** You’re subjected to an effect that restores your HP.
-* **Medicine Action:** A creature can spend 1 AP to make a DC 10 Medicine Check on itself or another creature within 1 Space. 
-    * **Success:** Removes the Bleeding Condition. 
-    * **Success (each 5):** The creature gains +1 Temp HP.
+!!! note "Medicine (Action)"
+
+    You can spend 1 AP to touch a creature and
+    tend to its wounds. Make a DC 10 Medicine
+    Check. **Success (each 5):** You end 1 stack of
+    Bleeding on the target.
 
 ### Blinded
 
-You automatically fail Checks that require Sight and all other creatures are considered Unseen. You are Exposed (Attacks against you have ADV) and Hindered (You have DisADV on Attacks). Additionally, while you’re not guided by another creature, all terrain is Difficult Terrain to you (moving 1 Space costs 2 Spaces).
+You are subjected to the following effects:
 
-### Burning
+* You can’t see (see the Unseen section for more
+information).
+* All terrain is considered Difficult Terrain for you unless
+you’re guided by another creature.
 
-You take 1 Fire damage at the start of each of your turns. You or another creature within 1 Space can spend 1 AP to put it out.
+### Burning X
+
+You take X Fire damage at the start of each of your turns.
+
+**Ending Burning:** All stacks of the Condition end when
+you’re doused by at least 1 gallon (4 liters) of water or fully
+immersed in water. Alternatively, a creature within 1 Space
+can spend 1 AP to remove 1 stack of the Condition.
 
 ### Charmed
 
-Your Charmer has ADV on Charisma Checks made against you. Additionally, you can’t target your Charmer with harmful Attacks, abilities, or magic effects.
+You are subjected to the following effects:
 
-### Dazed
+* Your Charmer has ADV on Charisma Checks made
+against you.
+* You can’t target your Charmer with harmful Attacks or
+effects.
 
-You have DisADV on Mental Checks.
+### Dazed X
 
-**Heavily Dazed:** You also have DisADV on Mental Saves.
+You have DisADV X on Mental Checks.
 
 ### Deafened
 
-You automatically fail Checks that require Hearing, and all creatures are considered Unheard by you. Additionally, you have Resistance to Sonic damage.
+You are subjected to the following effects:
+
+* You can’t hear (see the Unheard section for more
+information).
+* You have Resistance (Half) to Sonic damage.
+
+### Disoriented X
+
+You have DisADV X on Mental Saves.
 
 ### Doomed X
 
-The HP threshold of Death’s Door for determining death is decreased by an amount equal to the value of X. If your Doomed value is ever equal to or higher than your Death's Door threshold, you instantly die upon reaching 0 HP. You lose all stacks of Doomed when you complete a Long Rest.
+You are subjected to the following effects:
 
-> **Example:** If your Death’s Door threshold is -3 and you have Doomed 1, the HP threshold of Death’s Door changes from -3 HP to -2 HP, causing you to die if your HP is ever reduced to -2 HP or lower.
+* Your current and maximum HP is reduced by the value
+of X.
+* When an effect restores your HP, you regain X less HP
+than normal.
+
+**Ending Doomed:** All stacks of the Condition end when
+you complete a Long Rest.
 
 ### Exhaustion X
 
-You gain a penalty equal to X on all Checks and Saves you make. Additionally your Speed and Save DC is reduced by X as well. If a creature ever reaches Exhaustion 6, they immediately die.
+You are subjected to the following effects:
 
-> **Example:** If you have Exhaustion 3, you would have a -3 penalty on Checks and Saves, your Speed would be reduced by 3 Spaces, and your Save DC would be reduced by 3.
+* You gain a penalty equal to X on all Checks and Saves
+you make.
+* Your Speed and Save DC is reduced by X.
+* **Death:** You immediately die if you reach 6 stacks
+of Exhaustion.
 
-### Exposed
+> **Example:** If you have Exhaustion 3, then you would
+have a -3 penalty on Checks and Saves, your Speed would
+be reduced by 3 Spaces, and your Save DC would be
+reduced by 3.
 
-Attacks against you have ADV.
+### Exposed X
+
+Attacks against you have ADV X.
 
 ### Frightened
 
-You must spend your turns trying to move as far away as you can from the source of the effect as possible. The only Action you can take is the Move Action to try to run away, or the Dodge Action if you’re prevented from moving or there’s nowhere farther to move. You’re also considered Rattled (you can’t move closer to the source) and Intimidated (DisADV on all Checks while it’s within your line of sight).
+You are subjected to the following effects:
 
-### Grappled
+* You can’t willingly move closer to the source.
+* You have DisADV on all Checks made against the source.
 
-Your Speed becomes 0 and you have DisADV on Agility Saves.
+### Hindered X
 
-**Ending a Grapple**
+You have DisADV X on Attacks.
 
-* **Escape Grapple:** You can spend 1 AP to attempt to free yourself from a Grapple. Make a Martial Check contested by the Grappler’s Athletics Check. 
-    * **Success:** The Grapple immediately ends.
-* **Incapacitated Grappler:** If the Grappler becomes Incapacitated, the Grapple immediately ends.
-* **Forced Movement:** If an effect attempts to forcibly move you beyond the Grappler’s reach, the Grappler makes the Check or Save instead of you. If the effect targets both you and the Grappler, the Grappler makes 1 Check or Save for both of you. 
-    * **Success:** The targets of the effect aren’t moved.
-    * **Failure:** The Grapple immediately ends, and the targets of the effect are moved.
-* **Falling:** If you begin falling while Grappled, and your Grappler isn't falling with you, your Grappler holds you in the air if they can carry your weight.
+### Immobilized
 
-### Hindered
+You can’t move and you have DisADV on Agility Saves.
 
-You have DisADV on Attacks.
+### Impaired X
 
-### Impaired
-
-You have DisADV on Physical Checks.
-
-**Heavily Impaired:** You also have DisADV on Physical Saves.
+You have DisADV X on Physical Checks.
 
 ### Incapacitated
 
-You can’t Speak, Concentrate, or spend Action Points.
+You are subjected to the following effects:
+
+* You can’t move or speak.
+* You can’t spend Actions Points or use Minor Actions.
 
 ### Intimidated
 
-You have DisADV on all Checks while your source of intimidation is within your line of sight.
+You have DisADV on all Checks made against the source.
 
 ### Invisible
 
-You’re Unseen, making creatures that can’t see you Exposed (your Attacks against them have ADV) and Hindered against you (they have DisADV on Attacks against you).
+Creatures can’t see you unless they have the ability to see
+the Invisible (see the Unseen section for more information).
 
 ### Paralyzed
 
-Attacks made from within 1 Space that hit you are considered Critical Hits. You’re also Stunned (automatically fail Agility, Might, and Physical Saves), Exposed (Attacks against you have ADV), and Incapacitated (you can’t Speak, Concentrate, or spend Action Points).
+You are subjected to the following effects:
+
+* You’re Incapacitated.
+* You automatically fail Physical Saves (except against
+Poisons and Diseases).
+* Attacks against you have ADV.
+* Attacks made within 1 Space are considered Critical
+Hits.
 
 ### Petrified
 
-You and your mundane belongings are turned into stone and you’re no longer aware of your surroundings. You become 10 times heavier and have Resistance (Half) to all damage. Any Poisons or Diseases already affecting you are suspended and you’re immune to any additional Poison and Disease while Petrified. You’re also Paralyzed (Attacks that Hit you are considered Critical Hits if the Attacker is within 1 Space of you), Stunned (automatically fail Agility, Might, and Physical Saves), Exposed (Attacks against you have ADV), and Incapacitated (you can’t Speak, Concentrate, or spend Action Points).
+You and your mundane belongings are turned into a
+inanimate substance (often stone). While Petrified, you
+count as both an object and a creature, and you’re subjected
+to the following effects:
+
+* You’re not aware of your surroundings.
+* You’re 10 times heavier than normal.
+* You’re Incapacitated.
+* You automatically fail Physical Saves.
+* Attacks against you have ADV.
+* You gain Bludgeoning Vulnerability (Double) and
+Resistance (Half) to all other damage.
+* Curses, Diseases, Poisons, or Conditions afflicting you are
+suspended (unless it imposed the Petrified Condition),
+and you’re immune to gaining new ones.
 
 ### Poisoned
 
-You’re Impaired (DisADV on Physical Checks) and take 1 Poison damage at the start of each of your turns. A creature can spend 1 AP to make a Medicine Check (against the DC of the Poison) on itself or another creature within 1 Space. 
-* **Success:** Removes the Poisoned Condition.
+You are subjected to the following effects:
 
-### Prone
+* You’re Impaired (DisADV on Physical Checks).
+* You take 1 Poison damage at the start of each of your
+turns.
 
-While Prone, you’re subjected to the following effects:
-* You’re Hindered (You have DisADV on Attacks).
-* Ranged Attacks are Hindered against you.
-* You’re Exposed (Attacks against you have ADV) against Melee Attacks.
+!!! note "Medicine (action)"
 
-**Crawling:** Your only movement option is to Crawl, which counts as Slowed 1 (Every 1 Space you move costs an extra 1 Space of movement).
-
-**Standing Up:** You can spend 2 Spaces of movement to stand up, ending the Prone Condition on yourself. Standing up from Prone provokes Opportunity Attacks.
-
-### Rattled
-
-You can’t willingly move closer to your source of fear, and you’re Intimidated (DisADV on all Checks while it’s within your line of sight).
+    You can spend 1 AP to touch a creature and
+    tend to its wounds. Make a Medicine Check
+    against the DC of the Poison. Success: You
+    end the Poison on the target.
 
 ### Restrained
 
-You’re Hindered (you have DisADV on Attacks), Exposed (Attacks against you have ADV), and Grappled (your Speed is reduced to 0 and you have DisADV on Agility Saves).
+You are subjected to the following effects:
 
-### Slowed
+* You’re Immobilized.
+* Your Attacks have DisADV.
+* Attacks against you have ADV.
 
-Every 1 Space you move costs an extra 1 Space of movement.
+### Slowed X
 
-### Stunned
+Every 1 Space you move costs an extra X Spaces
+of movement.
 
-You automatically fail Agility, Might, and Physical Saves. You’re also Exposed (Attacks against you have ADV) and Incapacitated (you can’t Speak, Concentrate, or spend Action Points).
+### Stunned X
+
+Your current and maximum AP is reduced by X. While
+you’re Stunned 4 or higher, you are subjected to the
+following effects:
+
+* You’re Incapacitated.
+* Attacks against you have ADV.
+* You automatically fail Physical Saves (except against
+Poisons and Diseases).
 
 ### Surprised
 
-You can’t spend Action Points and are Exposed (Attacks against you have ADV).
+Your current and maximum AP is reduced by 2.
 
 ### Taunted
 
-You have DisADV on Attacks against creatures other than the one that Taunted you.
+You have DisADV on Attacks against targets other
+than the source.
+
+### Terrified
+
+You are subjected to the following effects:
+
+* You must spend your turns trying to move as far away as
+you can from the source as possible.
+* The only Action you can take is the Move Action to try
+to run away, or the Dodge Action if you are prevented
+from moving or there’s nowhere farther to move.
+
+### Tethered
+
+You are Tethered to a creature or Space. While Tethered,
+you can’t move farther than the specified Spaces from the
+location of your Tether.
 
 ### Unconscious
 
-You’re no longer aware of your surroundings, you drop whatever you’re holding, and you fall Prone. You’re also Paralyzed (Attacks made from within 1 Space that Hit you are considered Critical Hits), Stunned (automatically fail Agility, Might, and Physical Saves), Exposed (Attacks against you have ADV), and Incapacitated (you can’t Speak, Concentrate, or spend Action Points).
+When you become Unconscious, you immediately
+drop whatever you are holding and fall Prone. While
+Unconscious, you’re subjected to the following effects:
 
-## Condition Stacking
+* You’re Incapacitated.
+* You’re not aware of your surroundings.
+* You automatically fail Physical Saves (except against
+Poisons and Diseases).
+* Attacks against you have ADV.
+* Attacks made within 1 Space are considered Critical
+Hits.
 
-Certain Conditions can stack multiple times, increasing the potency of the Condition’s effects on the target.
+### Weakened X
 
-### Condition X Values
+You have DisADV X on Physical Saves.
 
-The Conditions with an X value in its name are examples of Conditions that apply a bonus or penalty to the target equal to the X value. If multiple unique effects impose the same Condition X, the X of those effects are added together.
 
-> **Example:** For the Exhausted X Condition, if you had Exhausted 2, you’d subtract 2 from all d20 rolls made. If you had Exhausted 3, you’d subtract 3, and so on. 
+## Condition Resistance, Immunity, & Vulnerability
+
+Condition Resistance represents a creature’s ability to
+resist being subjected to Conditions, while Condition
+Vulnerability represents a creature’s weakness against
+them. Where as Immunity prevents a creature from being
+affected by it at all. The source of a creature’s Condition
+Resistance, Immunity or Vulnerability can be attained from
+a Class Feature, Ancestry Trait, Magic Item, Spell, etc.
+
+### Condition Resistance
+*Condition Resistance:* You have ADV on Checks and Saves
+against the Condition.
+
+> **Example:** If you had Charmed Resistance, you would have
+ADV on Checks or Saves against being Charmed.
+
+### Condition Immunity
+*Condition Immunity:* You can’t be subjected to
+the Condition.
+
+> **Example:** If you had Frightened Immunity, you can’t
+be Frightened.
+
+### Condition Vulnerability
+*Condition Vulnerability:* You have DisADV on Checks and
+Saves against the Condition.
+
+> **Example:** If you had Taunted Vulnerability, you would have
+DisADV on Checks or Saves against being Taunted.
+
+## Condition Stacking & Overlapping
+
+Certain Conditions can stack multiple times, increasing
+the potency of the Condition’s effects on the target.
+Other Conditions overlap, keeping the same potency but
+becoming more restrictive.
 
 ### Stacking Conditions
 
-A target can be affected by each of the following Conditions multiple times, with the effects of the same Condition stacking on the target in unique ways.
+A target can be affected by a Condition with an X value
+multiple times. If you gain multiple stacks of the same
+Condition, you add their X values together. If a stacking
+Condition doesn’t include an X value, the value equals 1.
 
-**Durations:** When a creature is subjected to the same Condition multiple times but with different durations, it’s important to keep track of the source of each Condition so you know when each Condition ends.
+> **Example:** If you were Exposed and another effect imposed
+the Exposed Condition on you again, you would become
+Exposed 2, causing Attacks against you to have ADV 2 (roll 3
+d20s and take the highest).
 
-> **Example:** You might be Exposed against the next Attack against you, Exposed until the end of your next turn, and Exposed for 1 minute, all at the same time. These effects stack, but you need to track them independently to make sure you know how “Exposed” you currently are.
+*Durations:* When a creature is subjected to the same
+Condition multiple times but with different durations, it’s
+important to keep track of the source of each Condition so
+you know when each Condition ends.
 
-**Exposed**
-
-A creature can be Exposed multiple times. They have stacking ADV equal to the number of sources of Exposed it’s subjected to.
-
-> **Example:** If you were Exposed and another effect imposed the Condition on you again, you would become Exposed twice (Exposed 2), causing Attacks against you to have ADV 2 (roll 3 d20s and take the highest).
-
-**Hindered, Impaired, & Dazed**
-
-A creature can be Hindered, Impaired, or Dazed multiple times. They have stacking DisADV equal to the number of sources of each Condition it’s subjected to.
-
-> **Example:** If you are Restrained (which causes you to be Hindered), and then fall Prone (also causing you to be Hindered), you now would have 2 stacks of Hindered (Hindered 2) and roll at DisADV 2 on all Attacks.
-
-**Slowed**
-
-A creature can be Slowed multiple times. They have a stacking penalty to their Speed equal to the number of sources of Slowed it’s subjected to.
-
-> **Example:** A creature with Slowed must spend 2 Spaces (1 +1 extra) of movement to move every 1 Space. Alternatively, a creature with two stacks of Slowed (Slowed 2) requires spending 3 Spaces (1 +2 extra) to move 1 Space.
+> **Example:** You might be Exposed against the next Attack
+against you, Exposed until the end of your next turn, and
+Exposed for 1 minute, all at the same time. These effects
+stack, but you need to track them independently to make sure
+you know how “Exposed” you currently are.
 
 ### Overlapping Conditions
 
-A target can be affected by each of the following Conditions multiple times, but the effects of the same Condition don’t stack on the target.
+A target can be effected by each of the following Condition
+multiple times, but the effects of the same Condition don’t
+stack on the target.
 
-**Charmed**
+#### Charmed
+A creature can be Charmed by more than 1 creature at
+a time, each of them gaining ADV on Charisma Checks
+against the target. However, a creature that Charms a target
+more than once only gains the effects of the Charmed
+Condition once.
 
-A creature can be Charmed by more than 1 creature at a time, each of them gaining ADV on Charisma Checks against the target. However, a creature that Charms a target more than once only gains the effects of the Charmed Condition once.
+> **Example:** A creature doesn’t have ADV 2 on Charisma
+Checks against a target they’ve Charmed twice. They only
+have ADV 1 on Charisma Checks against the target.
 
-> **Example:** A creature doesn’t have ADV 2 on Charisma Checks against a target they’ve Charmed twice. They only have ADV 1 on Charisma Checks against the target.
+#### Frightened
+A creature can be Frightened by more than 1 creature at
+a time, suffering DisADV on Checks while any source that
+Frightened it within its sight and unable to move towards
+any source that Heavily Intimidated it within its sight.
+However, a Frightened creature only suffers the effects of
+the Frightened Condition once.
 
-**Frightened**
+> **Example:** A creature doesn’t have DisADV 2 on Checks
+while 2 sources that are Frightening it are in sight. They
+only have DisADV 1 on Checks, regardless of the number of
+sources in sight.
 
-A creature can be Frightened by more than 1 creature at a time. If a creature is surrounded by multiple sources of their fear, they’re unable to move and can only take the Dodge Action.
+#### Restrained
+A creature that is Restrained by more than 1 creature
+only suffers the effects of the Restrained Condition once.
+However, a creature Restrained by multiple sources
+will remain Restrained until they are free from being
+Restrained by all sources.
 
-> **DC Tip:** You could handle this like the Rattled DC Tip and they would not move and be forced to take the Dodge Action. You could also have them make a Fate Roll and have the dice decide which target they must run from, allowing them to run in the direction of another source of their fear.
+#### Taunted
+A creature that is Taunted by multiple creatures does
+not have DisADV on their Attacks against creatures that
+Taunted them. They can only move away from any
+creature that Taunted them if they are moving towards
+another creature that Taunted them.
 
-**Grappled**
+> **Example:** If a Goblin is Taunted by a Hunter, then later
+becomes Taunted by a Champion, the Goblin can only move
+away from the Hunter if they are approaching the Champion
+and can Attack both normally.
 
-A creature that’s Grappled by more than 1 creature only suffers the effects of the Grappled Condition once. However, a creature Grappled by multiple sources will remain Grappled until they’re free from being Grappled by all sources.
+#### Terrified
 
-> **Example:** A creature doesn’t have DisADV 2 on Agility Saves as a result of being Grappled by 2 creatures. They only have DisADV on Agility Saves. 
+A creature can be Terrified by more than 1 source at a time.
 
-**Moving a Multiple Grappled Target:** If multiple creatures are Grappling the same target and one of them tries to move the Grappled target, it must make a Contested Athletics Check against all creatures Grappling the same target. 
-* **Success:** It ends the Grapple on the target by all creatures other than itself, allowing it to move the creature as normal. 
+> **Example:** If a creature is surrounded by multiple sources,
+they are unable to move and can only take the Dodge Action.
 
-**Intimidated**
+#### Tethered
 
-A creature can be Intimidated by more than 1 creature at a time, suffering DisADV on Checks while any source of their intimidation is within its sight. However, an Intimidated creature only suffers the effects of the Intimidated Condition once.
+A creature that is Tethered by more than 1 effect, must
+remain within reach of all the specified Tethers.
 
-> **Example:** A creature doesn’t have DisADV 2 on Checks while 2 sources of intimidation are in sight. They only have DisADV 1 on Checks, regardless of the number of intimidation sources in sight.
+> **Example:** If a creature is Tethered 5 Spaces by one effect,
+and then Tethered 5 Spaces by another effect, it can’t move
+farther than 5 Spaces from either Tether.
 
-**Rattled**
+#### Excluded Conditions
 
-A creature can be Rattled by more than 1 creature at a time. If a creature is surrounded by multiple sources of their fear, they’re unable to move.
-
-> **DC Tip:** A good example of being surrounded would be a creature flanked on 4 sides. The GM determines if a creature is surrounded or not.
-
-**Restrained**
-
-A creature that’s Restrained by more than 1 creature only suffers the effects of the Restrained Condition once. However, a creature Restrained by multiple sources will remain Restrained until they are free from being Restrained by all sources.
-
-**Taunted**
-
-A creature can only be Taunted by 1 creature at a time. If they’re Taunted again by another creature, the first Taunt immediately ends.
-
-> **Example:** If a Goblin is Taunted by a Ranger, then later becomes Taunted by a Fighter, the Goblin is no longer Taunted by the Ranger. 
-
-### Non-Stacking Conditions
-
-The following Conditions don’t stack in any way: Burning, Bleeding, Poisoned, Deafened, Blinded, Invisible, Prone, Incapacitated, Stunned, Paralyzed, Unconscious, Petrified, and Surprised. 
+The following Conditions don’t stack or overlap in any
+way: Blinded, Deafened, Immobilized, Incapacitated,
+Invisible, Paralyzed, Petrified, Surprised, and
+Unconscious.

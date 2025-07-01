@@ -1,17 +1,36 @@
 # Checks & Saves
 
-Whenever an attempt is made by a creature to perform an action that has a chance of success and failure, they make a Check or Save to determine the outcome of the attempt. The type of action the creature is attempting to perform determines whether they make a Check or a Save. When a creature makes a Check or Save, they roll a d20 and add any relevant bonuses which are determined by the type of Check or Save. 
+Whenever an attempt is made by a creature to perform an
+action that has a chance of success and failure, they make a
+Check or a Save to determine the outcome of the attempt.
+The type of action the creature is attempting to perform
+determines whether they make a Check or a Save. When
+a creature makes a Check or Save, they roll a d20 and add
+any relevant bonuses which are determined by the type of
+Check or Save.
 
 ## Checks:
-When a PC initiates an action against another creature or obstacle, the GM might ask them to make a Check to determine if the activity is successful. The GM might also ask for a Check to be made when two or more creatures are engaging in a competition of skill against each other.
+When a PC initiates an action against another
+creature or obstacle, the GM might ask them to make a
+Check to determine if the activity is successful. The GM
+might also ask for a Check to be made when two or more
+creatures are engaging in a competition of skill against each
+other.
 
 ## Saves:
-When a PC reacts against an effect being forced upon them, the GM might ask them to make a Save to determine if they’re successful at resisting the effect.
+When a PC reacts against an effect being forced
+upon them, the GM might ask them to make a Save to
+determine if they’re successful at resisting the effect.
 
 > **Example:** A Might Check would be to see if you can lift the heavy boulder that’s just sitting there, while a Might Save would be to see if you can stop a heavy boulder rolling down a hill at you!
 
 ## Willing Creatures:
-Any creature can choose to fail a Check or Save. When they do, the result of their Check or Save is treated as a 0 for the purposes of degrees of success or failure (see Check and Save Outcomes), but the creature doesn't suffer the effects of a Critical Failure unless they choose to do so.
+Any creature can choose to fail a Check
+or Save. When they do, treat the result of their Check or
+Save as a 0 for the purposes of degrees of success or failure
+(see “Check & Save Outcomes” on page 29), but the
+creature doesn’t suffer the effects of a Critical Failure unless
+they choose to do so.
 
 ## Types of Checks
 

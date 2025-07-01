@@ -2,7 +2,15 @@
 
 ### Skills
 
-Skills are representative of a creature's ability to perform certain activities. If two creatures are wrestling each other, they can use the Athletics Skill to compete against each other. Every Skill is tied to an Attribute (Might, Agility, Intelligence, or Charisma). Each Skill represents an aspect of an Attribute, such as Athletics being an aspect of a creature's Might Attribute, or Acrobatics with its Agility Attribute. The Awareness Skill uses your Prime Attribute, which is your highest Attribute.
+Skills are representative of a creature’s ability to perform
+certain activities. If two creatures are wrestling each other,
+they can use the Athletics Skill to compete against each
+other. Every Skill is tied to an Attribute (Might, Agility,
+Intelligence, or Charisma). Each Skill represents an aspect
+of an Attribute, such as Athletics being an aspect of a
+creature’s Might Attribute, or Acrobatics with its Agility
+Attribute. The Awareness Skill uses your Prime Attribute,
+which is your highest Attribute.
 
 **DC Tip:** There are countless ways to use these Skills, especially when you use the "Variable Attribute Rule" (see Checks and Saves section). You can really get outside the box by combining Skill with different Attributes.
 
@@ -30,14 +38,6 @@ Skills are representative of a creature's ability to perform certain activities.
 * Investigation
 * Medicine
 * Survival
-
-**Knowledge**
-
-* Arcana
-* History
-* Nature
-* Religion
-* Occultism
 
 **Prime**
 
@@ -118,33 +118,6 @@ Survival covers the activities required to survive in the wilderness, such as tr
     * Identify evidence of any creatures that inhabit the area.
     * Predict the weather within the area for the next 24 hours.
 
-#### Knowledge
-
-The following Skills represent different aspects of a creature’s knowledge: Arcana, History, Nature, Occultism, and Religion. A PC can also create a unique Custom Lore Skill that covers a specific domain of knowledge they may have experience in.
-
-* **Arcana** (Arcane Magic / Constructs / Planes of Existence)
-    * Arcane magic, spells, items, runes, glyphs, and symbols
-    * Creatures such as: Constructs, Monstrosities, and Oozes
-    * Planes of existence and the creatures who inhabit those planes
-* **History** (History / Lore / Kingdoms)
-    * Historical events, conflicts, and wars
-    * Creatures such as: Humanoids, Giants, and Dragons
-    * Lost civilizations, kingdoms, and legends
-* **Nature** (Elements / Beasts / Plants)
-    * Primal and Elemental magic (earth, fire, water, air, and lightning magic)
-    * Creatures such as: Elementals, Fey, Plants, and Beasts
-    * Natural parts of the world (terrain, weather, seasons, and natural disasters)
-* **Occultism** (Unholy Magic / Demons & Devils / Aberrations)
-    * Unholy magic and knowledge of the forbidden
-    * Creatures such as: Aberrations, Fiends, and Undead
-    * Practices of secret cults and the signs of their presence
-* **Religion** (Holy Magic / Celestials / Divine Rituals)
-    * Holy magic, relics, auras, and symbols
-    * Creatures such as: Deities, Celestials, and Angels
-    * Religious rites, prayers, hierarchies, and practices
-
-**DC Tip:** Work with your GM on if you should choose one of these Skills or make up your own “Custom Lore” that fits the PC, campaign, or world better.
-
 #### Charisma
 
 ##### Animal
@@ -182,11 +155,16 @@ Awareness governs your ability to detect the presence of other creatures or obje
 
 ### Trades
 
-Trades are representative of a creature's ability to perform with certain tools and professions. If someone wanted to craft an item (Blacksmithing), build a wall (Masonry), pick a lock (Lockpicking), or participate in a wide variety of other trades, these would represent how good they are at that trade.
+Trades are representative of a creature’s ability to recall and
+perform the activities of professions. If someone wanted
+to craft an item (Blacksmithing), build a wall (Masonry),
+pick a lock (Lockpicking), or a wide variety of other trades,
+these would represent how good they are at that trade.
 
 #### Trades List
 
 * Alchemy
+* Arcana
 * Blacksmithing
 * Brewing
 * Carpentry
@@ -194,26 +172,55 @@ Trades are representative of a creature's ability to perform with certain tools 
 * Cooking
 * Cryptography
 * Disguise
+* Engineering
 * Gaming
 * Glassblowing
 * Herbalism
+* History
 * Illustration
 * Jeweler
 * Leatherworking
 * Lockpicking
 * Masonry
 * Musician
+* Nature
+* Occultism
+* Religion
 * Sculpting
 * Theatre
 * Tinkering
 * Weaving
 * Vehicles
 
+#### Trade Tools
+
+You don’t require Tools to recall information about a Trade,
+but you must have access to the specified Tools to perform
+the activities of a Trade.
+
+> **DC Tip:** The Knowledge Trades don’t have Tools listed
+because they’re Trades that only involve the recalling or
+teaching of information.
+
 #### Trade Attributes
 
-Every Trade is tied to an Attribute. The Attribute represents what might be needed to perform this Trade, such as the use of one's own strength (Might), intricate hand movements (Agility), knowledge and understanding (Intelligence), or interactions with others (Charisma).
+Every Trade is tied to an Attribute. The Attribute represents
+what might be needed to perform this Trade, such as the use
+of one’s own strength (Might), intricate hand movements
+(Agility), knowledge and understanding (Intelligence), or
+interactions with others (Charisma).
 
-There are ways that you might use other Attributes in alternative combinations for Trades in unique circumstances. A theater performer might use Charisma to capture the hearts of their audience with an emotional performance, Agility to perform a fast-paced dance, Might to throw a theater partner into the air, or Intelligence to remember the lines of a detailed monologue. PCs can work with their GM to determine which Attribute might fit best in these unique situations. The list of Trades below includes the Attributes most commonly used with each respective Trade.
+**Variant Attributes:** There are ways that you might use
+other Attributes in alternative combinations for Trades
+in unique circumstances. A theater performer might use
+Charisma to capture the hearts of their audience with an
+emotional performance, Agility to perform a fast-paced
+dance, Might to throw a theater partner into the air, or
+Intelligence to remember the lines of a detailed monologue.
+PCs can work with their GM to determine which Attribute
+might fit best in these unique situations. The list of Trades
+below includes the Attributes most commonly used with
+each respective Trade.
 
 #### Artistry
 
@@ -329,6 +336,85 @@ Tinkering is the practice of making, repairing, or operating mechanisms, such as
 
 Weaving is the practice of creating material for clothing or using such material to create clothes, curtains, tapestries, and other woven objects.
 
+#### Knowledge
+A PC can also create a unique Custom Knowledge Trade
+that covers a specific domain of knowledge they may have
+experience in.
+
+> **DC Tip:** Work with your GM on if you should choose one of
+these Trades or make up your own “Custom Lore” that fits
+the PC, campaign, or world better.
+
+##### Arcana
+**Attribute:** Intelligence
+
+Arcane knowledge encompasses the study of arcane magic,
+the planes of existence, and the underlying principles that
+govern reality beyond mundane understanding
+
+* Arcane magic, spells, items, runes, glyphs, and symbols
+* Creatures such as: Constructs, Monstrosities, and Oozes
+* Planes of existence and the creatures who inhabit those
+planes
+
+##### Engineering
+**Attribute:** Intelligence
+
+Engineering represents a character’s understanding of
+mechanics, construction, and the application of scientific
+principles in a world that blends magic and technology.
+
+* Designing and operating gears, pulleys, mechanical
+engines, and motors.
+* Understanding the architecture of buildings, bridges,
+tunnels, and fortresses.
+
+##### History
+**Attribute:** Intelligence
+
+History involves the study of past events, including
+recorded events, ancient lore, and provides insight into
+how civilizations, cultures, and legends have shaped the
+present world.
+
+* Historical events, conflicts, and wars
+* Creatures such as: Dragons, Giants, and Humanoids
+* Lost civilizations, kingdoms, and legends
+
+##### Nature
+**Attribute:** Intelligence
+
+Nature represents a character’s understanding of the
+natural world, including the elements, weather patterns,
+and magical and mundane ecosystems.
+
+* Primal and Elemental magic (earth, fire, water, air, and
+lightning magic)
+* Creatures such as: Beasts, Elementals, Fey, and Plants
+* Natural parts of the world (terrain, weather, seasons, and
+natural disasters)
+
+##### Occultism
+**Attribute:** Intelligence
+
+Occultism represents a character’s understanding
+of forbidden magic, secret cults, and the dealings of
+sinister creatures.
+
+* Unholy magic and knowledge of the forbidden
+* Creatures such as: Aberrations, Fiends, and Undead
+* Practices of secret cults and the signs of their presence
+
+##### Religion
+**Attribute:** Intelligence
+
+Religion represents a character’s understanding of divine
+magic, deities, and religious organizations.
+
+* Holy magic, relics, auras, and symbols
+* Creatures such as: Deities, Celestials, and Angels
+* Religious rites, prayers, hierarchies, and practices
+
 #### Services
 
 ##### Brewing
@@ -415,6 +501,7 @@ Languages represent how different creatures across the world speak and interact 
 **Mortal**
 
 * Common
+* Common Sign
 * Human
 * Dwarven
 * Elvish
@@ -444,6 +531,15 @@ Languages represent how different creatures across the world speak and interact 
 **Typical Speakers:** Civilized Societies
 
 This is a very simple and universal language which is why all PCs are able to speak it Fluently. This language’s lack of complexity makes it perfect for use across the entire world. You can assume that all Humanoid creatures that can speak know common. A group would have to be isolated or stubborn to not know this simple language.
+
+##### Common Sign
+**Typical Speakers:** Deaf, Hard of Hearing, Military, Spies
+
+The Common language serves as a universal trade tongue,
+enabling communication between different cultures and
+species. This sign-based language is composed of intricate
+gestures, facial expressions, and hand movements that
+mirror the structure and nuances of spoken Common.
 
 ##### Human
 **Typical Speakers:** Humans

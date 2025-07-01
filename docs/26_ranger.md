@@ -13,18 +13,18 @@ and use what they learn to their advantage.
 
 ### Hunter Class Table
 
-| Char Level | Bonus HP | Attribute Points | Skill Points | Stamina Points | Maneuvers Known | Techniques Known | Features                   |
-|------------|----------|------------------|--------------|----------------|-----------------|------------------|----------------------------| 
-| 1          | +1       |                  |              | +1             | +4              |                  | Class Features             |
-| 2          | +1       | +1               |              |                |                 |                  | Class Feature, Talent      |
-| 3          |          |                  | +1           | +1             |                 | +1               | Subclass Feature           |
-| 4          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry points  |
-| 5          |          | +1               | +2           |                | +1              | +1               | Class Feature              |
-| 6          | +1       |                  | +1           | +1             |                 |                  | Subclass Feature           |
-| 7          | +1       | +1               |              |                |                 |                  | Talent, 2 Ancestry points  |
-| 8          |          |                  | +1           |                | +1              | +1               | Class Capstone Feature     |
-| 9          | +1       | +1               |              | +1             |                 |                  | Subclass Capstone Feature  |
-| 10         |          | +1               | +2           |                |                 |                  | Epic Boon, Talent          |
+| Char Level | Bonus HP | Attribute Points | Skill Points | Traid Points | Stamina Points | Maneuvers Known | Techniques Known | Features                   |
+|------------|----------|------------------|--------------|--------------|----------------|-----------------|------------------|----------------------------| 
+| 1          | +9       |                  |              |              | +1             | +4              |                  | Class Features             |
+| 2          | +3       |                  |              |              |                |                 |                  | Class Feature, Talent      |
+| 3          | +3       | +1               | +1           | +1           | +1             |                 | +1               | Subclass Feature           |
+| 4          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry points  |
+| 5          | +3       | +1               | +2           | +1           |                | +1              | +1               | Class Feature              |
+| 6          | +3       |                  | +1           |              | +1             |                 |                  | Subclass Feature           |
+| 7          | +3       |                  |              |              |                |                 |                  | Talent, 2 Ancestry points  |
+| 8          | +3       | +1               | +1           | +1           |                | +1              | +1               | Class Capstone Feature     |
+| 9          | +3       |                  |              |              | +1             |                 |                  | Subclass Capstone Feature  |
+| 10         | +3       | +1               | +2           | +1           |                |                 |                  | Epic Boon, Talent          |
 
 
 ### Starting Equipment
@@ -38,19 +38,19 @@ and use what they learn to their advantage.
 * **Maneuvers:** You learn all Attack Maneuvers. You learn additional Maneuvers as shown in the Maneuvers Known column of the Hunter Class Table.
 * **Techniques:** The number of Techniques you know increases as shown in the Techniques Known column of the Hunter Class Table.
 * **Stamina Points:** Your maximum number of Stamina Points increases as shown in the Stamina Points column of the Hunter Class Table.
+* **Stamina Regen:** Once per round, you can regain up to half
+your maximum SP when:
+    * When you Hit the target of your Hunter’s Mark with a
+    Martial Attack.
+    * The target of your Hunter’s Mark is reduced to 0 HP or
+    dies.
+    * You succeed on a Check to recall information about a
+    creature.
+    * You succeed on a Check to locate an Unseen creature.
 
 ### Hunter Class Features
 
 #### Level 1 Class Features
-
-##### Hunter Stamina
-
-You regain 1 SP when:
-
-* You take the Search Action and successfully locate a Hidden creature.
-* You succeed on a Knowledge Check to recall information about a creature.
-* Once per round, when you Hit the target of your Hunter’s Mark with a Martial Attack.
-* The target of your Hunter’s Mark is reduced to 0 HP or dies.
 
 ##### Hunter’s Mark
 You can spend 1 AP and 1 SP to focus on and mark a
@@ -75,34 +75,42 @@ types of Favored Terrain listed below.
 being underwater), you can hold your breath twice as long
 as normal, and you have ADV on Awareness Checks while
 underwater.
-* **Desert:** You gain Fire Resistance (Half) and you have ADV
-on Saves against Exhaustion from hot temperatures.
-* **Forest:** You gain 1 Skill Point in 2 of the following Skills:
-Animal, Awareness, Nature, Survival, and Stealth.
+* **Desert:** You gain Fire Resistance (Half) and Resistance to
+Exhaustion from hot temperatures.
+* **Forest:** You gain 2 Skill Points to use on up to 2 of the
+following Skills: Animal, Awareness, Medicine, Survival,
+and Stealth.
 * **Grassland:** Your Speed and Jump Distance increases by 1.
-* **Jungle:** You ignore Difficult Terrain and gain ADV on Saves
-against being Poisoned and contracting Diseases.
+* **Jungle:** You ignore Difficult Terrain, gain Poisoned
+Resistance, and have ADV on Saves against against
+contracting Diseases.
 * **Mountain:** You gain a Climb Speed equal to your Ground
-Speed. You have ADV on Saves against Exhaustion from
-high altitudes. Additionally, you gain Resistance (Half) to
-damage from Falling.
-* **Swamp:** You gain Poison Resistance (Half) and have ADV
-on Saves against being Poisoned and contracting Diseases.
-* **Tundra:** You gain Cold Resistance (Half) and you have
-ADV on Saves against Exhaustion from cold temperatures.
+Speed, Resistance to Exhaustion from high altitudes, and
+Resistance (Half) to damage from Falling.
+* **Swamp:** You gain Poison Resistance (Half) and Poisoned
+Resistance, and have ADV on Saves against against
+contracting Diseases.
+* **Tundra:** You gain Cold Resistance (Half) and Resistance to
+Exhaustion from cold temperatures.
 * **Subterranean:** You gain Darkvision 10 Spaces. If you
 already have Darkvision, its range is increased by 5 Spaces.
 Additionally, you also gain a Tremorsense of 3 Spaces. If
 you already have a Tremorsense, it increases by 2 Spaces.
-* **Urban:** You gain 1 Skill Point in 2 of the following Skills:
-Influence, Insight, Investigation, History, and Trickery.
+* **Urban:** You gain 2 Skill Points to use on up to 2 of
+the following Skills: Influence, Insight, Investigation,
+Intimidation, and Trickery.
 
 Additionally, while you’re in one of your Favored Terrains,
 you have ADV on Stealth and Survival Checks and can’t
 be Surprised.
 
 ##### Bestiary (Flavor Feature)
-You have developed a trove of knowledge hunting creatures which you’ve recorded in your Bestiary. Your Bestiary can take the form of a book, a memory vault within your mind, or some other representation of your choice. You have ADV on Checks made to learn or recall information about any creature recorded in your Bestiary.
+You have developed a trove of knowledge hunting creatures
+which you’ve recorded in your Bestiary. Your Bestiary can
+take the form of a book, a memory vault within your mind,
+or some other representation of your choice. You have ADV
+on Checks made to learn or recall information about any
+creature recorded in your Bestiary.
 
 * **Starting Entries:** Choose a Creature Type: Aberration,
 Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend,
@@ -128,12 +136,18 @@ Attack to add 1 of the effects listed below. You can only use
 1 of these effects per Attack. If an effect forces the target to
 make a Save, it does so against your Save DC.
 
-* **Piercing:** 2 Piercing damage and Physical Save against Bleeding.
-* **Snare:** 2 Bludgeoning damage and Physical Save against Grappled.
-* **Acid:** 2 Corrosion damage and Agility Save against Slowed until the end of your next turn.
-* **Toxin:** 2 Poison damage and Might Save against Impaired until the end of your next turn.
-* **Flash Bang:** 2 Sonic damage and Mental Save against Dazed until the end of your next turn.
-* **Fire Oil:** 2 Fire damage and Physical Save against Burning.
+* **Piercing:** 2 Piercing damage and Physical Save against
+Bleeding.
+* **Snare:** 2 Bludgeoning damage and Physical Save against
+Immobilized until the end of your next turn.
+* **Acid:** 2 Corrosion damage and Agility Save against
+Slowed until the end of your next turn.
+* **Toxin:** 2 Poison damage and Might Save against Impaired
+until the end of your next turn.
+* **Flash Bang:** 2 Sonic damage and Mental Save against
+Dazed until the end of your next turn.
+* **Fire Oil:** 2 Fire damage and Physical Save against
+Burning.
 
 > **DC Tip:** It’s assumed that the Hunter always has these
 supplies available to them and they’ve prepared them ahead
@@ -309,25 +323,3 @@ a Save against the Burning Condition.
 You have ADV on Awareness Checks to discover Hidden
 Traps and on Investigation Checks to discern how to
 disarm them.
-
----
-
-### SubClass: Paragon Hunter
-
-#### Pack Leader
-
-*Requirements:* Hunter’s Mark, Level 3
-
-Creatures of your choice can add a d4 to the first Attack
-they make on each of their turns against your Marked target.
-
-#### Big Game Hunter
-
-*Requirements:* Hunter’s Mark, Level 3
-
-You gain additional benefits against Marked targets that are
-Large or larger:
-
-* Your Martial Attacks deal +1 damage against them.
-* You have ADV on Saves they force you to make.
-* You have ADV on Checks you make as part of the Analyze Creature Action.

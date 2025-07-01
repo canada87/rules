@@ -32,14 +32,18 @@ There are two types of jumps: a Long Jump and a High Jump. A Long Jump represent
 
 A creature’s Jump Distance is equal to its Agility (minimum of 1).
 
-**Jump Distance = Agility**
+```
+Jump Distance = Agility
+```
 
 *   **Running Jump:** After moving at least 2 Spaces, a creature can perform a Long Jump (horizontal jump) or a High Jump (vertical jump). If performing a Long Jump, it can jump its Jump Distance in Spaces. If performing a High Jump, it can jump its Jump Distance in feet (1ft = 30cm).
 *   **Standing Jump:** A creature can forgo moving at least 2 Spaces before performing a jump, however its maximum Jump Distance is halved for the jump.
 
 #### Long Jump
 
-**Long Jump = Jump Distance (in Spaces)**
+```
+Long Jump = Jump Distance (in Spaces)
+```
 
 > Long Jump Example: A creature has a Jump Distance of 3. If that creature takes the Move Action to gain 4 Spaces of movement, it can move 2 Spaces before performing a Long Jump that can cover up to 2 Spaces (Jump Distance). It would need to take the Move Action again (gaining 4 more Spaces of movement) to have enough movement to jump the full 3 Spaces possible.
 
@@ -47,7 +51,9 @@ A creature’s Jump Distance is equal to its Agility (minimum of 1).
 
 #### High Jump
 
-**High Jump = Jump Distance (in Feet)**
+```
+High Jump = Jump Distance (in Feet)
+```
 
 > High Jump Example: A creature has a Jump Distance of 3. If that creature takes the Move Action to gain 4 Spaces of movement, it can move 2 Spaces to perform a High Jump that can reach up to 3ft (90cm) above the ground.
 
@@ -93,12 +99,12 @@ If you’re knocked Prone while flying, you immediately fall up to 100 Spaces un
 Creatures that lack a Climb Speed are Slowed while climbing. A creature can climb a ladder, a knotted rope, or along a pocketed wall without requiring a Climbing Check (Athletics). Climbing a slick rope or wall may require a Climbing Check. Creatures with a Climb Speed have ADV on Climbing Checks. The table below provides guidance on setting the DC for challenging climbs. 
 * **Failure:** The creature immediately falls.
 
-| Difficulty | DC 10 |
-| :-------- |:------|
-| Soft or Mushy | +5    |
-| Wet or Icy | +5    |
-| Flat | +10   |
-| Upside Down | +10   |
+| Difficulty      | DC 10 |
+|:----------------|:------|
+| Soft or Mushy   | +5    |
+| Wet or Icy      | +5    |
+| Flat            | +10   |
+| Upside Down     | +10   |
 
 > DC Tip: Climbing great distances can be challenging, so the GM may ask a PC to make a DC 10 Climbing Check for every 5 Spaces they climb beyond the first 5 Spaces, even if the rope or surface is normally easy to climb short distances. Creatures with Climbing Speeds wouldn’t need to make these Checks.
 
@@ -107,12 +113,12 @@ Creatures that lack a Climb Speed are Slowed while climbing. A creature can clim
 Creatures that lack a Swim Speed are Slowed while swimming. A creature can swim for 20 Spaces (100ft / 30m) in still waters without requiring a Swimming Check (Athletics). Swimming in a turbulent body of water without a Swim Speed requires a Swimming Check. The table below provides guidance on setting the DC for challenging swims. 
 * **Failure:** The creature fails to move and sinks 2 Spaces into the body of water.
 
-| Difficulty | DC 10 |
-| :-------- |:------|
-| Choppy | +5    |
-| Icy | +5    |
-| Swampy | +5    |
-| Stormy | +10   |
+| Difficulty   | DC 10 |
+|:-------------|:------|
+| Choppy       | +5    |
+| Icy          | +5    |
+| Swampy       | +5    |
+| Stormy       | +10   |
 
 > DC Tip: Swimming great distances can be challenging, so the GM may ask a PC to make a DC 10 Swimming Check for every 20 Spaces they swim beyond the first 20 Spaces, even if the water is still. Creatures with Swimming Speeds wouldn’t need to make these Checks.
 
@@ -126,11 +132,15 @@ There are two types of measures to hold your breath: a Calm Hold and a Stressed 
 
 A creature’s Breath Duration is equal to its Might (minimum of 1).
 
-**Breath Duration = Might**
+```
+Breath Duration = Might
+```
 
 #### Calm Hold
 
-**Calm Hold = Breath Duration (in Minutes)**
+```
+Calm Hold = Breath Duration (in Minutes)
+```
 
 A creature that’s performing No Activity or Light Activity in a calm environment can hold its breath for a number of minutes equal to its Breath Duration. If a creature begins performing any Strenuous Activity or Dangerous Activity, any remaining minutes of air is converted to an equal number of rounds.
 
@@ -141,7 +151,9 @@ A creature that’s performing No Activity or Light Activity in a calm environme
 
 #### Stressed Hold
 
-**Stressed Hold = Breath Duration (in Rounds)**
+```
+Stressed Hold = Breath Duration (in Rounds)
+```
 
 A creature that is performing Strenuous Activity or Dangerous Activity can hold its breath for a number of rounds equal to its Breath Duration.
 

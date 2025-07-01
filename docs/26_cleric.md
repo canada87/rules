@@ -313,3 +313,5 @@ You have an understanding and divine guidance when
 attempting to learn what is ailing a creature. You have ADV
 on Checks made to identify or determine the effects of a
 Disease, Poison, or Curse affecting a creature.
+
+q
